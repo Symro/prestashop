@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 31 Mars 2015 à 15:18
+-- Généré le :  Mar 31 Mars 2015 à 15:52
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -2076,7 +2076,7 @@ INSERT INTO `ps_cart` (`id_cart`, `id_shop_group`, `id_shop`, `id_carrier`, `del
 (3, 1, 1, 2, 'a:1:{i:3;s:2:"2,";}', 1, 4, 4, 1, 1, 1, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 0, 0, '', 0, 0, '2015-03-31 14:23:24', '2015-03-31 14:23:24'),
 (4, 1, 1, 2, 'a:1:{i:3;s:2:"2,";}', 1, 4, 4, 1, 1, 1, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 0, 0, '', 0, 0, '2015-03-31 14:23:24', '2015-03-31 14:23:24'),
 (5, 1, 1, 2, 'a:1:{i:3;s:2:"2,";}', 1, 4, 4, 1, 1, 1, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 0, 0, '', 0, 0, '2015-03-31 14:23:24', '2015-03-31 14:23:24'),
-(6, 1, 1, 0, '', 1, 0, 0, 1, 0, 2, '', 0, 0, '', 0, 0, '2015-03-31 15:15:39', '2015-03-31 15:15:39');
+(6, 1, 1, 0, '', 1, 0, 0, 1, 0, 2, '', 0, 0, '', 0, 0, '2015-03-31 15:15:39', '2015-03-31 15:45:45');
 
 -- --------------------------------------------------------
 
@@ -2129,7 +2129,7 @@ INSERT INTO `ps_cart_product` (`id_cart`, `id_product`, `id_address_delivery`, `
 (5, 1, 3, 1, 1, 1, '0000-00-00 00:00:00'),
 (5, 2, 3, 1, 7, 1, '0000-00-00 00:00:00'),
 (5, 3, 3, 1, 13, 1, '0000-00-00 00:00:00'),
-(6, 1, 0, 1, 1, 1, '2015-03-31 15:15:39');
+(6, 3, 0, 1, 13, 1, '2015-03-31 15:45:24');
 
 -- --------------------------------------------------------
 
@@ -3825,8 +3825,8 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (208, NULL, NULL, 'BLOCKADVERT_LINK', 'http://www.prestashop.com', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (209, NULL, NULL, 'BLOCKSTORE_IMG', 'store.jpg', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (210, NULL, NULL, 'BLOCKADVERT_IMG_EXT', 'jpg', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(211, NULL, NULL, 'MOD_BLOCKTOPMENU_ITEMS', 'CAT1,CMS1,CMS2,PRD1', '0000-00-00 00:00:00', '2015-03-31 14:54:40'),
-(212, NULL, NULL, 'MOD_BLOCKTOPMENU_SEARCH', '1', '0000-00-00 00:00:00', '2015-03-31 14:54:40'),
+(211, NULL, NULL, 'MOD_BLOCKTOPMENU_ITEMS', NULL, '0000-00-00 00:00:00', '2015-03-31 15:45:06'),
+(212, NULL, NULL, 'MOD_BLOCKTOPMENU_SEARCH', NULL, '0000-00-00 00:00:00', '2015-03-31 15:45:06'),
 (213, NULL, NULL, 'BLOCKSOCIAL_FACEBOOK', 'http://www.facebook.com/prestashop', '0000-00-00 00:00:00', '2015-03-31 14:23:31'),
 (214, NULL, NULL, 'BLOCKSOCIAL_TWITTER', 'http://www.twitter.com/prestashop', '0000-00-00 00:00:00', '2015-03-31 14:23:31'),
 (215, NULL, NULL, 'BLOCKSOCIAL_RSS', 'http://www.prestashop.com/blog/en/', '0000-00-00 00:00:00', '2015-03-31 14:23:31'),
@@ -4022,22 +4022,22 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (405, NULL, NULL, 'PS_DISABLE_OVERRIDES', '0', '2015-03-31 14:41:10', '2015-03-31 14:41:10'),
 (406, NULL, NULL, 'PRODUCTSCATEGORY_DISPLAY_PRICE', '0', '2015-03-31 14:54:41', '2015-03-31 14:54:41'),
 (407, NULL, NULL, 'wg24_responsive_designe_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(408, NULL, NULL, 'wg24_facebook_lik_box_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
+(408, NULL, NULL, 'wg24_facebook_lik_box_shine', 'hide', '2015-03-31 14:54:44', '2015-03-31 15:28:39'),
 (409, NULL, NULL, 'wg24_facebook_l_r_b_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (410, NULL, NULL, 'wg24_pro_box_quic_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(411, NULL, NULL, 'wg24_pro_box_rating_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
+(411, NULL, NULL, 'wg24_pro_box_rating_shine', 'hide', '2015-03-31 14:54:44', '2015-03-31 15:28:39'),
 (412, NULL, NULL, 'wg24_pro_hover_img_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (413, NULL, NULL, 'wg24_scrol_top_to_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (414, NULL, NULL, 'wg24_p_new_sale_shine', 'default', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(415, NULL, NULL, 'wg24_home_slid_b_ser_ms_text_shine_1', '&lt;div class=&quot;messages-3&quot; id=&quot;store-messages&quot;&gt;\r\n        &lt;div class=&quot;message&quot;&gt;&lt;i class=&quot;icon-refresh&quot;&gt;&lt;/i&gt; &lt;span&gt;&lt;strong&gt;Return &amp; Exchange&lt;/strong&gt; in 3 working days &lt;/span&gt; &lt;/div&gt;\r\n        &lt;div class=&quot;message&quot;&gt;&lt;i class=&quot;icon-truck&quot;&gt;&lt;/i&gt;&lt;span&gt;&lt;strong&gt;FREE SHIPPING&lt;/strong&gt; order over $99&lt;/span&gt; &lt;/div&gt;\r\n		&lt;div class=&quot;phone&quot;&gt;&lt;i class=&quot;icon-phone&quot;&gt;&lt;/i&gt;&lt;span&gt;&lt;strong&gt;Need help?&lt;/strong&gt; +1 800 123 1234&lt;/span&gt; &lt;/div&gt;\r\n     \r\n      &lt;/div&gt;', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
+(415, NULL, NULL, 'wg24_home_slid_b_ser_ms_text_shine_1', '&lt;div class="messages-3" id="store-messages"&gt;\r\n        &lt;div class="message"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; &lt;span&gt;&lt;strong&gt;Return &amp; Exchange&lt;/strong&gt; in 3 working days &lt;/span&gt; &lt;/div&gt;\r\n        &lt;div class="message"&gt;&lt;i class="icon-truck"&gt;&lt;/i&gt;&lt;span&gt;&lt;strong&gt;FREE SHIPPING&lt;/strong&gt; order over $99&lt;/span&gt; &lt;/div&gt;\r\n		&lt;div class="phone"&gt;&lt;i class="icon-phone"&gt;&lt;/i&gt;&lt;span&gt;&lt;strong&gt;Need help?&lt;/strong&gt; +1 800 123 1234&lt;/span&gt; &lt;/div&gt;\r\n     \r\n      &lt;/div&gt;', '2015-03-31 14:54:44', '2015-03-31 15:28:39'),
 (416, NULL, NULL, 'wg24_home_b_f_c_block_s_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(417, NULL, NULL, 'wg24_home_b_c_content_shine_1', '  &lt;div class=&quot;store-img-box&quot;&gt;\r\n    &lt;ul&gt;\r\n      &lt;li&gt;\r\n        &lt;div class=&quot;feature-box&quot;&gt;\r\n          &lt;div class=&quot;icon-reponsive&quot;&gt;&lt;/div&gt;\r\n          &lt;div class=&quot;content&quot;&gt;Responsive Theme&lt;span&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/span&gt; &lt;/div&gt;\r\n        &lt;/div&gt;\r\n      &lt;/li&gt;\r\n      &lt;li&gt;\r\n        &lt;div class=&quot;feature-box&quot;&gt;\r\n          &lt;div class=&quot;icon-admin&quot;&gt;&lt;/div&gt;\r\n          &lt;div class=&quot;content&quot;&gt;Powerful Admin Panel &lt;span&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/span&gt;&lt;/div&gt;\r\n        &lt;/div&gt;\r\n      &lt;/li&gt;\r\n      \r\n      &lt;li class=&quot;last&quot;&gt;\r\n        &lt;div class=&quot;feature-box&quot;&gt;\r\n          &lt;div class=&quot;icon-support&quot;&gt;&lt;/div&gt;\r\n          &lt;div class=&quot;content&quot;&gt;Premium Support &lt;span&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/span&gt; &lt;/div&gt;\r\n        &lt;/div&gt;\r\n      &lt;/li&gt;\r\n    &lt;/ul&gt;\r\n  &lt;/div&gt;', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
+(417, NULL, NULL, 'wg24_home_b_c_content_shine_1', '  &lt;div class="store-img-box"&gt;\r\n    &lt;ul&gt;\r\n      &lt;li&gt;\r\n        &lt;div class="feature-box"&gt;\r\n          &lt;div class="icon-reponsive"&gt;&lt;/div&gt;\r\n          &lt;div class="content"&gt;Responsive Theme&lt;span&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/span&gt; &lt;/div&gt;\r\n        &lt;/div&gt;\r\n      &lt;/li&gt;\r\n      &lt;li&gt;\r\n        &lt;div class="feature-box"&gt;\r\n          &lt;div class="icon-admin"&gt;&lt;/div&gt;\r\n          &lt;div class="content"&gt;Powerful Admin Panel &lt;span&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/span&gt;&lt;/div&gt;\r\n        &lt;/div&gt;\r\n      &lt;/li&gt;\r\n      \r\n      &lt;li class="last"&gt;\r\n        &lt;div class="feature-box"&gt;\r\n          &lt;div class="icon-support"&gt;&lt;/div&gt;\r\n          &lt;div class="content"&gt;Premium Support &lt;span&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/span&gt; &lt;/div&gt;\r\n        &lt;/div&gt;\r\n      &lt;/li&gt;\r\n    &lt;/ul&gt;\r\n  &lt;/div&gt;', '2015-03-31 14:54:44', '2015-03-31 15:28:39'),
 (418, NULL, NULL, 'wg24_home_b_off_bann_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (419, NULL, NULL, 'wg24_c_not_sidebar_des_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (420, NULL, NULL, 'wg24_c_sub_categor_shine', 'hide', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (421, NULL, NULL, 'wg24_c_list_grid_shine', 'grid_view', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (422, NULL, NULL, 'wg24_p_without_sidebar_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(423, NULL, NULL, 'wg24_product_custom_block_shine_1', ' &lt;div class=&quot;block block-product-additional&quot;&gt;\r\n        &lt;div class=&quot;block-title&quot;&gt;&lt;strong&gt;&lt;span&gt;Product custom block&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\r\n        &lt;div class=&quot;block-content&quot;&gt;\r\n            &lt;p style=&quot;text-align: center; line-height:19px&quot;&gt;Custom blocks help you define additional product information. You can use these to showcase promotions, offers, additional detail etc.&lt;/p&gt;\r\n            &lt;img alt=&quot;&quot; src=&quot;/prestashop/themes/shine/img/shine/custom-block.png&quot;  width=&quot;248&quot;  height=&quot;308&quot;&gt;&lt;/div&gt;\r\n    &lt;/div&gt;\r\n                ', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
+(423, NULL, NULL, 'wg24_product_custom_block_shine_1', ' &lt;div class="block block-product-additional"&gt;\r\n        &lt;div class="block-title"&gt;&lt;strong&gt;&lt;span&gt;Product custom block&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\r\n        &lt;div class="block-content"&gt;\r\n            &lt;p style="text-align: center; line-height:19px"&gt;Custom blocks help you define additional product information. You can use these to showcase promotions, offers, additional detail etc.&lt;/p&gt;\r\n            &lt;img alt="" src="/prestashop/themes/shine/img/shine/custom-block.png"  width="248"  height="308"&gt;&lt;/div&gt;\r\n    &lt;/div&gt;\r\n                ', '2015-03-31 14:54:44', '2015-03-31 15:28:39'),
 (424, NULL, NULL, 'wg24_p_tab_contorl_shine', 'show', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (425, NULL, NULL, 'wg24_p_tab_title_shine_1', 'Custom tab', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (426, NULL, NULL, 'wg24_p_tab_content_shine_1', '&lt;p&gt;&lt;strong&gt;Lorem Ipsum&lt;/strong&gt;&lt;span&gt;&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/span&gt;&lt;/p&gt;', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
@@ -4052,11 +4052,11 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (435, NULL, NULL, 'wg24_heading_sel_b_col_shine', ' #CF3341', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (436, NULL, NULL, 'wg24_input_bg_col_shine', '#F0F0F0', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (437, NULL, NULL, 'wg24_input_text_col_shine', '#222222', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(438, NULL, NULL, 'wg24_input_bord_col_shine', '#F0F0F0', '2015-03-31 14:54:44', '2015-03-31 14:54:44');
-INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, `name`, `value`, `date_add`, `date_upd`) VALUES
+(438, NULL, NULL, 'wg24_input_bord_col_shine', '#F0F0F0', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (439, NULL, NULL, 'wg24_main_bord_col_shine', '#E5E5E5', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (440, NULL, NULL, 'wg24_c_d_bg_col_shine', '#FFFFFF', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
-(441, NULL, NULL, 'wg24_c_d_bg_b_col_shine', '#D6D4D4', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
+(441, NULL, NULL, 'wg24_c_d_bg_b_col_shine', '#D6D4D4', '2015-03-31 14:54:44', '2015-03-31 14:54:44');
+INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, `name`, `value`, `date_add`, `date_upd`) VALUES
 (442, NULL, NULL, 'wg24_c_d_bg_t_col_shine', '#333333', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (443, NULL, NULL, 'wg24_h_m_bg_col_shine', '#FFFFFF', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
 (444, NULL, NULL, 'wg24_h_m_link_col_shine', '#333333', '2015-03-31 14:54:44', '2015-03-31 14:54:44'),
@@ -4118,26 +4118,26 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (500, NULL, NULL, 'wg24_footer_bot_bg_col_shine', '#F8F8F8', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (501, NULL, NULL, 'wg24_f_powered_col_shine', '#999999', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (502, NULL, NULL, 'wg24_bg_img_shine', 'hide', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(503, NULL, NULL, 'wg24_bg_cust_patten_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(503, NULL, NULL, 'wg24_bg_cust_patten_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 15:38:48'),
 (504, NULL, NULL, 'wg24_bg_patten_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (505, NULL, NULL, 'wg24_bg_attached_shine', 'scroll', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (506, NULL, NULL, 'wg24_bg_repeter_shine', 'repeat', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(507, NULL, NULL, 'wg24_bg_positin_shine', 'scroll', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(507, NULL, NULL, 'wg24_bg_positin_shine', 'left top', '2015-03-31 14:54:45', '2015-03-31 15:28:39'),
 (508, NULL, NULL, 'wg24_body_select_font_shine', 'show', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (509, NULL, NULL, 'wg24_body_sy_font_shine_face', 'Source+Sans+Pro,sans-serif', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(510, NULL, NULL, 'wg24_body_google_font_shine_face', 'Source Sans Pro', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(510, NULL, NULL, 'wg24_body_google_font_shine_face', 'Amaranth', '2015-03-31 14:54:45', '2015-03-31 15:30:51'),
 (511, NULL, NULL, 'wg24_body_size_font_shine', '14', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (512, NULL, NULL, 'wg24_heders_select_font_shine', 'show', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (513, NULL, NULL, 'wg24_heders_sys_font_shine_face', 'Source+Sans+Pro,sans-serif', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(514, NULL, NULL, 'wg24_heders_gol_font_shine_face', 'Source Sans Pro', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(515, NULL, NULL, 'wg24_heders_transfrom_font_shine', 'uppercase', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(514, NULL, NULL, 'wg24_heders_gol_font_shine_face', 'Amaranth', '2015-03-31 14:54:45', '2015-03-31 15:30:51'),
+(515, NULL, NULL, 'wg24_heders_transfrom_font_shine', 'inherit', '2015-03-31 14:54:45', '2015-03-31 15:32:19'),
 (516, NULL, NULL, 'wg24_heders_p_size_font_shine', '15', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (517, NULL, NULL, 'wg24_heders_pag_size_font_shine', '28', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (518, NULL, NULL, 'wg24_heders_l_r_size_font_shine', '16', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (519, NULL, NULL, 'wg24_fot_heders_size_font_shine', '13', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(520, NULL, NULL, 'wg24_com_top_link_shine_1', '&lt;div class=&quot;click-nav&quot;&gt;\r\n                    &lt;ul class=&quot;no-js&quot;&gt;\r\n                        &lt;li&gt; &lt;a class=&quot;clicker&quot;&gt;Company &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt; &lt;/a&gt;\r\n                          &lt;ul class=&quot;link&quot;&gt;\r\n                            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Customer Service&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a title=&quot;Contact Us&quot; href=&quot;#&quot;&gt;&lt;span&gt;Contact Us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a title=&quot;Site Map&quot; href=&quot;#&quot;&gt;&lt;span&gt;Site Map&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a title=&quot;Search Terms&quot; href=&quot;#&quot;&gt;&lt;span&gt;Search Terms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li class=&quot; last&quot;&gt;&lt;a title=&quot;Advanced Search&quot; href=&quot;#&quot;&gt;&lt;span&gt;Advanced Search&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                          &lt;/ul&gt;\r\n                        &lt;/li&gt;\r\n                    &lt;/ul&gt;\r\n                    &lt;/div&gt;', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(521, NULL, NULL, 'wg24_main_cus_m_shine', 'show', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(522, NULL, NULL, 'wg24_cus_html_m_m_shine_1', '  &lt;a class=&quot;level-top&quot; href=&quot;#&quot;&gt;&lt;span&gt;Custom&lt;/span&gt;&lt;/a&gt;\r\n        &lt;div style=&quot;display: none; left: 0px;&quot; class=&quot;level0-wrapper&quot;&gt;\r\n          &lt;div class=&quot;header-nav-dropdown-wrapper clearer&quot;&gt;\r\n            &lt;div class=&quot;grid12-3&quot;&gt;\r\n              &lt;h4 class=&quot;heading&quot;&gt;HTML5 + CSS3&lt;/h4&gt;\r\n              &lt;div class=&quot;ccs3-html5-box&quot;&gt;&lt;em class=&quot;icon-html5&quot;&gt;&amp;nbsp;&lt;/em&gt; &lt;em class=&quot;icon-css3&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;\r\n              &lt;p&gt;Our designed to deliver almost everything you want to do online without requiring additional plugins.CSS3 has been split into &quot;modules&quot;.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=&quot;grid12-3&quot;&gt;\r\n              &lt;h4 class=&quot;heading&quot;&gt;Responsive Design&lt;/h4&gt;\r\n              &lt;a href=&quot;http://www.magik.com//&quot;&gt;\r\n              &lt;div class=&quot;icon-custom-reponsive&quot;&gt;&lt;/div&gt;\r\n              &lt;/a&gt;\r\n              &lt;p&gt;Responsive design is a Web design to provide an optimal navigation with a minimum of resizing, and scrolling across a wide range of devices.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=&quot;grid12-3&quot;&gt;\r\n              &lt;h4 class=&quot;heading&quot;&gt;Google Fonts&lt;/h4&gt;\r\n              &lt;a href=&quot;http://www.magik.com//&quot;&gt;\r\n              &lt;div class=&quot;icon-custom-google-font&quot;&gt;&lt;/div&gt;\r\n              &lt;/a&gt;\r\n              &lt;p&gt;Our font delivery service is built upon a reliable, global network of servers. Our flexible solution provides multiple implementation options.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class=&quot;grid12-3&quot;&gt;\r\n              &lt;h4 class=&quot;heading&quot;&gt;Smart Product Grid&lt;/h4&gt;\r\n              &lt;a href=&quot;http://www.magik.com//&quot;&gt;\r\n              &lt;div class=&quot;icon-custom-grid&quot;&gt;&lt;/div&gt;\r\n              &lt;/a&gt;\r\n              &lt;p&gt;Smart Product Grid is uses maximum available width of the screen to display content. It can be displayed on any screen or any devices.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;br&gt;\r\n          &lt;/div&gt;\r\n        &lt;/div&gt;', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(520, NULL, NULL, 'wg24_com_top_link_shine_1', '&lt;div class="click-nav"&gt;\r\n                    &lt;ul class="no-js"&gt;\r\n                        &lt;li&gt; &lt;a class="clicker"&gt;Company &lt;span class="caret"&gt;&lt;/span&gt; &lt;/a&gt;\r\n                          &lt;ul class="link"&gt;\r\n                            &lt;li&gt;&lt;a href="#"&gt;About Us&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a href="#"&gt;Customer Service&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a href="#"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a title="Contact Us" href="#"&gt;&lt;span&gt;Contact Us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a title="Site Map" href="#"&gt;&lt;span&gt;Site Map&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li&gt;&lt;a title="Search Terms" href="#"&gt;&lt;span&gt;Search Terms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                            &lt;li class=" last"&gt;&lt;a title="Advanced Search" href="#"&gt;&lt;span&gt;Advanced Search&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\r\n                          &lt;/ul&gt;\r\n                        &lt;/li&gt;\r\n                    &lt;/ul&gt;\r\n                    &lt;/div&gt;', '2015-03-31 14:54:45', '2015-03-31 15:28:39'),
+(521, NULL, NULL, 'wg24_main_cus_m_shine', 'hide', '2015-03-31 14:54:45', '2015-03-31 15:37:15'),
+(522, NULL, NULL, 'wg24_cus_html_m_m_shine_1', '  &lt;a class="level-top" href="#"&gt;&lt;span&gt;Custom&lt;/span&gt;&lt;/a&gt;\r\n        &lt;div style="display: none; left: 0px;" class="level0-wrapper"&gt;\r\n          &lt;div class="header-nav-dropdown-wrapper clearer"&gt;\r\n            &lt;div class="grid12-3"&gt;\r\n              &lt;h4 class="heading"&gt;HTML5 + CSS3&lt;/h4&gt;\r\n              &lt;div class="ccs3-html5-box"&gt;&lt;em class="icon-html5"&gt;&amp;nbsp;&lt;/em&gt; &lt;em class="icon-css3"&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;\r\n              &lt;p&gt;Our designed to deliver almost everything you want to do online without requiring additional plugins.CSS3 has been split into "modules".&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class="grid12-3"&gt;\r\n              &lt;h4 class="heading"&gt;Responsive Design&lt;/h4&gt;\r\n              &lt;a href="http://www.magik.com//"&gt;\r\n              &lt;div class="icon-custom-reponsive"&gt;&lt;/div&gt;\r\n              &lt;/a&gt;\r\n              &lt;p&gt;Responsive design is a Web design to provide an optimal navigation with a minimum of resizing, and scrolling across a wide range of devices.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class="grid12-3"&gt;\r\n              &lt;h4 class="heading"&gt;Google Fonts&lt;/h4&gt;\r\n              &lt;a href="http://www.magik.com//"&gt;\r\n              &lt;div class="icon-custom-google-font"&gt;&lt;/div&gt;\r\n              &lt;/a&gt;\r\n              &lt;p&gt;Our font delivery service is built upon a reliable, global network of servers. Our flexible solution provides multiple implementation options.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;div class="grid12-3"&gt;\r\n              &lt;h4 class="heading"&gt;Smart Product Grid&lt;/h4&gt;\r\n              &lt;a href="http://www.magik.com//"&gt;\r\n              &lt;div class="icon-custom-grid"&gt;&lt;/div&gt;\r\n              &lt;/a&gt;\r\n              &lt;p&gt;Smart Product Grid is uses maximum available width of the screen to display content. It can be displayed on any screen or any devices.&lt;/p&gt;\r\n            &lt;/div&gt;\r\n            &lt;br&gt;\r\n          &lt;/div&gt;\r\n        &lt;/div&gt;', '2015-03-31 14:54:45', '2015-03-31 15:28:39'),
 (523, NULL, NULL, 'wg24_face_b_page_url_shine', 'themeforest', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (524, NULL, NULL, 'wg24_twit_id_shine', '24webgroup', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (525, NULL, NULL, 'wg24_count_twitter_shine', '3', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
@@ -4145,7 +4145,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (527, NULL, NULL, 'wg24_twit_consu_secrt_shine', 'mrst4y7MhV49yoFNnha3DzdxPGgNrGQ9f7zSIGGkJ7I', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (528, NULL, NULL, 'wg24_twit_uconsu_token_shine', '1695668072-gEIQdYw9hfqnSdvpLGuZAaFqNCNofYMBUZBnNwX', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (529, NULL, NULL, 'wg24twit_uconsu_secret_shine', '8fr1Y6bxWdeiUB3M8CsXzHmTFONT1sFdcUh3pFSAIOhqj', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(530, NULL, NULL, 'wg24_footer_cont_info_shine_1', '&lt;i class=&quot;icon-location-arrow&quot;&gt;&lt;/i&gt; 123 Main Street, Anytown, CA 12345  USA &lt;i class=&quot;icon-mobile-phone&quot;&gt;&lt;/i&gt;&lt;span&gt; +(408) 394-7557&lt;/span&gt;        &lt;i class=&quot;icon-envelope&quot;&gt;&lt;/i&gt;&lt;span&gt; abc@magikcommerce.com&lt;/span&gt;', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(530, NULL, NULL, 'wg24_footer_cont_info_shine_1', '&lt;i class="icon-location-arrow"&gt;&lt;/i&gt; 123 Main Street, Anytown, CA 12345  USA &lt;i class="icon-mobile-phone"&gt;&lt;/i&gt;&lt;span&gt; +(408) 394-7557&lt;/span&gt;        &lt;i class="icon-envelope"&gt;&lt;/i&gt;&lt;span&gt; abc@magikcommerce.com&lt;/span&gt;', '2015-03-31 14:54:45', '2015-03-31 15:28:39'),
 (531, NULL, NULL, 'wg24_face_b_icon_url_shine', 'http://demo.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (532, NULL, NULL, 'wg24_twitt_icon_url_shine', 'http://demo.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (533, NULL, NULL, 'wg24_youtu_icon_url_shine', 'http://demo.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
@@ -4153,7 +4153,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (535, NULL, NULL, 'wg24_google_icon_url_shine', 'http://demo.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (536, NULL, NULL, 'wg24_pinterest_icon_url_shine', 'http://demo.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (537, NULL, NULL, 'wg24_rss_icon_url_shine', 'http://demo.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(538, NULL, NULL, 'wg24_footer_copy_text_shine_1', ' &amp;copy;2014 Shine Demo Store. All Rights Reserved. ', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(538, NULL, NULL, 'wg24_footer_copy_text_shine_1', ' &amp;copy;2015 Cocktail Shop. Tous droit réservés', '2015-03-31 14:54:45', '2015-03-31 15:38:38'),
 (539, NULL, NULL, 'wg24_fot_paypla_id_shine', 'http://paypal.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (540, NULL, NULL, 'wg24_fot_visaelectron_id_shine', 'http://maestrocard.com//', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (541, NULL, NULL, 'wg24_fot_discover_id_shine', 'https://www.discover.com/', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
@@ -4161,13 +4161,13 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (543, NULL, NULL, 'wg24_fot_mastercard_id_shine', 'http://www.mastercard.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (544, NULL, NULL, 'wg24_fot_maestro_id_shine', 'http://yourlink.com', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
 (545, NULL, NULL, 'wg24_fot_americanexpress_id_shine', 'https://www.americanexpress.com/', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(546, NULL, NULL, 'wg24_fot_paycon_1_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(546, NULL, NULL, 'wg24_fot_paycon_1_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 15:38:48'),
 (547, NULL, NULL, 'wg24_fot_cus_pay1_id_shine', 'https://www.demo.com/', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(548, NULL, NULL, 'wg24_fot_paycon_2_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
+(548, NULL, NULL, 'wg24_fot_paycon_2_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 15:38:48'),
 (549, NULL, NULL, 'wg24_fot_cus_pay2_id_shine', 'https://www.demo.com/', '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(550, NULL, NULL, 'wg24_thme_track_codes_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(551, NULL, NULL, 'wg24_them_custom_css_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45'),
-(552, NULL, NULL, 'wg24_them_custom_js_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 14:54:45');
+(550, NULL, NULL, 'wg24_thme_track_codes_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 15:38:48'),
+(551, NULL, NULL, 'wg24_them_custom_css_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 15:38:48'),
+(552, NULL, NULL, 'wg24_them_custom_js_shine', NULL, '2015-03-31 14:54:45', '2015-03-31 15:38:48');
 
 -- --------------------------------------------------------
 
@@ -4195,11 +4195,11 @@ CREATE TABLE IF NOT EXISTS `ps_configuration_kpi` (
 
 INSERT INTO `ps_configuration_kpi` (`id_configuration_kpi`, `id_shop_group`, `id_shop`, `name`, `value`, `date_add`, `date_upd`) VALUES
 (1, NULL, NULL, 'UPDATE_MODULES', '0', '2015-03-31 14:26:25', '2015-03-31 14:27:42'),
-(2, NULL, NULL, 'DISABLED_MODULES', '19', '2015-03-31 14:26:28', '2015-03-31 15:05:25'),
-(3, NULL, NULL, 'DISABLED_MODULES_EXPIRE', '1427807245', '2015-03-31 14:26:28', '2015-03-31 15:05:25'),
-(4, NULL, NULL, 'INSTALLED_MODULES', '59', '2015-03-31 14:26:28', '2015-03-31 15:05:25'),
-(5, NULL, NULL, 'INSTALLED_MODULES_EXPIRE', '1427807245', '2015-03-31 14:26:28', '2015-03-31 15:05:25'),
-(6, NULL, NULL, 'UPDATE_MODULES_EXPIRE', '1427807246', '2015-03-31 14:26:29', '2015-03-31 15:05:26');
+(2, NULL, NULL, 'DISABLED_MODULES', '20', '2015-03-31 14:26:28', '2015-03-31 15:52:18'),
+(3, NULL, NULL, 'DISABLED_MODULES_EXPIRE', '1427810058', '2015-03-31 14:26:28', '2015-03-31 15:52:18'),
+(4, NULL, NULL, 'INSTALLED_MODULES', '58', '2015-03-31 14:26:28', '2015-03-31 15:52:18'),
+(5, NULL, NULL, 'INSTALLED_MODULES_EXPIRE', '1427810058', '2015-03-31 14:26:28', '2015-03-31 15:52:18'),
+(6, NULL, NULL, 'UPDATE_MODULES_EXPIRE', '1427810060', '2015-03-31 14:26:29', '2015-03-31 15:52:20');
 
 -- --------------------------------------------------------
 
@@ -4262,7 +4262,7 @@ CREATE TABLE IF NOT EXISTS `ps_connections` (
   KEY `id_guest` (`id_guest`),
   KEY `date_add` (`date_add`),
   KEY `id_page` (`id_page`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Contenu de la table `ps_connections`
@@ -4271,7 +4271,8 @@ CREATE TABLE IF NOT EXISTS `ps_connections` (
 INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_guest`, `id_page`, `ip_address`, `date_add`, `http_referer`) VALUES
 (1, 1, 1, 1, 1, 2130706433, '2015-03-31 14:23:25', 'http://www.prestashop.com'),
 (2, 1, 1, 2, 1, 0, '2015-03-31 14:25:10', ''),
-(3, 1, 1, 2, 1, 0, '2015-03-31 14:56:02', '');
+(3, 1, 1, 2, 1, 0, '2015-03-31 14:56:02', ''),
+(4, 1, 1, 2, 1, 0, '2015-03-31 15:27:09', '');
 
 -- --------------------------------------------------------
 
@@ -8457,7 +8458,6 @@ INSERT INTO `ps_module_shop` (`id_module`, `id_shop`, `enable_device`) VALUES
 (71, 1, 7),
 (72, 1, 7),
 (73, 1, 7),
-(74, 1, 7),
 (75, 1, 7),
 (76, 1, 7),
 (77, 1, 3),
