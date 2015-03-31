@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wg24manufacturer</name>
+	<displayName><![CDATA[24WebGroup Home Manufacturer Module]]></displayName>
+	<version><![CDATA[1.1.0]]></version>
+	<description><![CDATA[Home Manufacturer Module module show on home page into button section By 24WebGroup]]></description>
+	<author><![CDATA[24WebGroup]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall on this module?]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

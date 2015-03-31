@@ -1,0 +1,6 @@
+2014-04-07 12:08:14 +0200	// themeinstallator: Backward Compatibility string updates.
+2014-03-28 15:52:43 +0100	// MO themeinstallator : min ps_versions_compliancy deleted (Bug with PS 1.5.3.1)
+2014-03-27 17:32:57 +0100	/ MO  : min ps_versions_compliancy modified
+2014-03-24 18:27:19 +0100	/ MO themeinstallator : ps_versions_compliancy added
+2014-03-21 11:34:10 +0100	// Backward compatibility added
+2014-03-21 11:28:33 +0100	Initial commit
