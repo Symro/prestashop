@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>FR - Blog ecommerce par PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/fr/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/fr</link>
+	<description></description>
+	<lastBuildDate>Mon, 30 Mar 2015 08:28:32 +0000</lastBuildDate>
+	<language>fr-FR</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Les modules PrestaShop, qu&#8217;est-ce que c&#8217;est ?</title>
+		<link>https://www.prestashop.com/blog/fr/les-modules-prestashop-quest-ce-cest/</link>
+		<comments>https://www.prestashop.com/blog/fr/les-modules-prestashop-quest-ce-cest/#comments</comments>
+		<pubDate>Thu, 26 Mar 2015 08:30:38 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18528</guid>
+		<description><![CDATA[<p>En tant qu&#8217;utilisateur de PrestaShop, vous connaissez sûrement déjà le terme « module ». Il est d&#8217;ailleurs probable que vous ayez entendu parler de modules front-office, back-office ou encore modules partenaires. Mais savez-vous exactement ce qu&#8217;est un module ? Chris Machin définit ce concept et vous explique comment utiliser les modules pour optimiser votre boutique [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/les-modules-prestashop-quest-ce-cest/">Les modules PrestaShop, qu&rsquo;est-ce que c&rsquo;est ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>En tant qu&rsquo;utilisateur de PrestaShop, vous connaissez sûrement déjà le terme « module ». Il est d&rsquo;ailleurs probable que vous ayez entendu parler de <span style="font-style: italic">modules front-office</span>, <span style="font-style: italic">back-office</span> ou encore <span style="font-style: italic">modules partenaires</span>. Mais savez-vous exactement ce qu&rsquo;est un module ?</p>
+<p>Chris Machin définit ce concept et vous explique comment utiliser les modules pour optimiser votre boutique PrestaShop. En tant que Partner Manager chez PrestaShop, il aide à mettre en place des connexions entre la solution PrestaShop et des entreprises partenaires, pour faciliter le quotidien des e-commerçants.<br />
+<span id="more-18528"></span></p>
+<h2 style="color: #509924">Pourquoi PrestaShop utilise des modules ?</h2>
+<p>Le logiciel PrestaShop est utilisé par plus de 230 000 boutiques en ligne dans le monde, qui proposent aussi bien vêtements, bijoux, high-tech… que des produits numériques.</p>
+<p>Chacune de ces boutiques a des besoins uniques et utilise les fonctionnalités de PrestaShop qui lui correspondent.</p>
+<p>PrestaShop est une solution polyvalente qui s’adapte à tous les e-commerçants et sait répondre à leurs différents besoins.</p>
+<p>Imaginez un smartphone. Chaque personne ajoute sur le sien les applis qu’elle souhaite utiliser, qui l’intéressent, et supprime celles dont elle n’a pas besoin.</p>
+<p>PrestaShop fonctionne de la même façon avec les modules. Chaque e-commerçant active, installe, désactive ou supprime les modules qu’il souhaite selon ses besoins.Ainsi, PrestaShop s’adapte à toutes les activités tout en rendant chaque boutique unique.</p>
+<p>Qu&rsquo;en est-il concrètement ?</p>
+<p>La solution PrestaShop comprend de nombreux modules intégrés (natifs), proposés gratuitement dans la solution.</p>
+<p>Si vous souhaitez profiter de modules supplémentaires, vous pouvez vous rendre sur PrestaShop Addons, la marketplace officielle de PrestaShop, qui fonctionne comme un app store.</p>
+<p>On y retrouve plus de 5 000 modules et thèmes graphiques créés par des développeurs et agences de la communauté PrestaShop, ou directement par l’équipe PrestaShop.</p>
+<p>Ces fonctionnalités permettent aux e-commerçants de personnaliser leur boutique en ligne, de <a href="http://addons.prestashop.com/fr/323-referencement-et-marketplaces" target="_blank">gagner du trafic</a>, d’augmenter leur <a href="http://addons.prestashop.com/fr/403-panier-moyen-meilleurs-modules" target="_blank">panier moyen</a>, de <a href="http://addons.prestashop.com/fr/411-meilleurs-modules-fidelisation" target="_blank">fidéliser leurs clients</a>, de <a href="http://addons.prestashop.com/fr/410-gagnez-du-temps" target="_blank">gagner du temps</a>…</p>
+<h2 style="color: #509924">Qu&rsquo;est-ce qu&rsquo;un module ?</h2>
+<p>Un module permet d’ajouter des fonctionnalités au logiciel PrestaShop (comme une appli sur un smartphone). Les termes « extensions », « plug-ins » ou « widgets » peuvent également désigner des modules.</p>
+<p>On retrouve des modules intégrés directement dans la solution, et d’autres sur PrestaShop Addons pour personnaliser intégralement votre boutique PrestaShop.</p>
+<p>Il existe différents types de modules. Ils peuvent :</p>
+<ul style="padding-left: 30px">
+<li>personnaliser du contenu affiché ;</li>
+<li>exécuter des tâches ;</li>
+<li>connecter à d&rsquo;autres outils (API).</li>
+</ul>
+<h4 style="color: #94c3df">Modules pour personnaliser du contenu</h4>
+<p>Ces modules vous permettent de modifier l&rsquo;ensemble des éléments de votre boutique, de la bannière de votre page d&rsquo;accueil, au footer en passant par la barre de menu&#8230;</p>
+<p>Notre module Configurateur de thèmes est le plus populaire pour apporter des modifications au thème PrestaShop par défaut. Directement intégré au back-office, il vous permet d&rsquo;activer ou de désactiver de nombreux éléments du front-office (Facebook Block, informations CMS, bannière supérieure, etc.).</p>
+<h4 style="color: #94c3df">Modules pour exécuter des tâches</h4>
+<p>Il y a autant de modules que de besoins métier !</p>
+<p>Vous souhaitez récompenser vos meilleurs clients sans perdre de temps à suivre l’historique de commandes ? Activez le module intégré de fidélité de PrestaShop. Ce module vous permet de récompenser automatiquement les clients qui effectuent régulièrement des achats sur votre site e-commerce.</p>
+<p>Voilà un exemple parmi tant d&rsquo;autres des fonctionnalités offertes par les modules PrestaShop.</p>
+<p>Vous pouvez également réaliser des opérations par lots : mise à jour d&rsquo;informations (requêtes de recherche et taux de change, par exemple) ou import et export des données de votre boutique… les possibilités sont très nombreuses !</p>
+<h4 style="color: #94c3df">Modules qui se connectent à d&rsquo;autres outils</h4>
+<p>Une fois en ligne, votre site e-commerce aura besoin de proposer des services externes pour se déployer. Pour les transporteurs ou le paiement par exemple, en proposant à vos clients une solution de paiement connue (et rassurante !) pour vos clients.</p>
+<p>Afin de faciliter la communication entre votre boutique PrestaShop et votre <a href="https://www.prestashop.com/fr/modules-de-paiement">fournisseur de services de paiement</a>, nous nous associons à votre prestataire pour fournir un module gratuit qui se connecte à son API (interface de programmation).</p>
+<p>Cette API contient différents outils, protocoles ou séquences qui envoient des données (telles que le statut du paiement, les taux de change et les frais d&rsquo;expédition…) à votre boutique PrestaShop, qui les affiche ensuite pour le client.</p>
+<p>Dans le cas du prestataire de services de paiement, le logiciel PrestaShop envoie à votre fournisseur privilégié les informations de facturation du client ainsi que le montant de la commande. Une fois la transaction effectuée par l&rsquo;outil de traitement des paiements, les informations de confirmation sont renvoyées au logiciel PrestaShop avant d&rsquo;être stockées dans la base de données d&rsquo;informations de commande.</p>
+<p>Le traitement des paiements est l&rsquo;une des multiples fonctionnalités offertes par les nombreux modules gratuits de PrestaShop. Nous collaborons avec différents <a href="https://www.prestashop.com/fr/partenaires">partenaires reconnus</a> pour les activités suivantes :</p>
+<ul style="padding-left: 30px">
+<li>Expédition</li>
+<li>Marketing</li>
+<li>Opérations</li>
+<li>Marketplaces</li>
+<li>Emailing</li>
+<li>Paiement</li>
+</ul>
+<h2 style="color: #509924">Se lancer</h2>
+<p>Pour parcourir les nombreuses fonctionnalités pré-intégrées de PrestaShop, rendez-vous dans l&rsquo;onglet Modules de votre back-office PrestaShop.</p>
+<p>Une fois que vous avez jeté un œil aux fonctionnalités proposées, partez à la découverte de <a href="http://addons.prestashop.com/" target="_blank">PrestaShop Addons</a>, notre marketplace officielle, pour accéder aux milliers de modules développés par les membres de notre communauté.</p>
+<p>Vous connaissez déjà bien nos modules ? Dites-nous quel est votre préféré dans les commentaires ci-dessous.</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/les-modules-prestashop-quest-ce-cest/">Les modules PrestaShop, qu&rsquo;est-ce que c&rsquo;est ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/les-modules-prestashop-quest-ce-cest/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Introduction au e-commerce : qu&#8217;est-ce qu&#8217;un logiciel e-commerce ?</title>
+		<link>https://www.prestashop.com/blog/fr/introduction-au-e-commerce-quest-ce-quun-logiciel-e-commerce/</link>
+		<comments>https://www.prestashop.com/blog/fr/introduction-au-e-commerce-quest-ce-quun-logiciel-e-commerce/#comments</comments>
+		<pubDate>Mon, 23 Mar 2015 08:30:14 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Actualités PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18511</guid>
+		<description><![CDATA[<p>Vous êtes un développeur chevronné et vous avez du mal à expliquer à vos clients ce qu&#8217;est un logiciel e-commerce ? Ou bien vous êtes un futur e-commerçant et vous recherchez des solutions e-commerce pour votre boutique ? Peu importe pourquoi vous vous demandez ce qu&#8217;est un logiciel e-commerce, l&#8217;article d&#8217;aujourd&#8217;hui vous apportera une réponse [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/introduction-au-e-commerce-quest-ce-quun-logiciel-e-commerce/">Introduction au e-commerce : qu&rsquo;est-ce qu&rsquo;un logiciel e-commerce ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Vous êtes un développeur chevronné et vous avez du mal à expliquer à vos clients ce qu&rsquo;est un <a href="https://www.prestashop.com/fr">logiciel e-commerce</a> ? Ou bien vous êtes un futur e-commerçant et vous recherchez des solutions e-commerce pour votre boutique ?</p>
+<p>Peu importe <span style="font-style: italic;">pourquoi</span> vous vous demandez ce qu&rsquo;est un logiciel e-commerce, l&rsquo;article d&rsquo;aujourd&rsquo;hui vous apportera une réponse claire.<br />
+<span id="more-18511"></span></p>
+<p>Un logiciel e-commerce, également appelé solution de création de site e-commerce ou de boutique en ligne ou encore plateforme e-commerce, a un objectif précis :</p>
+<p>Vous permettre de vendre vos produits en ligne.</p>
+<p>Ce logiciel a pour principale fonction de gérer trois aspects clés, essentiels à la réussite de toute boutique en ligne :</p>
+<ul style="padding-left: 30px;">
+<li>les produits</li>
+<li>les commandes</li>
+<li>les clients</li>
+</ul>
+<p>Regardons de plus près comment un logiciel e-commerce peut vous aider dans ces différents domaines.</p>
+<h2 style="color: #74bc3f;"><img style="margin-right: 2px;" alt="tag" src="http://www.prestashop.com/blog/fr/files/2015/03/tag.png" width="50" height="50" /> Catalogue de produits</h2>
+<p>Avant de vous lancer dans la vente en ligne, vous devez définir ce que vous allez vendre, en d&rsquo;autres termes, vos produits. Il peut s&rsquo;agir de produits matériels comme des chemises ou des ordinateurs, ou bien de <a href="https://www.prestashop.com/blog/fr/les-5-avantages-vente-produits-numeriques-en-ligne/">produits numériques</a>, comme de la musique ou des <a href="http://addons.prestashop.com/fr/3-themes-prestashop" target="_blank">thèmes</a>.</p>
+<p>Dans tous les cas, il vous faudra un catalogue de produits pour gérer le tout. Cet outil vous permet de stocker les informations produits suivantes :</p>
+<ul style="padding-left: 30px;">
+<li>nom</li>
+<li>description</li>
+<li>prix</li>
+<li>image(s)</li>
+<li>quantité en stock</li>
+</ul>
+<p>En plus de ces informations générales, d&rsquo;autres fonctionnalités avancées peuvent être intégrées à votre catalogue :</p>
+<ul style="padding-left: 30px;">
+<li>attributs des produits (taille, couleur, etc.) &#8211; pour offrir d&rsquo;autres options à vos clients</li>
+<li>produits associés – pour associer des produits complémentaires et booster vos ventes</li>
+<li>références – pour organiser vos produits</li>
+<li>catégories de produits – pour regrouper vos produits en catégories et améliorer l&rsquo;expérience d&rsquo;achat</li>
+<li>personnalisation du produit – pour permettre à vos clients de personnaliser le produit avec leurs propres images ou textes</li>
+<li>référencement (URL conviviale, balises méta) – pour aider vos clients potentiels à trouver votre produit</li>
+<li>bons d&rsquo;achat et réductions – pour inciter vos clients à acheter</li>
+</ul>
+<h2 style="color: #74bc3f;"><img style="margin-right: 2px;" alt="panier" src="http://www.prestashop.com/blog/fr/files/2015/03/panier.png" width="50" height="50" /> Système de commande</h2>
+<p>Maintenant que vous pouvez mettre vos produits en vitrine, vos clients peuvent les acheter. C&rsquo;est là que le système de commande entre en jeu. Il permet aux clients d&rsquo;ajouter des articles à leur panier, de calculer le montant total et de disposer des informations nécessaires pour traiter la commande.</p>
+<p>Parmi les informations obtenues lors du processus de commande figurent :</p>
+<ul style="padding-left: 30px;">
+<li>le(s) produit(s) acheté(s)</li>
+<li>les frais de port ou autres associés à la commande</li>
+<li>l&rsquo;adresse de livraison</li>
+<li>l&rsquo;adresse de facturation</li>
+<li>la méthode de paiement</li>
+</ul>
+<p>Fonctionnalités complémentaires :</p>
+<ul style="padding-left: 30px;">
+<li>Intégration avec des <a href="https://www.prestashop.com/fr/modules-de-paiement">modules de paiement</a> – pour offrir une solution de paiement et conclure la vente immédiatement.</li>
+<li>Intégration avec une <a href="http://addons.prestashop.com/fr/6-transport-logistique-livraison-modules-prestashop" target="_blank">solution d&rsquo;expédition</a> – pour synchroniser les informations de la commande avec une solution d&rsquo;expédition et ainsi traiter la commande de manière plus fluide.</li>
+</ul>
+<p><span style="font-style: italic;">Système de commande et catalogue de produits</span><br />
+Une fois la commande passée, le travail du système de commande n&rsquo;est pas terminé puisqu&rsquo;il déduit ensuite le nombre de produits vendus de votre stock afin que le catalogue de produits reflète le nombre exact de produits disponibles à la vente.</p>
+<h2 style="color: #74bc3f;"><img style="margin-right: 2px;" alt="user" src="http://www.prestashop.com/blog/fr/files/2015/03/user.png" width="50" height="50" /> Gestion de la clientèle</h2>
+<p>La gestion des relations clients est le dernier volet de la solution e-commerce. Le rapport e-commerçant/client ne doit pas s&rsquo;arrêter une fois la commande finalisée. Bien évidemment, vous espérez que les clients reviendront pour de nouveaux achats. Néanmoins, vos échanges impliqueront parfois de traiter des demandes d&rsquo;échange ou de remboursement. Ce ne sont pas forcément des expériences négatives. Vous pouvez saisir ces occasions pour démontrer la qualité de votre service après-vente.</p>
+<p>Aussi, votre solution doit vous aider à gérer vos relations clients en recueillant et en stockant les informations suivantes :</p>
+<ul style="padding-left: 30px;">
+<li>nom du client</li>
+<li>coordonnées (e-mail ou téléphone)</li>
+<li>adresse de livraison</li>
+<li>historique des commandes</li>
+</ul>
+<p>D&rsquo;autres informations peuvent également être utiles :</p>
+<ul style="padding-left: 30px;">
+<li>adresse de facturation – pour accélérer le processus de renouvellement de commande et de remboursement</li>
+<li>date d&rsquo;anniversaire – pour proposer des offres d&rsquo;anniversaire ou vérifier l&rsquo;âge d&rsquo;un client</li>
+<li>historique des commandes par produit – pour découvrir les produits plébiscités par vos clients</li>
+<li>date d&rsquo;inscription – pour savoir depuis combien de temps les utilisateurs sont clients</li>
+<li>historique de contact – pour garder une trace des précédents contacts avec les clients</li>
+</ul>
+<p>L&rsquo;augmentation du nombre d&rsquo;e-commerçants a entraîné une augmentation du nombre de solutions e-commerce qui se disputent leur attention. Mais PrestaShop a le privilège unique de compter sur une communauté de plus de 700 000 personnes qui participent à son développement continu partout dans le monde. Notre <a href="https://github.com/PrestaShop/PrestaShop" target="_blank">communauté sur GitHub</a> a contribué à ajouter 300 fonctionnalités à notre solution open source. Pour obtenir une liste actualisée des dernières fonctionnalités, consultez l&rsquo;article sur <a href="https://www.prestashop.com/blog/fr/version-1-6-a-la-decouverte-du-nouveau-back-office/">la toute dernière version de PrestaShop</a>.</p>
+<p>Visitez notre site Web pour découvrir <a href="https://www.prestashop.com/fr/solution-e-commerce">davantage de fonctionnalités</a> ou pour vous lancer et tester le logiciel grâce à <a href="http://demo.prestashop.com/fr/?view=back" target="_blank">notre démo</a>. Vous avez d&rsquo;autres questions sur les concepts de base du logiciel e-commerce ? Dites-nous tout dans les commentaires ci-dessous</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/introduction-au-e-commerce-quest-ce-quun-logiciel-e-commerce/">Introduction au e-commerce : qu&rsquo;est-ce qu&rsquo;un logiciel e-commerce ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/introduction-au-e-commerce-quest-ce-quun-logiciel-e-commerce/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>11 questions à se poser sur le référencement avant d’ouvrir sa boutique en ligne</title>
+		<link>https://www.prestashop.com/blog/fr/11-questions-se-poser-referencement-douvrir-boutique-en-ligne/</link>
+		<comments>https://www.prestashop.com/blog/fr/11-questions-se-poser-referencement-douvrir-boutique-en-ligne/#comments</comments>
+		<pubDate>Tue, 17 Mar 2015 08:18:49 +0000</pubDate>
+		<dc:creator><![CDATA[Gary Le Masson]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18503</guid>
+		<description><![CDATA[<p>Le référencement est un élément clé de toute stratégie de boutique en ligne. Mais par où commencer ? Après tout, certains consacrent toutes leurs journées aux activités SEO. Vous à l&#8217;inverse, en tant que propriétaire d’une boutique en ligne, vous êtes déjà débordé et avez d’autres priorités à gérer. Ne vous en faites pas. Derrière [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/11-questions-se-poser-referencement-douvrir-boutique-en-ligne/">11 questions à se poser sur le référencement avant d’ouvrir sa boutique en ligne</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Le référencement est un élément clé de toute stratégie de boutique en ligne. Mais par où commencer ? Après tout, certains consacrent toutes leurs journées aux activités SEO. Vous à l&rsquo;inverse, en tant que propriétaire d’une boutique en ligne, vous êtes déjà débordé et avez d’autres priorités à gérer.</p>
+<p>Ne vous en faites pas. Derrière tous les acronymes, mots-clés et liens, le référencement n’est ni plus ni moins que du marketing appliqué au Web. Sa mise en place est plutôt simple. Elle exige certes un peu de patience, mais en s’organisant un tant soit peu, tout entrepreneur e-commerce peut en retirer des avantages considérables.</p>
+<p>En tant que spécialiste officiel du référencement pour PrestaShop, j’ai compilé les 11 questions qu&rsquo;il est indispensable de se poser avant de lancer sa boutique en ligne. En y répondant au fur et à mesure, vous pourrez établir une stratégie SEO simple couvrant tous les points essentiels. Si vous suivez mes conseils, vous avez toutes les chances de vous démarquer et d’arriver en pôle position des résultats de recherche.</p>
+<p>C&rsquo;est parti…<br />
+<span id="more-18503"></span></p>
+<h2 style="color: #32B5A3">1. À qui est-ce que je vends ?</h2>
+<p>Avant de penser à des mots-clés, de définir une stratégie marketing sur les médias sociaux et avant même de rédiger vos descriptifs produits, vous devez savoir exactement à qui vous vous adressez. C’est la base de toute stratégie marketing pour les entreprises, qu&rsquo;elles exercent leurs activités en ligne ou non. Posez-vous ces deux questions :</p>
+<ul style="padding-left: 30px">
+<li>À quel problème ou besoin mon produit répond-il ?</li>
+<li>Que recherche mon client idéal ?</li>
+</ul>
+<p>Réfléchissez un instant à votre clientèle idéale. Qui sont vos clients ? Qu’est-ce qui les motive à rechercher les produits que vous vendez ? L’élaboration de <a href="https://www.prestashop.com/blog/fr/comment-elaborer-des-personas-pour-le-marketing-e-commerce-b2c/">profils ou personas</a> est une première étape cruciale pour vous aider à vous rapprocher de votre cible et à orienter votre approche marketing en conséquence.</p>
+<p>Aucune activité SEO ne sera utile à votre boutique en ligne si votre cible n’est pas parfaitement définie au préalable.</p>
+<h2 style="color: #32B5A3">2. Quels sont les mots-clés qui permettent à ma boutique de se classer dans les moteurs de recherche ?</h2>
+<p>Maintenant que vous savez à qui vous vous adressez, veillez à employer un vocabulaire adapté. Faites une liste de tous les mots en rapport avec votre produit et votre secteur ainsi que des combinaisons de mots-clés « long tail » plus spécifiques, que vos clients sont susceptibles d’utiliser pour rechercher vos produits.</p>
+<p>Plus vos mots-clés sont précis, plus vous avez de chances de répondre au besoin particulier d’un client (par ex. « moule à gâteau antiadhésif en forme de cœur » plutôt que « moule à gâteau »). Ces <a href="https://www.prestashop.com/blog/fr/comment-trouver-les-bons-mots-cles-pour-le-seo-de-votre-site-ecommerce-partie-12/">mots-clés</a> vous aideront à définir la structure de votre site, à proposer des pages produits attrayantes et à générer un contenu pertinent.</p>
+<h2 style="color: #32B5A3">3. Quels mots-clés utilisent mes concurrents ?</h2>
+<p>En matière de référencement, il existe deux types de concurrence :</p>
+<ul style="padding-left: 30px">
+<li>la concurrence en lien avec la recherche ;</li>
+<li>la concurrence réelle</li>
+</ul>
+<p>La concurrence en lien avec la recherche englobe tous les contenus générés par vos mots-clés, des pages Wikipédia aux articles de presse. Ces résultats gravitent dans la même sphère que votre boutique et se disputent l’attention de l’utilisateur.</p>
+<p>La concurrence réelle provient des entrepreneurs de votre secteur qui vendent des produits similaires. Ils se disputent l’attention et l’argent de l’utilisateur.</p>
+<p>Ne copiez pas vos concurrents réels, mais gardez un œil sur ce qu’ils font pour comprendre comment vous démarquer et positionner votre boutique en ligne à l&rsquo;aide de mots-clés spécifiques qui reflètent votre expertise, votre spécialité ou votre spécificité.</p>
+<h2 style="color: #32B5A3">4. Mon catalogue contribue-t-il au référencement de ma boutique ?</h2>
+<p>Maintenant que vous avez défini vos mots-clés et étudié la concurrence, il est temps de vous intéresser à votre catalogue. Vous devez vous assurer qu&rsquo;il favorise un classement satisfaisant de votre site sur les moteurs de recherche. Il ne suffit pas de créer une page de vente de robes pour qu’elle apparaisse dans les recherches.</p>
+<p>J&rsquo;ai rencontré un jour un entrepreneur qui ne comprenait pas pourquoi sa boutique en ligne n’apparaissait pas dans les résultats de recherche pour « crème visage homme ». Intrigué, je lui ai demandé combien de crèmes il proposait. Il s&rsquo;est avéré qu&rsquo;il n&rsquo;y en avait que trois dans son catalogue. De toute évidence, il ne faisait pas le poids face aux autres boutiques offrant des dizaines de références de « crème visage homme ».</p>
+<p>La toile est un vaste océan d’informations dans lequel vous risquez de vous noyer si vous ne vous appuyez pas sur une stratégie clairement établie. Soit vous disposez d&rsquo;un catalogue bien étoffé avec de nombreuses références et mots-clés correspondants, soit vous êtes dans une niche très spécifique et hautement spécialisée.</p>
+<h2 style="color: #32B5A3">5. La structure du site de ma boutique correspond-elle à mes mots-clés ?</h2>
+<p>Vous savez à qui vous vendez, vous avez défini vos mots-clés et vous disposez d’un catalogue conséquent. Maintenant que la partie théorique est terminée, vous pouvez passer à la configuration de votre boutique en ligne.</p>
+<p>N’oubliez pas que vous créez une boutique pour plaire à vos clients et non aux moteurs de recherche. Pour que votre site soit bien classé, concentrez-vous sur les mots-clés et l&rsquo;expérience utilisateur. Pour en savoir plus, lisez mon article sur l’utilisation des mots-clés pour <a href="https://www.prestashop.com/blog/fr/structurer-votre-boutique-en-ligne-avec-vos-mots-cles-seo-partie-22/">structurer votre boutique en ligne</a>.</p>
+<h2 style="color: #32B5A3">6. Mes pages produits répondent-elles aux questions des clients ?</h2>
+<p>Vous avez conçu un site qui repose sur une superbe architecture. Vous devez maintenant l’accompagner de pages produits aussi attrayantes qu’informatives. N’oubliez pas que votre but premier n&rsquo;est pas de bien vous classer dans les résultats de recherche Google, mais d&rsquo;apporter un service à vos clients.</p>
+<p>Si votre site de vente en ligne s’apparente à une boutique en dur, vos pages produits font office d&rsquo;équipe technico-commerciale. En répondant à toutes les questions de vos clients, même celles dont ils ne soupçonnaient pas l&rsquo;existence, vous gagnerez leur confiance, renforcerez leur fidélité et boosterez vos conversions. Voilà comment obtenir un classement satisfaisant sur Google.</p>
+<h2 style="color: #32B5A3">7. Comment faire parler de ma boutique ?</h2>
+<p>Vous aurez beau avoir le meilleur produit qui ait jamais existé, si personne n’en entend parler, vous n’irez pas bien loin. Réfléchissez un instant à votre domaine d&rsquo;activité : qui en sont les influenceurs ? Vers qui se tourne-t-on pour obtenir des conseils ou recommandations ? Il est capital que ces personnes connaissent votre boutique en ligne.</p>
+<p>Si vous êtes spécialisé dans les vêtements pour femme, commencez par entrer en contact avec les blogueuses mode les plus en vue. Si vous vendez des parfums, envoyez des échantillons à quelques blogueurs pour qu’ils en parlent sur leur site. Les backlinks de ces sites respectés boosteront votre visibilité auprès de votre cible et consolideront votre réputation.</p>
+<h2 style="color: #32B5A3">8. Dois-je avoir mon propre blog ?</h2>
+<p>Pour moi, les blogs s&rsquo;apparentent réellement à du <a href="https://www.prestashop.com/blog/fr/content-marketing/">marketing de contenu</a>. Un blog vous donne l’opportunité de mettre en avant votre expertise et vos produits, tout en apportant des conseils et explications pour offrir un contenu pertinent. Et Google adore ce type de contenu !</p>
+<p>Il s&rsquo;agit de concevoir un blog qui fonctionne pour vous. Un blog a d’autant plus d’intérêt qu’il fidélise les clients. Vous pouvez (judicieusement) ajouter des pop-up pour inciter les internautes à s’abonner à votre newsletter, à vous « liker » sur Facebook ou à tweeter des articles utiles. Votre newsletter vous permettra de constituer une base de données d’une valeur inestimable et vous pourrez renforcer votre visibilité grâce aux partages sur les réseaux sociaux.</p>
+<h2 style="color: #32B5A3">9. Quelle stratégie employer sur les réseaux sociaux ?</h2>
+<p>Si vous avez un blog, vous avez déjà fait la moitié du travail. Mais avant de vous lancer sur Vine, n’oubliez pas que s&rsquo;ils vous permettent de gagner en visibilité, les réseaux sociaux ne garantissent pas un bon classement dans les résultats de recherche. Les initiatives marketing sur les réseaux sociaux constituent une activité secondaire qui implique d&rsquo;avoir répondu aux questions précédentes en matière de référencement.</p>
+<p>Si vous êtes nouveau sur les réseaux sociaux, attaquez-vous d&rsquo;abord à Facebook et Twitter. Ensuite, vous pouvez passer à Google+. Pinterest et Instagram sont extrêmement efficaces pour partager des contenus visuels.</p>
+<h2 style="color: #32B5A3">10. Comment savoir si mes activités SEO sont efficaces ?</h2>
+<p>S&rsquo;il est important de mettre en place une stratégie, il est également capital de la tester pour savoir si vous perdez votre temps ou si vous générez de nouvelles conversions. Utilisez Google Analytics pour identifier vos principales sources de trafic et déterminer celles qui dopent vos ventes. Google Webmaster peut vous donner un aperçu des mots-clés qui génèrent du trafic. Lisez mon article sur les nombreux outils disponibles pour mesurer l’impact de vos activités SEO.</p>
+<h2 style="color: #32B5A3">11. Le marketing en ligne se limite-t-il seulement et uniquement au référencement ?</h2>
+<p>Bien sûr que non ! Le référencement est un moyen gratuit et efficace d’attirer des visiteurs et de les convertir en clients. Mais la mise en place d’une stratégie de référencement efficace prend du temps et les résultats ne sont pas garantis. Ainsi, ne mettez pas tous vos œufs dans le même panier. Une fois votre stratégie de référencement définie, vous pouvez envisager d’inclure les éléments suivants dans votre approche marketing :</p>
+<ul style="padding-left: 30px">
+<li><span style="font-style: italic">Google Adwords</span> : tout comme le référencement, Google Adwords vous permet de gagner en visibilité. Néanmoins, cette solution est payante. C’est également un excellent outil pour tester vos mots-clés et voir ce qui fonctionne avant de les appliquer à votre stratégie de référencement.</li>
+<li><span style="font-style: italic">Marketplaces</span> : les sites de vente aux particuliers comme EBay, Amazon, et PriceMinister constituent un excellent moyen pour une nouvelle boutique de gagner en visibilité et de booster ses activités en ligne.</li>
+<li><span style="font-style: italic">Et le bon vieux bouche-à-oreille</span> : c’est encore la forme de publicité la plus efficace. Il est essentiel pour vous et vos clients de savoir clairement pourquoi votre boutique en ligne est la meilleure.</li>
+</ul>
+<p>Avez-vous optimisé votre site Web ? Qu’est-ce qui fonctionne pour vous ? Qu’aimeriez-vous améliorer ? Dites-nous tout !</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/11-questions-se-poser-referencement-douvrir-boutique-en-ligne/">11 questions à se poser sur le référencement avant d’ouvrir sa boutique en ligne</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/11-questions-se-poser-referencement-douvrir-boutique-en-ligne/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Google Analytics : premiers pas avec le commerce électronique amélioré</title>
+		<link>https://www.prestashop.com/blog/fr/google-analytics-premiers-pas-commerce-electronique-ameliore/</link>
+		<comments>https://www.prestashop.com/blog/fr/google-analytics-premiers-pas-commerce-electronique-ameliore/#comments</comments>
+		<pubDate>Thu, 12 Mar 2015 08:30:29 +0000</pubDate>
+		<dc:creator><![CDATA[Kunle Campbell (Guest Contributor)]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18433</guid>
+		<description><![CDATA[<p>Enhanced Ecommerce (EE) est une fonctionnalité de commerce électronique amélioré récemment lancée par Google Analytics. Elle permet de collecter et d&#8217;analyser des données comportementales et transactionnelles en lien avec le e-commerce. Plus précisément, le commerce électronique amélioré aide les responsables marketing et gérants de boutiques en ligne à mieux comprendre le comportement des clients et [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/google-analytics-premiers-pas-commerce-electronique-ameliore/">Google Analytics : premiers pas avec le commerce électronique amélioré</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Enhanced Ecommerce (EE) est une fonctionnalité de commerce électronique amélioré <a href="http://analytics.blogspot.co.uk/2014/05/better-data-better-decisions-enhanced.html" target="_blank">récemment lancée</a> par Google Analytics. Elle permet de collecter et d&rsquo;analyser des données comportementales et transactionnelles en lien avec le e-commerce.</p>
+<p>Plus précisément, le commerce électronique amélioré aide les responsables marketing et gérants de boutiques en ligne à mieux comprendre le comportement des clients et l&rsquo;efficacité de leurs initiatives de merchandising. Cette fonctionnalité fournit des informations capitales sur les éléments suivants :</p>
+<ul style="padding-left:30px">
+<li>le nombre de visiteurs ayant vu des produits particuliers ;</li>
+<li>le nombre d&rsquo;utilisateurs ayant ajouté ou supprimé un produit dans leur panier ;</li>
+<li>le nombre de transactions abouties ou annulées.</li>
+</ul>
+<p>Par ailleurs, elle vous permet d&rsquo;analyser les conversions à différents niveaux : produits vendus, montant du panier moyen et même remboursements.<br />
+<span id="more-18433"></span><br />
+Grâce au commerce électronique amélioré, vous pouvez aisément valoriser ces informations en générant des rapports concernant votre entonnoir de conversion. Pour cela, il vous suffit d&rsquo;utiliser la dimension ID produit et Google Gestionnaire de balises, disponibles avec un compte standard pour lequel le paramètre Universal Analytics est activé. Ces rapports ont également l&rsquo;avantage de vous indiquer où concentrer vos efforts pour optimiser l&rsquo;entonnoir de conversion.</p>
+<p>Dans cet article, je vais vous détailler tour à tour :</p>
+<ul style="padding-left:30px">
+<li>I. <a href="#les-avantages-du-suivi-du-commerce-electronique-ameliore" style="text-decoration:underline;color:#010101">Les avantages du suivi du commerce électronique amélioré</a></li>
+<li>II. <a href="#le-protocole-de-mesure-ee" style="text-decoration:underline;color:#010101">Le protocole de mesure EE</a></li>
+<li>III. <a href="#la-procedure-a-suivre-pour-activer-ee-dans-google-analytics" style="text-decoration:underline;color:#010101">La procédure à suivre pour activer EE dans Google Analytics</a></li>
+</ul>
+<h2 style="color:#5a96b0">Avant de commencer</h2>
+<div class="row">
+<div class="col-sm-4 col-xs-12 text-center">
+		<img class=" wp-image-19713 aligncenter" alt="Avant de commencer" src="http://www.prestashop.com/blog/fr/files/2015/03/01.jpg" width="204" height="362" />
+	</div>
+<div class="col-sm-8 col-xs-12">
+		Pour collecter les statistiques et dimensions suivantes de commerce électronique amélioré dans Google Analytics, le code de suivi GA actuel de votre site doit être modifié. Je reviendrai plus en détail sur le suivi du code dans mon prochain article : “<strong>Guide intermédiaire du commerce électronique amélioré</strong>”</p>
+<p>		Guide intermédiaire du commerce électronique amélioré : <strong>Conversions -&gt; Commerce électronique</strong>
+	</div>
+</div>
+<div id="les-avantages-du-suivi-du-commerce-electronique-ameliore"></div>
+<h2 style="color:#5a96b0">I. Les avantages du commerce électronique amélioré</h2>
+<p>Voyons quelques-uns des avantages de la fonctionnalité Commerce électronique amélioré :</p>
+<ol>
+<li>Elle offre une gamme complète de données relatives à l&rsquo;engagement de vos clients, grâce à des rapports sur mesure comme le rapport d&rsquo;analyse des comportements d&rsquo;achat.</li>
+<li>Elle permet de regrouper logiquement les produits dans des <strong>listes</strong>, pour un classement et une organisation optimisés dans votre boutique.</li>
+<li>Le rapport sur les performances des produits comprend, entre autres, les statistiques suivantes : Ratio panier/détails, Ratio achat/détails, Nombre de consultations de listes de produits, Consultations des détails d&rsquo;un produit, Nombre de fois où le produit a été ajouté au panier, Nombre de fois où le produit a été supprimé du panier et Paiements de produits pour mieux analyser les performances de votre site Web.</li>
+<li>Pour mesurer l&rsquo;impact de vos promotions internes et externes, utilisez les « <strong>rapports Marketing</strong> » can help you with this. To jog your memory, internal marketing is done via internal promotions and external marketing is done via order-level coupons, product-level coupons and affiliate websites.</li>
+</ol>
+<p>Pour bénéficier de ces avantages, utilisez les rapports suivants de commerce électronique amélioré, disponibles via Google Analytics :</p>
+<h4 style="color:#d05043">1. Rapport Comportement d&rsquo;achat</h4>
+<p>Le rapport d&rsquo;analyse des comportements d&rsquo;achat donne des informations complètes sur les performances de votre entonnoir de conversion. Il indique le nombre de sessions utilisateur à chaque étape de votre entonnoir de conversion, le nombre de sessions ayant impliqué le passage d&rsquo;une étape à la suivante et le nombre d&rsquo;utilisateurs ayant quitté l&rsquo;entonnoir à chaque étape.</p>
+<p>Pour accéder à ce rapport :<br />
+<strong>Conversions &gt; Commerce électronique &gt; Analyse des comportements d&rsquo;achat &gt; Comportement d&rsquo;achat</strong></p>
+<p><img class="aligncenter  wp-image-19714" alt="Rapport Comportement d'achat" src="http://www.prestashop.com/blog/fr/files/2015/03/02-1024x719.jpg" width="560" height="393" /></p>
+<h4 style="color:#d05043">2. Rapport Analyse du comportement lors du processus de paiement</h4>
+<p><strong>Ce rapport</strong> vous permet d&rsquo;analyser les flux de visiteurs/sessions et l&rsquo;engagement dans le processus de paiement. Il indique le nombre de sessions utilisateur à chaque étape du processus de paiement, par exemple, de la facturation, à l&rsquo;expédition, au paiement et à la vérification jusqu&rsquo;à la transaction.</p>
+<p>Pour accéder à ce rapport : <strong>Conversions &gt; Commerce électronique &gt; Analyse des comportements d&rsquo;achat &gt; Comportement lors du processus de paiement</strong></p>
+<p><img class="aligncenter  wp-image-19715" alt="Rapport Analyse du comportement lors du processus de paiement" src="http://www.prestashop.com/blog/fr/files/2015/03/03-1024x736.jpg" width="560" height="402" /></p>
+<h4 style="color:#d05043">3. Rapport Performances des produits</h4>
+<div class="row">
+<div class="col-sm-4 col-xs-12 text-center">
+		<img src="http://www.prestashop.com/blog/fr/files/2015/03/04.jpg" alt="Rapport Performances des produits" width="254" height="383" class="aligncenter size-full wp-image-19716" />
+	</div>
+<div class="col-sm-8 col-xs-12">
+		Ce rapport révèle les performances de chaque produit dans votre entonnoir de conversion. Deux points de vue sont disponibles : les performances des ventes (quantité, chiffre d&rsquo;affaires, etc.) et le comportement du visiteur (produits consultés, activité du panier, etc.).<br />
+		Pour accéder aux deux points de vue de ce rapport :<br />
+		<strong>Conversions &gt; Commerce électronique &gt; Analyse des comportements d&rsquo;achat &gt; Performances des produits</strong>
+	</div>
+</div>
+<p>Exemple de rapport ci-dessous :</p>
+<p><img src="http://www.prestashop.com/blog/fr/files/2015/03/05.jpg" alt="Rapport Performances des produits" width="788" height="393" class="aligncenter size-full wp-image-19717" /></p>
+<h4 style="color:#d05043">4. Rapport Performances de la liste de produits</h4>
+<div class="row">
+<div class="col-sm-4 col-xs-12 text-center">
+		<img class="aligncenter  wp-image-19718" alt="Rapport Performances de la liste de produits" src="http://www.prestashop.com/blog/fr/files/2015/03/06.jpg" width="218" height="298" />
+	</div>
+<div class="col-sm-8 col-xs-12">
+		Ce rapport vous permet de mesurer l&rsquo;impact du regroupement des produits sur vos ventes à l&rsquo;aide de dimensions comme la Position de la liste de produits et le Nom de la liste de produits.</p>
+<p>		Pour accéder à ce rapport : </p>
+<p>		<strong>Conversions &gt; Commerce électronique &gt; Analyse des comportements d&rsquo;achat &gt; Performances de la liste de produits</strong>
+	</div>
+</div>
+<p>Exemple de rapport ci-dessous :</p>
+<p><img src="http://www.prestashop.com/blog/fr/files/2015/03/07-1024x421.jpg" alt="Rapport Performances de la liste de produits" width="700" height="287" class="aligncenter size-large wp-image-19719" /></p>
+<h4 style="color:#d05043">5. Rapport Marketing (coupons et affiliation) : </h4>
+<p>Ce rapport vous permet de suivre et d&rsquo;analyser les transactions générées à partir de coupons et de sites affiliés.<br />
+Pour accéder à ce rapport :<br />
+<strong>Conversions &gt; Commerce électronique &gt; Marketing (À ce niveau, quatre rapports sont disponibles, mais je prendrai seulement le premier pour exemple) &gt; Promotion interne</strong></p>
+<p>Ci-dessous, vous trouverez un rapport indiquant, pour chaque promotion, le nombre d&rsquo;impressions et de clics effectués, le nombre de transactions, le chiffre d&rsquo;affaires et bien plus encore :</p>
+<p><img src="http://www.prestashop.com/blog/fr/files/2015/03/08.jpg" alt="CRapport Marketing (coupons et affiliation)" width="778" height="364" class="aligncenter size-full wp-image-19720" /></p>
+<p>Les autres rapports disponibles dans la section « Marketing » ont la même structure.</p>
+<div id="le-protocole-de-mesure-ee"></div>
+<h2 style="color:#5a96b0">II. Le protocole de mesure du commerce électronique amélioré</h2>
+<p>À présent, jetons un œil aux interactions utilisateur et aux commandes de commerce électronique amélioré (ou aux données communiquées/envoyées par JavaScript à Google Analytics) dans l&rsquo;entonnoir de conversion de votre site e-commerce :</p>
+<p><img class="aligncenter  wp-image-19721" alt="Le protocole de mesure du commerce électronique amélioré" src="http://www.prestashop.com/blog/fr/files/2015/03/09.jpg" width="472" height="531" /></p>
+<p>Pour une mise en place adaptée, il est essentiel de comprendre les commandes ci-dessus à chaque étape de l&rsquo;entonnoir. </p>
+<div id="la-procedure-a-suivre-pour-activer-ee-dans-google-analytics"></div>
+<h2 style="color:#5a96b0">III. L&rsquo;activation du commerce électronique amélioré dans Google Analytics</h2>
+<p><strong>Étape 1 :</strong><br />
+Ouvrez la section « Admin » de votre compte Google Analytics et sélectionnez « Paramètres de commerce électronique » :</p>
+<p><img src="http://www.prestashop.com/blog/fr/files/2015/03/10.jpg" alt="L'activation du commerce électronique amélioré dans Google Analytics - Etape 1" width="769" height="486" class="aligncenter size-full wp-image-19722" /></p>
+<p><strong>Étape 2 :</strong><br />
+Activez le commerce électronique puis cliquez sur « Suivant » : </p>
+<p><img src="http://www.prestashop.com/blog/fr/files/2015/03/11.jpg" alt="L'activation du commerce électronique amélioré dans Google Analytics - Etape 2" width="776" height="325" class="aligncenter size-full wp-image-19723" /></p>
+<p><strong>Étape 3 :</strong><br />
+Activez le commerce électronique amélioré, puis définissez les étapes de votre entonnoir et validez le nouveau paramétrage en cliquant sur « Envoyer » :</p>
+<p><img src="http://www.prestashop.com/blog/fr/files/2015/03/12.jpg" alt="L'activation du commerce électronique amélioré dans Google Analytics - Etape 3" width="785" height="578" class="aligncenter size-full wp-image-19724" /></p>
+<p><strong>Remarque :</strong></p>
+<p>La définition des étapes de l&rsquo;entonnoir est facultative, mais si vous l&rsquo;effectuez, les libellés de l&rsquo;entonnoir doivent être identiques à ceux définis dans votre balise ec.js pour mesurer les « Étapes de paiement ».<br />
+Je reviendrai plus en détail sur les spécifications du code dans mon prochain article : « <strong>he Intermediate Guide to Enhanced Ecommerce » (Guide intermédiaire du commerce électronique amélioré)</strong>.<br />
+Ces libellés apparaîtront dans le rapport d&rsquo;analyse des comportements au moment du paiement (susmentionné).</p>
+<h2 style="color:#5a96b0">Conclusion</h2>
+<p>Pour tirer le meilleur profit du commerce électronique amélioré, il y a quelques mesures à prendre au préalable :</p>
+<ol>
+<li>Réalisez <strong>une analyse approfondie</strong> de votre site en termes de ventes et de produits plutôt que page à page.</li>
+<li>Identifiez les <strong>éléments clés de votre entonnoir de conversion</strong>, notamment pour le regroupement des produits, les comportements d&rsquo;achat essentiels à vos yeux, etc.</li>
+<li><strong>Mettez vos balises à jour.</strong> Pour pouvoir suivre et analyser toutes les nouvelles interactions désormais disponibles avec le commerce électronique amélioré, vous devrez au préalable paramétrer des balises spécifiques dans le code universel de Google Analytics ou dans la couche de données de Google gestionnaire de balises (que j&rsquo;aborderai dans la deuxième partie de cet article). </li>
+<li><strong>Appuyez-vous sur les métadonnées des produits.</strong> Avant, les produits étaient classés en catégories puis se voyaient attribuer des références. Désormais, le commerce électronique amélioré garantit une utilisation optimale des données produits en permettant de télécharger des données de référence. Réfléchissez à la fréquence à laquelle vous pouvez charger ces informations et à la structure requise.</li>
+</ol>
+<p>Avez-vous commencé à utiliser le commerce électronique amélioré ? Comment vous en sortez-vous ? Dites-nous tout dans les commentaires !</p>
+<p>Vous êtes prêt à vous lancer ? Téléchargez le module Google Analytics directement depuis votre back-office ou dans les Addons de PrestaShop. </p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/google-analytics-premiers-pas-commerce-electronique-ameliore/">Google Analytics : premiers pas avec le commerce électronique amélioré</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/google-analytics-premiers-pas-commerce-electronique-ameliore/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Comment collecter plus d&#8217;adresses e-mail pour votre boutique en ligne</title>
+		<link>https://www.prestashop.com/blog/fr/comment-collecter-dadresses-e-mail-boutique-en-ligne/</link>
+		<comments>https://www.prestashop.com/blog/fr/comment-collecter-dadresses-e-mail-boutique-en-ligne/#comments</comments>
+		<pubDate>Thu, 05 Mar 2015 14:58:57 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18413</guid>
+		<description><![CDATA[<p>Aujourd&#8217;hui, nous accueillons à nouveau Steve Chou, copropriétaire de Bumblebee Linens et MyWifeQuitHerJob.com. Le site MyWifeQuitHerJob.com compte aujourd&#8217;hui plus de 200 000 lecteurs mensuels et a fait parler de lui sur The New York Times et The Huffington Post. Dans son dernier article, Steve a souligné l&#8217;importance des recherches sur site. Aujourd&#8217;hui, il vous fera [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/comment-collecter-dadresses-e-mail-boutique-en-ligne/">Comment collecter plus d&rsquo;adresses e-mail pour votre boutique en ligne</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Aujourd&rsquo;hui, nous accueillons à nouveau Steve Chou, copropriétaire de Bumblebee Linens et MyWifeQuitHerJob.com. Le site MyWifeQuitHerJob.com compte aujourd&rsquo;hui plus de 200 000 lecteurs mensuels et a fait parler de lui sur <span style="font-style: italic;">The New York Times</span> et <span style="font-style: italic;">The Huffington Post</span>.</p>
+<p>Dans son dernier article, Steve a souligné l&rsquo;importance des <a href="https://www.prestashop.com/blog/fr/4-astuces-essentielles-pour-ameliorer-le-moteur-de-recherche-de-votre-site/">recherches sur site</a>. Aujourd&rsquo;hui, il vous fera part de ses astuces pour collecter plus d&rsquo;adresses e-mail pour votre boutique en ligne. C&rsquo;est parti !</p>
+<p><span id="more-18413"></span><br />
+<img class="alignright size-full wp-image-19656" style="margin-right: 0;" alt="Steve Chou" src="http://www.prestashop.com/blog/fr/files/2015/03/1_steve.jpg" width="200" height="300" /></p>
+<p>L&rsquo;avenir de votre boutique en ligne dépend de votre capacité à attirer et retenir des clients réguliers. S&rsquo;il existe de nombreuses méthodes pour inciter les clients à effectuer de nouveaux achats sur votre site, les e-mails restent la stratégie la plus efficace.</p>
+<p>Ainsi, la collecte d&rsquo;adresses e-mail vous permet d&rsquo;interagir directement et quotidiennement avec vos clients. De même, en rédigeant des contenus percutants, vous pouvez transformer un client lambda en un client inconditionnel.</p>
+<p>Pourtant, après avoir participé aux campagnes emailing de <a href="http://mywifequitherjob.com/how-to-open-an-online-store/" target="_blank">nombreuses boutiques e-commerce</a> et monté avec succès mon propre magasin en ligne de <a href="http://bumblebeelinens.com/" target="_blank">mouchoirs</a> il y a plusieurs années, j&rsquo;ai constaté que les propriétaires de boutiques collectaient rarement les adresses e-mail et étaient encore moins enclins à envoyer régulièrement des e-mails à leurs clients. Dans mon article d&rsquo;aujourd&rsquo;hui, je vais vous expliquer comment booster le nombre d&rsquo;abonnés de votre mailing list.</p>
+<h2 style="color: #ffb03a;">Appuyez-vous sur l&rsquo;expertise d&rsquo;un fournisseur de services de messagerie tiers</h2>
+<p>Si vous devez collecter des milliers d&rsquo;adresses e-mail et envoyer autant de messages, il est primordial de faire appel à un prestataire de services d&rsquo;emailing tiers.</p>
+<p>Vous pouvez tout à fait envoyer occasionnellement quelques e-mails depuis votre propre serveur ; à l&rsquo;inverse, si vous devez contacter des milliers de personnes, vous prenez le risque de compromettre votre taux de délivrabilité.</p>
+<p>Les services de marketing par e-mail tels que <a href="http://addons.prestashop.com/fr/publicite-marketing-newsletter-modules/18921-official-mailchimp-for-prestashop-16.html" target="_blank">MailChimp</a>, <a href="http://addons.prestashop.com/fr/publicite-marketing-newsletter-modules/19001-sarbacanedesktop.html" target="_blank">Sarbacane</a>, <a href="http://addons.prestashop.com/fr/publicite-marketing-newsletter-modules/8300-sendinblue.html" target="_blank">Sendinblue</a> ou Aweber disposent de centaines de serveurs permettant à vos e-mails de contourner à coup sûr les filtres antispam et d&rsquo;être transmis en temps et en heure. De plus, ils proposent également des outils de base pour organiser et gérer l&rsquo;ensemble de vos abonnés. Donc même si cela représente une dépense importante, faites appel à un professionnel.</p>
+<h2 style="color: #ffb03a;">Stockez les adresses e-mail collectées au moment du paiement</h2>
+<p style="text-align: center;"><img class="aligncenter  wp-image-19657" alt="Check out sign up" src="http://www.prestashop.com/blog/fr/files/2015/03/2_Checkoutsignup.jpg" width="480" height="338" /></p>
+<p>Le processus de paiement permet de recueillir très simplement des adresses e-mail. Un client qui effectue un achat dans votre boutique est susceptible de revenir ; il est donc capital que vous stockiez ses coordonnées de manière appropriée.</p>
+<p>Nombreux sont les propriétaires de boutique qui font l&rsquo;erreur de collecter uniquement les adresses e-mail de clients qui créent un compte. Pour ne pas tomber dans cet écueil, ajoutez une case à cocher pour permettre aux clients non inscrits de s&rsquo;abonner à votre newsletter.</p>
+<p>Parallèlement, veillez à transmettre directement les adresses collectées à votre fournisseur de services de messagerie et à ne pas simplement les stocker dans la base de données des paniers d&rsquo;achats. La plupart des logiciels de panier d&rsquo;achats (notamment PrestaShop) s&rsquo;intègrent aux services de marketing par e-mail les plus populaires, comme <a href="http://addons.prestashop.com/fr/publicite-marketing-newsletter-modules/18921-official-mailchimp-for-prestashop-16.html" target="_blank">MailChimp</a>.</p>
+<h2 style="color: #ffb03a;">Augmentez vos chances avec une offre incitative</h2>
+<p>Généralement, la plupart des gens sont peu enclins à s&rsquo;inscrire à une newsletter ou une mailing list, s&rsquo;ils n&rsquo;ont rien à y gagner. Ainsi, avec une offre incitative, vous maximiserez votre nombre d&rsquo;abonnés.</p>
+<p>Par exemple, tout client de notre boutique en ligne qui s&rsquo;abonne à la newsletter reçoit un e-book de loisirs et projets créatifs.</p>
+<p><img class="aligncenter size-full wp-image-19658" alt="ebook below" src="http://www.prestashop.com/blog/fr/files/2015/03/3_ebookbelow.jpg" width="600" height="233" /></p>
+<p>Source de valeur ajoutée, ce cadeau encourage le client à effectuer de nouveaux achats dans notre boutique en lui donnant de nouvelles idées pour utiliser nos produits. Les abonnés de notre mailing list bénéficient également de codes de réduction et se sentent ainsi privilégiés.</p>
+<p>Avec une offre incitative, vous pouvez considérablement augmenter vos chances qu&rsquo;un client s&rsquo;inscrive à votre newsletter.</p>
+<h2 style="color: #ffb03a;">N&rsquo;ayez pas peur d&rsquo;utiliser des formulaires pop-up</h2>
+<p>Nombreux sont ceux qui pensent que les formulaires contextuels risquent d&rsquo;agacer les clients potentiels. Pourtant, la plupart des personnes qui doutent de l&rsquo;efficacité de cette méthode ne l&rsquo;ont jamais testée sur leur site.</p>
+<p><img class="aligncenter size-full wp-image-19659" alt="4_ebookpopup" src="http://www.prestashop.com/blog/fr/files/2015/03/4_ebookpopup.jpg" width="600" height="332" /></p>
+<p>Dans notre boutique en ligne, le formulaire pop-up est le formulaire d&rsquo;inscription qui génère le plus de conversions. D&rsquo;ailleurs, le taux de conversion des clients qui s&rsquo;abonnent par ce biais est très élevé. Voici à quoi ressemble notre pop-up :</p>
+<p>Même si vous êtes réticent, je vous invite à tester cette technique pour découvrir les résultats par vous-même. Si vous craignez d&rsquo;agacer vos clients, commencez par ajouter le formulaire contextuel uniquement sur vos pages de contenu, par exemple sur votre blog, et étudiez les résultats. Je suis quasiment certain que votre taux d&rsquo;inscription sera au moins multiplié par deux et que l&rsquo;impact sur votre taux de rebond ne sera pas notable.</p>
+<p>Pour ajouter un formulaire d&rsquo;inscription, le service <a href="http://sumome.com/" target="_blank">SumoMe.com</a> est idéal. Il est entièrement gratuit et compatible avec tous les sites Web.</p>
+<p><img class="aligncenter size-full wp-image-19660" alt="5_ebookbyline" src="http://www.prestashop.com/blog/fr/files/2015/03/5_ebookbyline.jpg" width="600" height="418" /></p>
+<p>Et en dessous de l&rsquo;article :</p>
+<p><img class="aligncenter size-full wp-image-19661" alt="6_ebooksignup" src="http://www.prestashop.com/blog/fr/files/2015/03/6_ebooksignup.jpg" width="600" height="423" /></p>
+<h2 style="color: #ffb03a;">Essayez d&rsquo;autres méthodes pour maximiser le nombre d&rsquo;adresses e-mail collectées</h2>
+<p>Outre les formulaires contextuels et d&rsquo;inscription, vous pouvez aussi ajouter des « slide-ins ». Cette technique s&rsquo;appuie sur une animation pour retenir efficacement l&rsquo;attention d&rsquo;un client qui consomme votre contenu ou parcourt vos produits.</p>
+<p>Si vous ne pouvez vous résoudre à ajouter un formulaire pop-up sur votre site, pensez aux slide-ins. Ces animations sont moins agaçantes que les pop-up et il est possible de les configurer de sorte qu&rsquo;elles apparaissent uniquement en bas de page, lorsque vous êtes sûr d&rsquo;avoir capté l&rsquo;attention de votre client.</p>
+<p>Voici un exemple de slide-in de mon blog.</p>
+<p><img class="aligncenter size-full wp-image-19662" alt="7_slidein" src="http://www.prestashop.com/blog/fr/files/2015/03/7_slidein.jpg" width="600" height="227" /></p>
+<h2 style="color: #ffb03a;">Conclusion</h2>
+<p>Une fois que vous avez collecté des adresses e-mail, les choses sérieuses commencent. En effet, vous êtes autorisé par le client à lui envoyer des e-mails ciblés concernant vos produits et services.</p>
+<p>Pour notre boutique en ligne, nous avons mis en place une séquence d&rsquo;e-mails d&rsquo;auto-réponse qui envoie automatiquement des messages aux clients à des intervalles réguliers. De plus, en cas d&rsquo;événement particulier ou de soldes, nous pouvons contacter instantanément des milliers de clients impatients d&rsquo;effectuer des achats dans notre boutique.</p>
+<p>En envoyant régulièrement des e-mails à nos clients, nous leur rappelons que nous sommes là et nous leur racontons des histoires personnelles pour rendre ces interactions plus humaines. En matière de marketing, une adresse e-mail vous offre ainsi des possibilités infinies.</p>
+<p>Mais avant cela, il vous faut faire le premier pas et collecter ces adresses.</p>
+<hr align="left" width="20%" />
+<p>Laquelle de ces techniques de collecte d&rsquo;e-mails allez-vous tester ? Dites-nous combien d&rsquo;abonnés vous avez gagnés dans les commentaires ci-dessous ! Découvrez plus en détail le blog de Steve sur <a href="http://mywifequitherjob.com/" target="_blank">MyWifeQuitHerJob.com</a> ou visitez sa boutique en ligne, <a href="http://bumblebeelinens.com/" target="_blank">BumbleBee Linens</a>.</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/comment-collecter-dadresses-e-mail-boutique-en-ligne/">Comment collecter plus d&rsquo;adresses e-mail pour votre boutique en ligne</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/comment-collecter-dadresses-e-mail-boutique-en-ligne/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Inspiration marketing : 4 façons créatives de récompenser vos clients</title>
+		<link>https://www.prestashop.com/blog/fr/inspiration-marketing-4-facons-creatives-recompenser-vos-clients/</link>
+		<comments>https://www.prestashop.com/blog/fr/inspiration-marketing-4-facons-creatives-recompenser-vos-clients/#comments</comments>
+		<pubDate>Thu, 05 Mar 2015 11:12:39 +0000</pubDate>
+		<dc:creator><![CDATA[Camille Sila]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18398</guid>
+		<description><![CDATA[<p>Convertir un visiteur en acheteur c’est bien mais convertir un acheteur en client fidèle c’est encore mieux. Moins coûteuse et plus facile que la conquête de prospect, la fidélisation est un des leviers les plus puissants pour développer une activité durable et rentable. Aujourd’hui nous nous intéressons aux récompenses et vous présentons 4 façons de [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/inspiration-marketing-4-facons-creatives-recompenser-vos-clients/">Inspiration marketing : 4 façons créatives de récompenser vos clients</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Convertir un visiteur en acheteur c’est bien mais convertir un acheteur en client fidèle c’est encore mieux. Moins coûteuse et plus facile que la conquête de prospect, la fidélisation est un des leviers les plus puissants pour développer une activité durable et rentable.</p>
+<p>Aujourd’hui nous nous intéressons aux récompenses et vous présentons 4 façons de récompenser vos clients qui ne requièrent pas un budget important. De simples petites attentions peuvent faire la différence.<br />
+<span id="more-18398"></span></p>
+<h2 style="color: #be2329;">1. Une attention inattendue</h2>
+<p>Voilà une bonne manière de transformer une relation virtuelle en une expérience bien réelle.<br />
+Surprenez vos meilleurs clients en glissant dans leur colis un petit cadeau. Le côté inattendu traduit une démarche non intéressée de votre part qui aura plus de chance de toucher l’affectif du destinataire. Votre client appréciera sans aucun doute le geste et partagera peut être même l’info autour de lui.</p>
+<h4 style="color: #92d050; font-size: 20px;">Archiduchesse</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18400" alt="Archiduchesse" src="http://www.prestashop.com/blog/fr/files/2015/03/Archiduchesse.jpg" width="384" height="288" /></p>
+<p><strong>L’idée</strong><br />
+La célèbre boutique de chaussettes, Archiduchesse, maîtrise parfaitement ce concept en incluant dans ses colis un autocollant de leur logo et des bonbons.</p>
+<p><strong>Le résultat</strong><br />
+Un petit plus qui rend la marque inoubliable et qui appuie son univers de marque.</p>
+<p>Mais peut-être que parmi vos clients ou fans se trouvent aussi des influenceurs ou des personnes très suivies sur les réseaux sociaux. L’impact peut être encore plus important s’ils partagent l’info.</p>
+<h4 style="color: #92d050; font-size: 20px;">Taco Bell</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18405" style="border: 1px solid #dce1e5;" alt="Taco Bell" src="http://www.prestashop.com/blog/fr/files/2015/03/Taco-Bell.png" width="337" height="457" /></p>
+<p><strong>L’idée</strong><br />
+Taco Bell une chaîne de fast food américaine a visé juste en envoyant à leurs fans les plus influents un lot de deux bagues au nom de leur marque, l’une « Taco » et l’autre « Bell » le tout accompagné d’une note manuscrite.</p>
+<p><strong>Le résultat</strong><br />
+Les quelques privilégiés ayant reçu ce cadeau ont immédiatement twitté avec enthousiasme remerciant la marque. Un impact positif en matière de visibilité et d’image de marque.</p>
+<h2 style="color: #be2329;">2. Le fan du mois</h2>
+<p>L’une des meilleures façons de récompenser vos clients est de les mettre à l’honneur dans une de vos publications. Choisissez par exemple un des fans les plus actifs de votre page Facebook et montrez lui votre gratitude avec une publication remerciant le Fan du mois. L’avantage de cette opération c’est qu’elle ne nécessite pas d’autres prix que votre reconnaissance.</p>
+<h4 style="color: #92d050; font-size: 20px;">Soda Stream</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18404" alt="Soda stream" src="http://www.prestashop.com/blog/fr/files/2015/03/Soda-stream.png" width="397" height="276" /></p>
+<p><strong>L’idée</strong><br />
+Chaque mois la marque Soda Stream change la photo de couverture de sa page Facebook pour mettre en avant le fan du mois. L’opération ne dure que quelques mois.</p>
+<p><strong>Le résultat</strong><br />
+C’est une belle façon de montrer l’intérêt que la marque porte à ses fans et d’encourager les clients à rester fidèles et interagir davantage sur la page Facebook.</p>
+<p>Facebook n’est pas le seul endroit où vous pouvez mettre à l’honneur vos clients, vous pouvez aussi utiliser votre blog.</p>
+<h4 style="color: #92d050; font-size: 20px;">BlackBerry</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18401" style="border: 1px solid #dce1e5;" alt="Black berry" src="http://www.prestashop.com/blog/fr/files/2015/03/Black-berry.png" width="383" height="431" /></p>
+<p><strong>L’idée</strong><br />
+Ici BlackBerry va un peu plus loin qu’une simple photo de remerciement, un article est entièrement dédié au fan et à sa relation avec la marque.</p>
+<p><strong>Le résultat</strong><br />
+L’article permet de véhiculer davantage les valeurs de la marque en apportant la crédibilité du témoignage client.</p>
+<h2 style="color: #be2329;">3. Les opinions de vos clients comptent</h2>
+<p>Les clients apprécient savoir que leur avis est réellement pris en compte. Que ce soit pour le lancement d’un nouveau produit, la refonte de votre site ou le contenu que vous partagez, les occasions de demander l’opinion de vos clients sont nombreuses. Une chose est sûre, c’est qu’être à l’écoute de ses clients participe grandement à construire une relation forte et authentique avec eux. Vous pouvez les solliciter sur différents supports et de multiples manières.<br />
+Sur votre blog&#8230;</p>
+<h4 style="color: #92d050; font-size: 20px;">PrestaShop</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18402" alt="blog PrestaShop" src="http://www.prestashop.com/blog/fr/files/2015/03/blog-PrestaShop.png" width="534" height="400" /></p>
+<p><strong>L’idée</strong><br />
+Nous avons proposé aux lecteurs de notre Blog de compléter un questionnaire pour nous indiquer les sujets qu’ils souhaiteraient nous voir aborder.</p>
+<p><strong>Le résultat</strong><br />
+Très facile à mettre en place avec un formulaire Google ce questionnaire montre que nous accordons de l’importance aux attentes de nos lecteurs. Les résultats obtenus nous permettent donc de proposer un contenu centré sur nos lecteurs et ainsi les fidéliser.</p>
+<p>Par mail&#8230;</p>
+<h4 style="color: #92d050; font-size: 20px;">Airbnb</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18399" style="border: 1px solid #dce1e5;" alt="airbnb" src="http://www.prestashop.com/blog/fr/files/2015/03/airbnb.png" width="471" height="338" /></p>
+<p><strong>L’idée</strong><br />
+Airbnb envoie un mail pour demander l’avis de ses clients après qu’ils aient effectué leur séjour via l’appli. Le tout dans le but d’améliorer l’expérience utilisateur.</p>
+<p><strong>Le résultat</strong><br />
+Le bénéfice est encore une fois double : d’une part le client se sent réellement écouté et impliqué au cœur de l’amélioration du produit, d’autre part Airbnb va pouvoir offrir un service encore plus pertinent.</p>
+<h2 style="color: #be2329;">4. Dire merci !</h2>
+<p>Probablement le conseil le plus simple mais aussi celui qu’on oublie le plus souvent. Un simple merci ne coûte pas grand-chose et pourtant il joue un rôle important dans la constitution d’une communauté forte et fidèle. Encore une fois les occasions pour remercier votre communauté sont nombreuses : Mail de remerciement suite à l’inscription à la newsletter, remerciement sur les réseaux sociaux&#8230;</p>
+<h4 style="color: #92d050; font-size: 20px;">Bloom’s</h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-18403" alt="Bloom's" src="http://www.prestashop.com/blog/fr/files/2015/03/Blooms.png" width="314" height="397" /></p>
+<p><strong>L’idée</strong><br />
+La jeune boutique en ligne Bloom’s qui commercialise des box de fleurs de saison construit sa communauté peu à peu. Ici ils profitent de Noël pour remercier leurs clients pour leurs commandes et leur souhaiter un Joyeux Noël.</p>
+<p><strong>Le résultat</strong><br />
+Un geste très simple mais qui laisse transparaître une marque humaine à laquelle on a envie de s’attacher. C’est d’autant plus important pour les jeunes sociétés car c’est à ce moment-là qu’elles ont besoin de construire une base de clients fidèles et de favoriser le bouche à oreille.</p>
+<h2 style="color: #be2329;">[La boîte à outils] &#8211; Fidélisation</h2>
+<p>Enfin, veillez à ne pas vous reposer uniquement sur ces actions ponctuelles mais bien d’offrir à vos clients un véritable programme de fidélité, certes, plus classique, mais très efficace pour assurer leur pleine satisfaction.</p>
+<p>Voici deux modules qui vous permettront d’ajouter à votre boutique PrestaShop un programme de fidélité pour booster vos ventes :</p>
+<ul style="padding-left: 30px;">
+<li><a href="http://addons.prestashop.com/fr/publicite-marketing-newsletter-modules/4414-all-in-one-rewards-fidelite-parrainage-affiliation-fb.html" target="_blank">Module All in one rewards</a></li>
+<li><a href="http://addons.prestashop.com/fr/publicite-marketing-newsletter-modules/16947-shopymind-paniers-abandonnes-et-relances.html" target="_blank">Module Shopymind</a></li>
+</ul>
+<hr align="left" width="20%" />
+<p>Laquelle de ces idées avez-vous envie de mettre en place ? Avez-vous d’autres techniques pour récompenser vos clients ? Dites-le nous dans les commentaires ci-dessous !</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/inspiration-marketing-4-facons-creatives-recompenser-vos-clients/">Inspiration marketing : 4 façons créatives de récompenser vos clients</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/inspiration-marketing-4-facons-creatives-recompenser-vos-clients/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Comment atteindre efficacement votre coeur de cible ?</title>
+		<link>https://www.prestashop.com/blog/fr/comment-atteindre-efficacement-votre-coeur-de-cible/</link>
+		<comments>https://www.prestashop.com/blog/fr/comment-atteindre-efficacement-votre-coeur-de-cible/#comments</comments>
+		<pubDate>Tue, 03 Mar 2015 16:30:29 +0000</pubDate>
+		<dc:creator><![CDATA[Shabbir Nooruddin (Guest Contributor)]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18393</guid>
+		<description><![CDATA[<p>Le marketing est capital pour la réussite de votre boutique en ligne. S&#8217;il faut couvrir plusieurs fronts pour promouvoir une boutique, il est essentiel de concentrer en premier lieu vos efforts sur votre marché cible. En apprenant à connaître vos clients cible, vous pourrez optimiser la diffusion de vos messages sur tous les canaux marketing [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/comment-atteindre-efficacement-votre-coeur-de-cible/">Comment atteindre efficacement votre coeur de cible ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Le marketing est capital pour la réussite de votre boutique en ligne. S&rsquo;il faut couvrir <a href="http://bootstrappingecommerce.com/ecommerce-marketing-strategies/" target="_blank">plusieurs fronts</a> pour promouvoir une boutique, il est essentiel de concentrer en premier lieu vos efforts sur votre marché cible. En apprenant à connaître vos clients cible, vous pourrez optimiser la diffusion de vos messages sur tous les canaux marketing &#8211; référencement naturel, réseaux sociaux, e-mails, affiliation, etc.</p>
+<p>Dans cet article, vous découvrirez divers profils d&rsquo;acheteurs types et des procédés pour identifier votre client idéal, afin de mieux cibler vos efforts marketing.<br />
+<span id="more-18393"></span></p>
+<h2 style="color: #3a7692">Partez à la découverte de vos clients</h2>
+<p>Dans le domaine du marketing, il est de notoriété publique que « si vous ciblez tout le monde, vous ne ciblez personne ». Même si votre niche est choisie avec soin et strictement définie, il est important de savoir qui sont vos clients pour adapter vos messages et contenus marketing en fonction. Cela ne signifie pas que vous excluez tous les autres types de client ; vous consacrez simplement plus d&rsquo;énergie à un groupe en particulier.</p>
+<p>Il existe deux stratégies principales pour découvrir votre client idéal.</p>
+<h2 style="color: #3a7692">1. Il existe deux stratégies principales pour découvrir votre client idéal.</h2>
+<p>Imaginons que vous vendez des nœuds papillon très chics. Votre profil d&rsquo;acheteur cible pourrait être :</p>
+<p>Un homme célibataire actif, ayant entre 25 et 35 ans, avec un goût prononcé pour la mode et gagnant plus de 45 000 euros par an.</p>
+<p>Voilà un bon début. Pour adapter votre message à ce type de client, il vous faut choisir des thèmes comme la mode masculine et être en accord avec les orientations de la tranche d&rsquo;âge concernée. Vous pouvez aussi étendre votre présence pour renforcer votre visibilité là où ces clients sont susceptibles de passer du temps. Quel genre de blogs suivent-ils ? Quels sont leurs sites Web favoris ?</p>
+<h2 style="color: #3a7692">2. Elaborez un profil client à partir d&rsquo;un produit de niche, et complétez-le au fil des ventes.</h2>
+<p>Si vous vendez des produits très spécifiques, comme des figurines pour gâteaux de mariage représentant des super-héros, votre clientèle est tout aussi caractéristique. Vous savez qu&rsquo;elle est composée de fans de super-héros ayant probablement une formation en sciences ou en technologie et s&rsquo;apprêtant à se marier.</p>
+<p>Ce public est clairement plus restreint que celui de nos jeunes actifs à nœuds papillon. Cet aspect déterminera l&rsquo;ensemble de votre approche marketing. Afin de compléter ce profil, utilisez les données de ventes pour affiner votre discours et peaufiner votre stratégie en permanence.</p>
+<h2 style="color: #3a7692">Utilisez les publicités Facebook pour trouver votre public</h2>
+<p>Les audiences personnalisées de Facebook sont idéales pour attirer rapidement de nouveaux clients (ou du moins, pour cerner leurs profils).</p>
+<p>Pour commencer, <a href="http://www.socialmediaexaminer.com/facebook-news-feed-ads/" target="_blank">créez des publicités Facebook</a> destinées aux fans et aux abonnés d&rsquo;un de vos concurrents principaux. Ces publicités pourront uniquement être vues par les utilisateurs qui ont « liké » la page de votre concurrent. Elles visent les clients que vous ciblez, c&rsquo;est donc un bon point de départ.</p>
+<p>Ensuite, ajoutez à votre site Web un <a href="https://developers.facebook.com/docs/ads-for-websites/website-custom-audiences/getting-started" target="_blank">pixel de suivi d&rsquo;audience personnalisée Facebook</a>. Facebook s&rsquo;en sert pour suivre les utilisateurs qui ont visité votre site Web, puis pour tenter d&rsquo;établir un profil pour lequel vous pourrez créer des publicités encore plus ciblées.</p>
+<p>Vous pouvez aussi lancer un sondage sur votre page de destination, offrir des chèques-cadeaux ou organiser un concours pour inciter les visiteurs de votre site à répondre à quelques questions précises (2 ou 3 maximum). Ces informations vous seront utiles pour cerner plus précisément encore votre clientèle.</p>
+<h2 style="color: #3a7692">Les boutiques qui font mouche</h2>
+<p>Voici quelques exemples de boutiques en ligne qui ont efficacement identifié leur client idéal en se focalisant sur des besoins spécifiques, puis en adaptant ensuite leur message en fonction.</p>
+<p><a href="http://www.ecommercefuel.com/" target="_blank">Andrew Youderian d&rsquo;Ecommerce Fuel</a> tenait une boutique de propulseurs électriques. Il a commencé par proposer divers types de propulseurs électriques, avant de se rendre compte que les produits les plus haut de gamme représentaient la majeure partie de ses ventes. Lors de la refonte de son site Web, il a donc décidé de se concentrer sur les propulseurs électriques les plus sophistiqués, boostant ainsi son taux de conversion.</p>
+<p>Pour son autre boutique qui vend des radios, il a constaté que la plupart des clients utilisaient ses produits pour des véhicules tout-terrain. Ainsi, il a <a href="http://www.ecommercefuel.com/ecommerce-website-design/" target="_blank">repensé sa stratégie marketing pour se focaliser sur cette utilisation spécifique</a>.</p>
+<p>De la même façon, <a href="http://bootstrappingecommerce.com/picking-the-right-niche/" target="_blank">les créateurs de Drones Etc. se sont rendu compte</a> que leurs produits n&rsquo;étaient pas seulement destinés aux personnes qui en faisaient un usage récréatif. De fait, les drones peuvent être utilisés par les agents immobiliers pour survoler et photographier les propriétés. Après une brève recherche, il s&rsquo;est avéré que le marché des agents immobiliers n&rsquo;était pas exploité ; ils ont donc concentré leurs efforts de ce côté &#8211; avec un succès retentissant.</p>
+<h2 style="color: #3a7692">Conclusion</h2>
+<p>J&rsquo;espère vous avoir convaincu de l&rsquo;importance de cerner votre clientèle cible, même si la première tentative s&rsquo;apparente plutôt à une estimation. Votre profil d&rsquo;acheteur cible va évoluer en même temps que votre boutique : ne laissez pas les petites incertitudes du début vous empêcher de mettre en pratique vos idées.</p>
+<p>Lorsque vous commencez à affiner votre marché cible, gardez en tête ces quelques principes :</p>
+<ul style="padding-left: 30px">
+<li>En ciblant tout le monde, vous ne ciblez personne.</li>
+<li>Faites des recherches et utilisez Facebook et vos données de ventes pour créer vos premiers profils d&rsquo;acheteurs.</li>
+<li>N&rsquo;hésitez pas à esquisser un profil simple avant de le retravailler à mesure que votre boutique se développe.</li>
+<li>Pour être efficaces, vos campagnes marketing doivent être ciblées plutôt que basées sur de vagues généralités.</li>
+</ul>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/comment-atteindre-efficacement-votre-coeur-de-cible/">Comment atteindre efficacement votre coeur de cible ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/comment-atteindre-efficacement-votre-coeur-de-cible/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Les 10 questions que doivent se poser les entrepreneurs avant de se lancer dans l’e-commerce</title>
+		<link>https://www.prestashop.com/blog/fr/les-10-questions-doivent-se-poser-les-entrepreneurs-se-lancer-commerce/</link>
+		<comments>https://www.prestashop.com/blog/fr/les-10-questions-doivent-se-poser-les-entrepreneurs-se-lancer-commerce/#comments</comments>
+		<pubDate>Thu, 26 Feb 2015 15:51:01 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18372</guid>
+		<description><![CDATA[<p>L’avantage avec le e-commerce c’est que vous pouvez lancer votre boutique en ligne dès que vous avez trouvé L’idée, Le produit ou encore Le concept qui fera la différence. Et avec PrestaShop, vous pouvez la créer très rapidement avec 0€ en poche ! Mais avant de vous lancer dans l’e-business, voici quelques questions qui valent [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/les-10-questions-doivent-se-poser-les-entrepreneurs-se-lancer-commerce/">Les 10 questions que doivent se poser les entrepreneurs avant de se lancer dans l’e-commerce</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>L’avantage avec le e-commerce c’est que vous pouvez lancer votre boutique en ligne dès que vous avez trouvé L’idée, Le produit ou encore Le concept qui fera la différence. Et avec PrestaShop, vous pouvez la créer très rapidement avec 0€ en poche ! Mais avant de vous lancer dans l’e-business, voici quelques questions qui valent la peine de se poser.</p>
+<p>La semaine dernière PrestaShop exposait au Salon des Entrepreneurs à Paris où 65 000 porteurs de projets sont allés à la rencontre des startups et des leaders de l’industrie. Les visiteurs ont été très nombreux à s’arrêter sur le stand de PrestaShop pour découvrir <a href="https://www.prestashop.com/">PrestaShop Cloud</a>, notre logiciel gratuit qui permet en quelques clics de créer sa boutique de vente en ligne le plus simplement du monde ! En plus de répondre aux questions sur notre plateforme gratuite, notre expert Christophe Bernon est revenu sur les fondamentaux à ne pas manquer avant la création d’une boutique en ligne, à l’occasion de deux ateliers destinés aux porteurs de projets.<br />
+<span id="more-18372"></span></p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/name.png" width="50" height="50" /> Quel nom de domaine choisir ?</h2>
+<p><a href="https://www.prestashop.com/blog/fr/comment-trouver-le-meilleur-nom-de-domaine-pour-votre-boutique-en-ligne/">Le nom de domaine que vous choisirez aura un impact</a> sur le trafic de votre site. Il serait judicieux d’opter pour un nom de domaine pertinent lié à vos produits, à votre secteur ou tout simplement à votre nom de marque. La cohérence de cette stratégie vous sera rapidement bénéfique en termes de référencement et de trafic.</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/hosting.png" width="50" height="50" /> Comment bien choisir mon hébergeur?</h2>
+<p>L’hébergement est une question clé. Il peut être partagé ou dédié. Si vous êtes en phase de démarrage et que vous n’avez qu’une douzaine de produits à vendre, vous pouvez dans un premier temps partager l’hébergement. C’est une bonne alternative peu coûteuse avant de migrer vers une solution d’hébergement dédiée plus puissante et plus rapide, qui accompagnerait au mieux votre croissance. Vous pouvez par exemple opter pour la solution hébergée gratuite <a href="https://www.prestashop.com/">de PrestaShop Cloud</a>. Voici quelques <a href="https://www.prestashop.com/blog/en/how-to-choose-an-ecommerce-web-hosting-provider-for-your-online-store/">pistes</a> qui vous aideront à choisir la meilleure option : la rapidité, le service client, le stockage, le nom de domaine et sécurité.</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/payment.png" width="50" height="50" /> Quelles solutions de paiement dois-je proposer ?</h2>
+<p>La validation du panier est un moment clé dans l’expérience d’achat. La confiance joue un rôle majeur : vos clients ont besoin de se sentir en sécurité lorsqu’ils procèdent au paiement. Si vous démarrez dans l’e-commerce, il est important de s’entourer de partenaires qui ont déjà prouvé leur efficacité depuis longtemps comme Paypal. Puis, pour accompagner votre développement, vous pourrez ensuite ajouter de nouveaux services de paiement basés sur les préférences de vos clients. Consultez l’ensemble des <a href="https://www.prestashop.com/fr/modules-de-paiement">options</a> qui s’offrent à vous avant de faire votre choix !</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/shipping.png" width="50" height="50" /> Qu’en est-il de la livraison et de la logistique?</h2>
+<p>Il est assez simple d’ajouter votre touche personnelle dans les colis lorsque vous démarrez. Mais au fur et à mesure de votre croissance, vous devrez penser en d’autres termes : inventaire automatique, gestion de commande, logistique optimisée… Ces méthodes deviendront à termes économiques et vous feront gagner du temps! La plupart des commerçants commencent par emballer et expédier leurs produits eux-mêmes. Puis, lorsque cela prend des proportions plus importantes, vous sous-traiterez la logistique. Si vous optez pour le dropshipping, prenez le temps d’adapter la fiche technique de votre produit, auquel cas votre boutique se noiera parmi toutes celles qui utiliseraient le même transporteur. Au bout d’un certain temps, le coût de la sous-traitance l’emportera sur les bénéfices. C’est alors que <a href="https://www.prestashop.com/blog/fr/gerez-la-logistique-de-votre-site-e-commerce-en-interne/">l’embauche d’un collaborateur dédié à la logistique</a> s’impose et devient plus rentable.</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/communication.png" width="50" height="50" /> Comment rendre ma boutique plus visible ?</h2>
+<p>Une fois votre boutique en place, comment <a href="https://www.prestashop.com/blog/fr/5-etapes-cles-linternationalisation-de-votre-boutique-en-ligne/">attirer plus de trafic</a> ? En plus d’optimiser le contenu de votre site pour le SEO, vous pouvez par exemple créer un blog que vous mettrez à jour régulièrement. Le contenu est clé dans la stratégie de marketing et communication ! Pensez également aux réseaux sociaux. Ils représentent un outil de visibilité que vous ne pouvez pas négliger. De plus, il s’agit du meilleur endroit pour apprendre à connaitre vos clients et rester en contact avec eux. N’hésitez pas non plus à mettre le contenu de votre site e-commerce fréquemment à jour, actualiser les descriptions de vos produits, ajouter de nouveaux produits ou encore de nouvelles catégories, et enfin mettre en avant vos best-sellers. Votre business est actif et en pleine croissance, il faut donc que votre boutique reflète ce dynamisme !</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/user.png" width="50" height="50" /> Comment fidéliser mes clients ?</h2>
+<p>Une fois que vous parvenez à attirer des clients, il est temps de penser à un moyen de les convertir en clients récurrents. Plus vous parviendrez à être en contact direct et régulier avec vos clients, de façon simple et agréable, <a href="https://www.prestashop.com/blog/fr/3-idees-efficaces-pour-fideliser-vos-clients/">plus vous les fidéliserez</a>. Les services client et après-vente de manière générale doivent être le reflet de votre philosophie. A noter qu’il est important de soigner et de répondre aux insatisfactions clients car les critiques négatives se diffusent très vite sur internet.</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/exchangereturn.png" width="50" height="50" /> Comment gérer les échanges et les retours produits ?</h2>
+<p><a href="https://www.prestashop.com/blog/fr/comment-rediger-une-politique-de-retours-produits-claire-et-efficace-pour-les-e-commercants/">La gestion des échanges et des retours produits</a> en disent long sur l’esprit de votre service client et votre philosophie d’entreprise. La confiance qu’entretient une boutique avec son client prend tout son sens lors de ces occasions. Il faut établir un processus clair qui éviterait toute sorte de litige : qu’est ce qui peut ou qui ne peut pas être retourné ; la politique de remboursement ; l’adresse d’expédition ; les échéances des retours ; les conditions d’échanges génériques et spéciales (liées aux soldes par exemple).</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/plateform.png" width="50" height="50" /> Qu’est-ce qu’une plateforme e-commerce et comment puis-je m’en procurer une à moindre coût ?</h2>
+<p>Une plateforme e-commerce est une solution logicielle qui vous permet de créer une boutique en ligne. Avec <a href="https://www.prestashop.com/">PrestaShop Cloud</a> vous pouvez créer votre boutique en ligne en quelques clics et gratuitement ! Pour cela, il vous suffit de vous rendre sur le site de PrestaShop et d’indiquer votre nom de domaine et adresse email. Vouée à faire sauter les barrières techniques et financières, cette plateforme a pour ambition de mettre à disposition de tous les porteurs de projet une solution simple d’utilisation, gratuite et opérationnelle de suite !<br />
+N’hésitez pas à consulter cet article si vous souhaitez vous familiariser avec tout <a href="https://www.prestashop.com/blog/fr/25-termes-que-tous-les-marchands-en-ligne-devraient-connaitre/">tout le vocabulaire de l’e-Commerce</a>.</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/headset2.png" width="50" height="50" /> Si j’ai besoin d’aide, vers qui puis-je me tourner ?</h2>
+<p>PrestaShop dispose de nombreux pack supports qui pourraient soutenir le développement de votre boutique. De plus, PrestaShop compte plus de <a href="https://www.prestashop.com/fr/agences-web-partenaires">150 agences web et développeurs freelances</a>, qui seraient heureux de vous accompagner dans votre projet e-commerce !</p>
+<h2 style="color: #366581"><img style="margin-right: 2px" alt="icon" src="http://www.prestashop.com/blog/fr/files/2015/02/rocket.png" width="50" height="50" /> Comment me lancer dès maintenant sans crainte ?</h2>
+<p>Jetez-vous à l’eau avec PrestaShop ! Si vous avez L’idée, profitez alors du jeu concours mis en place par PrestaShop pour démarrer votre boutique en ligne <a href="http://ebusinessplan.prestashop.com/" target="_blank">eBusiness Plan Competition</a> : envoyez-nous votre idée et gagnez un des 5 prix qui vous feront bénéficier de soutien dans le lancement de votre boutique avec <a href="https://www.prestashop.com/">PrestaShop Cloud</a>. <strong>N’hésitez plus et lancez-vous ! Deadline : 6 mars 2015</strong></p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/les-10-questions-doivent-se-poser-les-entrepreneurs-se-lancer-commerce/">Les 10 questions que doivent se poser les entrepreneurs avant de se lancer dans l’e-commerce</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/les-10-questions-doivent-se-poser-les-entrepreneurs-se-lancer-commerce/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Présentation de Google Analytics : Pourquoi Google Analytics fait-il tant parler de lui ?</title>
+		<link>https://www.prestashop.com/blog/fr/presentation-google-analytics-google-analytics-fait-il-tant-parler/</link>
+		<comments>https://www.prestashop.com/blog/fr/presentation-google-analytics-google-analytics-fait-il-tant-parler/#comments</comments>
+		<pubDate>Wed, 25 Feb 2015 09:30:53 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Partenaires PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18367</guid>
+		<description><![CDATA[<p>Si vous travaillez dans l&#8217;e-commerce, vous avez probablement entendu parler de Google Analytics (GA), que ce soit par votre développeur, par votre designer, ou dans l&#8217;une de nos newsletters. Google Analytics est l&#8217;un des outils en ligne les plus performants mais aussi l’un des plus populaires en partie grâce à sa mise à disposition gratuite [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/presentation-google-analytics-google-analytics-fait-il-tant-parler/">Présentation de Google Analytics : Pourquoi Google Analytics fait-il tant parler de lui ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Si vous travaillez dans l&rsquo;e-commerce, vous avez probablement entendu parler de Google Analytics (GA), que ce soit par votre développeur, par votre designer, ou dans l&rsquo;une de nos newsletters. Google Analytics est l&rsquo;un des outils en ligne les plus performants mais aussi l’un des plus populaires en partie grâce à sa mise à disposition gratuite en version standard. C&rsquo;est pour cette raison que nous avons intégré la fonctionnalité Google Analytics dans le logiciel e-commerce de PrestaShop.</p>
+<p>Vous êtes sans doute en train de vous dire : « C&rsquo;est bien beau, tout ça, mais qu&rsquo;est-ce que c&rsquo;est, exactement, <a href="http://addons.prestashop.com/fr/statistiques-analyses-modules-prestashop/4168-ganalytics.html" target="_blank">Google Analytics</a> ? » Aujourd&rsquo;hui, nous allons vous expliquer en des termes simples, sans jargon technique, ce qu&rsquo;est Google Analytics.</p>
+<p><span id="more-18367"></span></p>
+<h2 style="color: #f7981d">Google Analytics permet de comprendre le chemin emprunté par vos clients.</h2>
+<p>En installant le module Google Analytics sur votre boutique en ligne, vous pourrez voir les actions réalisées en ligne par vos clients. Dans une boutique physique, cela reviendrait à avoir un collaborateur chargé de noter les faits et gestes de chaque client dans le magasin. Et voici ce qu&rsquo;il écrirait : « Femme de 25-30 ans entre dans le magasin à 15h, se rend dans le nouveau rayon bleu, regarde 3 articles et va directement en caisse pour les acheter tous les 3. »</p>
+<p>Google Analytics indique les liens sur lesquels vos clients cliquent. Si l&rsquo;on reprend l&rsquo;exemple précédent, GA indiquerait que le client a cliqué sur l&rsquo;image bleue, qu&rsquo;il est arrivé dans la catégorie correspondante, qu&rsquo;il a parcouru 3 produits et a ensuite fermé la fenêtre, ayant passé en tout 5 minutes sur votre site Web. Google Analytics donne également des informations simples d&rsquo;ordre démographique (âge, sexe, etc.) et des informations détaillées comme le temps passé par un client à regarder chaque article.</p>
+<p>GA vous permet de mieux comprendre l&rsquo;activité de vos clients avant même qu&rsquo;ils n&rsquo;entrent sur votre site. Vous savez ainsi d&rsquo;où viennent vos visiteurs, ce qui vous donne une meilleure idée de la façon dont ils sont arrivés sur votre site.</p>
+<h2 style="color: #f7981d">Google Analytics convertit les données en informations.</h2>
+<p>En consultant vos données, vous comprenez le parcours de chaque individu sur votre site. Oui, et alors ? A quoi cela peut-il vous servir de savoir que quelqu&rsquo;un a cliqué sur votre image bleue et est resté 5 minutes sur votre site ? Pas grand-chose, sans élément de comparaison les données n&rsquo;ont pas d&rsquo;intérêt parce qu&rsquo;elles ne vous apprennent rien sur votre boutique.</p>
+<p>GA prend toutes les données collectées et les convertit en informations utiles pour votre site Web. Il vous indique, par exemple, le temps passé en moyenne sur votre site, en additionnant le temps passé par tous les clients et en divisant le total par le nombre de visiteurs. À l&rsquo;aide de cette information, vous pouvez alors déterminer si la personne qui est restée 5 minutes sur votre site a passé plus ou moins de temps que votre client type.</p>
+<p>Voici des exemples d&rsquo;informations fournies par Google Analytics :</p>
+<ul style="padding-left: 30px">
+<li>Le trafic des visiteurs sur une période donnée</li>
+<li>Le ratio anciens visiteurs/nouveaux visiteurs</li>
+<li>Les sources qui génèrent le plus de visites</li>
+<li>Les pistes identifiées grâce aux campagnes menées sur les réseaux sociaux</li>
+<li>Les produits les plus souvent ajoutés au panier</li>
+<li>Le comportement d&rsquo;achat de vos clients</li>
+</ul>
+<h2 style="color: #f7981d">Google Analytics vous aide à prendre des décisions intelligentes.</h2>
+<p>Grâce à Google Analytics, vous pouvez obtenir des statistiques et des informations sur tous les sujets en lien avec votre site. Mais, toutes les informations ne sont pas forcément pertinentes. Par exemple, si vous vendez uniquement aux États-Unis, vous n&rsquo;êtes certainement pas intéressé par les 3 visiteurs venant du Brésil. En revanche, vous voudrez peut-être savoir quelles pages ont conduit vos visiteurs des États-Unis jusqu&rsquo;à votre site et peut-être même dans quel État ils se trouvent.</p>
+<p>En paramétrant GA, vous pouvez créer des rapports basés uniquement sur les informations qui vous intéressent à un moment donné. Vous pouvez créer un rapport marketing qui indique le trafic entrant, puis un rapport financier portant uniquement sur le trafic issu de certaines campagnes Google Adwords. Chaque rapport vous donne les informations dont vous avez besoin à un moment donné. Une fois que vous êtes prêt à vous lancer, jetez un œil à cet article sur notre blog <a href="https://www.prestashop.com/blog/fr/10-statistiques-e-commerce-essentielles-pour-google-analytics/">10 statistiques e-commerce essentielles pour Google Analytics</a>.</p>
+<h2 style="color: #f7981d">Google Analytics permet de booster les ventes.</h2>
+<p>Les sites e-commerce étant plus complexes que les sites vitrines, l&rsquo;activité des clients est également plus difficile à suivre. GA a récemment lancé le module <a href="https://support.google.com/analytics/answer/6014841?hl=fr&amp;ref_topic=6014839" target="_blank">Enhanced Ecommerce</a> (e-commerce amélioré). Vous pouvez désormais surveiller les habitudes d&rsquo;achat de vos clients en comprenant comment ces derniers consultent les produits, les ajoutent dans leur panier et surtout, comment ils les achètent.</p>
+<p>Le module <a href="http://analytics.blogspot.com/2014/11/brian-gavin-diamonds-sees-60-increase.html" target="_blank">Enhanced Ecommerce dans Google Analytics</a> vous donne les informations suivantes :</p>
+<ul style="padding-left: 30px">
+<li>Quantité moyenne de produits par commande</li>
+<li>Montant moyen par transaction</li>
+<li>Dernière page visitée avant l&rsquo;achat</li>
+<li>Efficacité des suggestions de ventes croisées et ventes additionnelles</li>
+<li>Nombre de clics effectués sur les bandeaux publicitaires ou les promotions internes</li>
+</ul>
+<h2 style="color: #f7981d">Ce qu&rsquo;il faut retenir</h2>
+<p>Google Analytics collecte et traite les données de votre site pour générer des informations utiles qui vous aideront à prendre des décisions intelligentes afin de stimuler vos ventes.</p>
+<hr align="left" width="20%" />
+<p>Maintenant que Google Analytics n&rsquo;a plus de secret pour vous, il ne tient qu&rsquo;à vous de commencer à suivre l&rsquo;activité de vos clients sur votre boutique en ligne. Si vous n&rsquo;avez pas encore installé le <a href="http://addons.prestashop.com/fr/statistiques-analyses-modules-prestashop/4168-ganalytics.html">Module Google Analytics</a> téléchargez-le dès maintenant ! Vous pourrez ensuite commencer à <a href="https://www.prestashop.com/blog/fr/utilisez-google-analytics-pour-ameliorer-le-marketing-de-votre-boutique-en-ligne/">utiliser Google Analytics pour améliorer la stratégie marketing de votre boutique en ligne</a>.</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/presentation-google-analytics-google-analytics-fait-il-tant-parler/">Présentation de Google Analytics : Pourquoi Google Analytics fait-il tant parler de lui ?</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/presentation-google-analytics-google-analytics-fait-il-tant-parler/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Les 5 avantages de la vente de produits numériques en ligne</title>
+		<link>https://www.prestashop.com/blog/fr/les-5-avantages-vente-produits-numeriques-en-ligne/</link>
+		<comments>https://www.prestashop.com/blog/fr/les-5-avantages-vente-produits-numeriques-en-ligne/#comments</comments>
+		<pubDate>Wed, 18 Feb 2015 09:30:36 +0000</pubDate>
+		<dc:creator><![CDATA[Magali Ferber]]></dc:creator>
+				<category><![CDATA[Conseils E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=18359</guid>
+		<description><![CDATA[<p>Jeux, livres électroniques, films, musique, designs graphiques, applications informatiques&#8230; aujourd&#8217;hui, de nombreux produits numériques peuvent être achetés en ligne. Nous avons invité Jimena Diaz de Vivar, propriétaire de la boutique PrestaShop Dulzura de papel, à nous faire part de son expérience en vente de modèles graphiques thématiques à imprimer pour diverses occasions et célébrations. Parmi [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/les-5-avantages-vente-produits-numeriques-en-ligne/">Les 5 avantages de la vente de produits numériques en ligne</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Jeux, livres électroniques, films, musique, designs graphiques, applications informatiques&#8230; aujourd&rsquo;hui, de nombreux produits numériques peuvent être achetés en ligne. Nous avons invité Jimena Diaz de Vivar, propriétaire de la boutique PrestaShop <a href="http://dulzuradepapel.com/" target="_blank">Dulzura de papel</a>, à nous faire part de son expérience en vente de modèles graphiques thématiques à imprimer pour diverses occasions et célébrations. Parmi ces modèles on retrouve notamment des invitations, des affiches, des serviettes en papier et des produits de présentation alimentaire.</p>
+<p>Découvrez les cinq avantages qu&rsquo;elle nous a présentés. Si vous avez pour projet de vendre vos créations numériques en ligne, c&rsquo;est peut-être exactement ce qu&rsquo;il faut pour rendre votre activité florissante.<br />
+<span id="more-18359"></span></p>
+<h2 style="color: #b23485">Un stock illimité</h2>
+<p>Les produits numériques ont l&rsquo;avantage de ne jamais être « en rupture de stock ». Vous avez une opportunité de vente dès lors qu&rsquo;un client est intéressé par l&rsquo;achat d&rsquo;un produit.</p>
+<p>Mais cela ne veut pas dire que vos produits dureront toujours. Comme tout autre produit, ils finiront par devenir obsolètes. Jimena, par exemple, actualise à chaque saison les designs graphiques de ses produits pour refléter les nouvelles tendances. C&rsquo;est important de renouveler sa gamme de produits et de rester en phase avec les besoins des clients.</p>
+<h2 style="color: #b23485">De faibles coûts</h2>
+<p>Il arrive parfois que les coûts d&rsquo;inventaire représentent jusqu&rsquo;à 75 % du prix de vente du produit. Cependant, si vous créez votre propre produit numérique par exemple, en écrivant un livre et en le vendant en ligne, cela réduit votre coût d&rsquo;inventaire à 0 €, diminuant ainsi considérablement le coût de lancement de votre boutique en ligne.</p>
+<p>Mais vous pouvez également faire des économies à bien d&rsquo;autres niveaux. En l&rsquo;occurrence, sans inventaire matériel, vous évitez également les coûts liés à l&rsquo;expédition des produits, au stockage et à la gestion d&rsquo;un entrepôt.</p>
+<h2 style="color: #b23485">Des marchés internationaux</h2>
+<p>Contrairement aux produits matériels, les produits numériques ne connaissent pas de frontières et ne sont donc pas soumis aux frais de douanes ni aux restrictions d&rsquo;expédition. Avec la vente de produits téléchargeables, peu importe que le client soit de l&rsquo;autre côté du globe, toute personne disposant d&rsquo;une connexion internet est à votre portée. « On peut atteindre des millions de clients potentiels se trouvant à des milliers de kilomètres », affirme Jimena.</p>
+<p>Les commandes internationales et nationales sont très similaires. Comme l&rsquo;explique Jimena, « PretaShop simplifie la vente à l&rsquo;internationale avec la géolocalisation par adresse IP qui permet d&rsquo;ajuster la monnaie et la langue affichées sur votre boutique en ligne ainsi que le mode de paiement correspondant. Tout est déjà prêt ! »</p>
+<h2 style="color: #b23485">Des horaires flexibles</h2>
+<p>Être à son compte offre indéniablement de nombreuses libertés. Mais la vente de biens matériels vous limite automatiquement en termes d&rsquo;emplacement des bureaux et des horaires d&rsquo;ouverture. Par exemple, quand une commande est passée, il faut préparer les produits, les emballer et les étiqueter avant la fin de la journée afin de pouvoir les expédier en temps et en heure.</p>
+<p>Les biens numériques ne connaissent pas de tels impératifs. Vous pouvez organiser votre temps et votre travail où et quand vous le souhaitez. La commande est « expédiée » virtuellement au client, de manière automatique. Tout cela est possible via un système automatisé, ce qui nous conduit à l&rsquo;avantage qui suit.</p>
+<h2 style="color: #b23485">Un système automatisé</h2>
+<p>Le logiciel PrestaShop peut être configuré pour que les produits soient automatiquement envoyés par e-mail ou disponibles au téléchargement après l&rsquo;achat. Les e-commerçants n&rsquo;ont plus qu&rsquo;à s&rsquo;assurer du bon fonctionnement du système. « Ce qui m&rsquo;a incité à créer Dulzura de Papel, c&rsquo;est la flexibilité que mm&rsquo;assurait une boutique en ligne. Une fois que tout est configuré et que la boutique fonctionne bien, il n&rsquo;y a plus rien à faire. Les produits se vendent tout seuls », explique Jimena.</p>
+<h2 style="color: #b23485">Key takeaways</h2>
+<ul style="padding-left: 30px">
+<li>Plus de rupture de stock avec les biens numériques</li>
+<li>Réduction des coûts d&rsquo;inventaire, d&rsquo;expédition et d&rsquo;entreposage</li>
+<li>Accès aux marchés internationaux sans démarches compliquées</li>
+<li>Flexibilité de travail aux lieux et moments qui vous conviennent</li>
+<li>Fonctions automatisées pour faciliter la vente</li>
+</ul>
+<p>Êtes-vous prêt à vous lancer dans la vente de produits numériques en ligne avec PrestaShop ? Parcourez cette <a href="http://www.matthewwoodward.co.uk/tutorials/sell-digital-products-online-prestashop/" target="_blank">série de tutoriels vidéos</a> created by Matthew Woodward. The series will walk you through the entire process of setting up your own digital online shopcréés par Matthew Woodward afin de vous guider tout au long du processus de configuration de votre boutique de produits numériques en ligne.</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/les-5-avantages-vente-produits-numeriques-en-ligne/">Les 5 avantages de la vente de produits numériques en ligne</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/les-5-avantages-vente-produits-numeriques-en-ligne/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
