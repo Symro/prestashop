@@ -7,8 +7,8 @@ cache/smarty/compile/*
 cache/tcpdf/*
 !cache/tcpdf/index.php
 
-config/xml/*.xml
-config/settings.inc.php
+#config/xml/*.xml
+#config/settings.inc.php
 
 log/*.log
 
