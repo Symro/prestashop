@@ -21,7 +21,7 @@
                    {/if}
                </div>
             </div>
-            {/foreach} 
+            {/foreach}
               </div>
               <div style="cursor: pointer;" class="next"><i class="icon-next"></i></div>
               <div style="cursor: pointer;" class="prev unselectable"><i class="icon-prev"></i></div>
@@ -33,15 +33,15 @@
 
 </div>
 </div>
-</section>                          
-        
-  
+</section>
+
+
     {/if}
     <!-- /Module HomeSlider -->
 {/if}
 
-{if $webgroup24.wg24_home_slid_b_ser_ms_text_shine !=""}
+<!-- {if $webgroup24.wg24_home_slid_b_ser_ms_text_shine !=""}
 <section class="service-section">
 {$webgroup24.wg24_home_slid_b_ser_ms_text_shine|html_entity_decode}
 </section>
-{/if}   
+{/if}    -->

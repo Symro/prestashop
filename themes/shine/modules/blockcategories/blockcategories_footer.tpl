@@ -27,22 +27,9 @@
 
 <!-- /Block categories module -->
 <div class="footer-column">
-      <h4>{l s='Categories' mod='blockcategories'}</h4>
-      <ul class="links tree {if $isDhtml}dhtml{/if} add_span_in_class">
-        {foreach from=$blockCategTree.children item=child name=blockCategTree}
-                {if $smarty.foreach.blockCategTree.last}
-                        {include file="$branche_tpl_path" node=$child last='true'}
-                {else}
-                        {include file="$branche_tpl_path" node=$child}
-                {/if}
+    <h4>À propos</h4>
+    <p>CocktailShop est photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.</p>
+    <p>©2015 - CocktailShop</p>
+</div>
 
-                {if ($smarty.foreach.blockCategTree.iteration mod $numberColumn) == 0 AND !$smarty.foreach.blockCategTree.last}
-        </ul>
-        <ul class="tree {if $isDhtml}dhtml{/if}">
-                {/if}
-        {/foreach}
-        </ul>
-    </div>
-    
-        
-         
+

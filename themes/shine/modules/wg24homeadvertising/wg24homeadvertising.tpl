@@ -1,5 +1,5 @@
 
-{if $webgroup24.wg24_home_b_off_bann_shine=="show"}
+<!-- {if $webgroup24.wg24_home_b_off_bann_shine=="show"}
 <section class="offer-banner">
 <div class="offer-banner-section">
     {$i=1}
@@ -16,5 +16,5 @@
 {/foreach}
     </div>
 </section>
-{/if}    
-    
+{/if}
+     -->

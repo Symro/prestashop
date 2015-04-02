@@ -12,28 +12,28 @@
 *}
 
 {if !$content_only}
-    {if $page_name !='index'}     
+    {if $page_name !='index'}
     </article>
-</section>   
-{/if} 
-</div>    
+</section>
+{/if}
+</div>
 
 
-{if $page_name !='index'}  
+{if $page_name !='index'}
     {if $webgroup24.wg24_home_slid_b_ser_ms_text_shine !=""}
         <section class="service-section service-section1">
             {$webgroup24.wg24_home_slid_b_ser_ms_text_shine|html_entity_decode}
         </section>
-    {/if}   
-{/if}  
+    {/if}
+{/if}
 
 
 <footer>
     <div class="inner">
         {$HOOK_FOOTER}
     </div>
-    <div class="twitter-box">
-                <script type="text/javascript" charset="utf-8" src="{$img_dir}twitteroauth/jquery.tweet.js"></script>   
+<!--     <div class="twitter-box">
+                <script type="text/javascript" charset="utf-8" src="{$img_dir}twitteroauth/jquery.tweet.js"></script>
                 <script type="text/javascript">
                     jQuery(document).ready(function($) {
                     $('.tweet_listing').tweet({
@@ -42,7 +42,7 @@
                     username: '{$webgroup24.wg24_twit_id_shine}',
                     loading_text: 'loading twitter feed...'
                 });
-          
+
         jQuery('.twitter-box ul.tweet_list').bxSlider({
         mode: 'vertical',
         pager: false,
@@ -58,60 +58,61 @@
     </div>
     </div>
     <div class="clear"></div>
-    <div style="text-align:center"> 
+    <div style="text-align:center">
         <a class="logo" href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
             <img  src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if $logo_image_width} width="{$logo_image_width}"{/if}{if $logo_image_height} height="{$logo_image_height}"{/if}/>
         </a>
     </div>
+    -->
 
-    {if $webgroup24.wg24_footer_cont_info_shine!=""}       
+    <!-- {if $webgroup24.wg24_footer_cont_info_shine!=""}
         <address>
             {$webgroup24.wg24_footer_cont_info_shine|html_entity_decode}
         </address>
-    {/if}	
+    {/if}
 
     <div class="footer-bottom">
         <div class="inner">
             <div class="coppyright">
 
-                {$webgroup24.wg24_footer_copy_text_shine|html_entity_decode} 
+                {$webgroup24.wg24_footer_copy_text_shine|html_entity_decode}
 
             </div>
             <div class="bottom_links">
                 <ul class="links">
-                    {if $webgroup24.wg24_fot_paypla_id_shine !=''}  
+                    {if $webgroup24.wg24_fot_paypla_id_shine !=''}
                         <li> <a href="{$webgroup24.wg24_fot_paypla_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/ppl.png" alt="PayPal"  /></a> </li>
-                            {/if}  
-                            {if $webgroup24.wg24_fot_visaelectron_id_shine !=''}  
+                            {/if}
+                            {if $webgroup24.wg24_fot_visaelectron_id_shine !=''}
                         <li> <a href="{$webgroup24.wg24_fot_visaelectron_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/ve.png" alt="VisaElectron" /></a></li>
-                            {/if} 
-                            {if $webgroup24.wg24_fot_discover_id_shine !=''}  
+                            {/if}
+                            {if $webgroup24.wg24_fot_discover_id_shine !=''}
                         <li> <a href="{$webgroup24.wg24_fot_discover_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/Dscr.png" alt="discover"  /></a></li>
-                            {/if} 
+                            {/if}
                             {if $webgroup24.wg24_fot_visa_id_shine !=''}
                         <li> <a href="{$webgroup24.wg24_fot_visa_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/Visa.png" alt="visa"  /></a></li>
-                            {/if}  
+                            {/if}
                             {if $webgroup24.wg24_fot_mastercard_id_shine !=''}
                         <li> <a href="{$webgroup24.wg24_fot_mastercard_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/MC.png" alt="mastercard"  /></a></li>
-                            {/if} 
-                            {if $webgroup24.wg24_fot_maestro_id_shine !=''} 
+                            {/if}
+                            {if $webgroup24.wg24_fot_maestro_id_shine !=''}
                         <li><a href="{$webgroup24.wg24_fot_maestro_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/Maestro.png" alt="Maestro"  /></a></li>
-                            {/if}   
-                            {if $webgroup24.wg24_fot_americanexpress_id_shine !=''} 
+                            {/if}
+                            {if $webgroup24.wg24_fot_americanexpress_id_shine !=''}
                         <li><a href="{$webgroup24.wg24_fot_americanexpress_id_shine}" onclick="target='_blank'"><img src="{$img_dir}payment/AmericanExpress.png" alt="americanexpress"  /></a></li>
-                            {/if}  
-                            {if $webgroup24.wg24_fot_paycon_1_shine !='' && $webgroup24.wg24_fot_cus_pay1_id_shine !=''} 
+                            {/if}
+                            {if $webgroup24.wg24_fot_paycon_1_shine !='' && $webgroup24.wg24_fot_cus_pay1_id_shine !=''}
                         <li><a href="{$webgroup24.wg24_fot_cus_pay1_id_shine}" onclick="target='_blank'"><img src=" {$webgroup24.wg24_fot_paycon_1_shine}" alt=""  /></a></li>
-                            {/if}    
-                            {if $webgroup24.wg24_fot_paycon_2_shine !='' && $webgroup24.wg24_fot_cus_pay2_id_shine !=''} 
+                            {/if}
+                            {if $webgroup24.wg24_fot_paycon_2_shine !='' && $webgroup24.wg24_fot_cus_pay2_id_shine !=''}
                         <li><a href="{$webgroup24.wg24_fot_cus_pay2_id_shine}" onclick="target='_blank'"><img src="{$webgroup24.wg24_fot_paycon_2_shine}" alt="" /></a></li>
-                            {/if}    
+                            {/if}
                 </ul>
             </div>
         </div>
-    </div>
+    </div>-->
 {/if}
-{include file="$tpl_dir./global.tpl"} 
+{include file="$tpl_dir./global.tpl"}
 </footer>
 
 <script type="text/javascript">
@@ -148,6 +149,6 @@
         </script>
  {if isset($webgroup24.wg24_them_custom_css_shine)}{$webgroup24.wg24_them_custom_css_shine|html_entity_decode}{/if}
 {if isset($webgroup24.wg24_them_custom_js_shine)}{$webgroup24.wg24_them_custom_js_shine|html_entity_decode}{/if}
-{if isset($webgroup24.wg24_thme_track_codes_shine)}{$webgroup24.wg24_thme_track_codes_shine|html_entity_decode}{/if}    
+{if isset($webgroup24.wg24_thme_track_codes_shine)}{$webgroup24.wg24_thme_track_codes_shine|html_entity_decode}{/if}
 </body>
 </html>

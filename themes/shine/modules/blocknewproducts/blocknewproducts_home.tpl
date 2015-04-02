@@ -44,9 +44,10 @@
 </section>
 
 
-{if $webgroup24.wg24_home_b_f_c_block_s_shine=="show"}
+<!-- {if $webgroup24.wg24_home_b_f_c_block_s_shine=="show"}
     <section class="our-features-box">
         {$webgroup24.wg24_home_b_c_content_shine|html_entity_decode}
     </section>
 {/if}
 
+ -->

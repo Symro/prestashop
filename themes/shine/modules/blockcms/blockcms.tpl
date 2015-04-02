@@ -66,7 +66,7 @@
 <!-- /Block CMS module -->
 {else}
     <!-- MODULE Block footer -->
-    <div class="footer-column">
+    <!-- <div class="footer-column">
         <h4>{l s='Information' mod='blockcms'}</h4>
         <ul class="links">
             {if !$PS_CATALOG_MODE}
@@ -108,7 +108,7 @@
         </ul>
         {$footer_text}
 
-    </div>
+    </div> -->
 
 
 

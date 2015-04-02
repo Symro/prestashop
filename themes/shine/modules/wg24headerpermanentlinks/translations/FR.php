@@ -2,11 +2,11 @@
 
 global $_MODULE;
 $_MODULE = array();
-$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_00d3eca087a1b1198755288bf0b7a6b1'] = 'mon compte';
-$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_4840f4437f55e68a587d358090b948d1'] = 'Ma liste d\'envies';
-$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_15dbe498dab92f11f6ef309e2f3d20e0'] = 'comparateur ';
+$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_00d3eca087a1b1198755288bf0b7a6b1'] = 'Réservations';
+$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_4840f4437f55e68a587d358090b948d1'] = 'À propos';
+$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_15dbe498dab92f11f6ef309e2f3d20e0'] = 'Carte';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_12641546686fe11aaeb3b3c43a18c1b3'] = 'Votre panier';
-$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_6ff063fbc860a79759a7369ac32cee22'] = 'Commander ';
+$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_6ff063fbc860a79759a7369ac32cee22'] = 'Contact';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_4b877ba8588b19f1b278510bf2b57ebb'] = 'Connectez-vous me out';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_4394c8d8e63c470de62ced3ae85de5ae'] = 'Déconnexion ';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_3bbbad631029e3575da7a151bba4f37c'] = 'Connexion';
