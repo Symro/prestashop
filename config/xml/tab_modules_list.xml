@@ -61,6 +61,7 @@
 <module name="kerawen" position="2"/>
 <module name="neotaxesupdater" position="3"/>
 <module name="ordertaxprofitreport" position="4"/>
+<module name="avalaratax" position="5"/>
 </tab>
 <tab class_name="AdminDeliverySlip" display_type="slider_list">
 <module name="seur" position="1"/>
@@ -175,31 +176,32 @@
 <module name="paypal" position="7"/>
 <module name="paypalusa" position="8"/>
 <module name="desjardins" position="9"/>
-<module name="brinkscheckout" position="10"/>
-<module name="simplifycommerce" position="11"/>
-<module name="vtpayment" position="12"/>
-<module name="skybankaim" position="13"/>
-<module name="pigmbhpaymill" position="14"/>
-<module name="moneybookers" position="15"/>
-<module name="adyen" position="16"/>
-<module name="syspay" position="17"/>
-<module name="ogone" position="18"/>
-<module name="sofortbanking" position="19"/>
-<module name="hipay" position="20"/>
-<module name="klikandpay" position="21"/>
-<module name="realexredirect" position="22"/>
-<module name="payplug" position="23"/>
-<module name="authorizeaim" position="24"/>
-<module name="bluesnap" position="25"/>
-<module name="atos" position="26"/>
-<module name="cmcicpaiement" position="27"/>
-<module name="paybox" position="28"/>
-<module name="lacaixa" position="29"/>
-<module name="qiwi" position="30"/>
-<module name="worldpay" position="31"/>
-<module name="cashondelivery" position="32"/>
-<module name="bankwire" position="33"/>
-<module name="cheque" position="34"/>
+<module name="mercadopagobr" position="10"/>
+<module name="brinkscheckout" position="11"/>
+<module name="simplifycommerce" position="12"/>
+<module name="vtpayment" position="13"/>
+<module name="skybankaim" position="14"/>
+<module name="pigmbhpaymill" position="15"/>
+<module name="moneybookers" position="16"/>
+<module name="adyen" position="17"/>
+<module name="syspay" position="18"/>
+<module name="ogone" position="19"/>
+<module name="sofortbanking" position="20"/>
+<module name="hipay" position="21"/>
+<module name="klikandpay" position="22"/>
+<module name="realexredirect" position="23"/>
+<module name="payplug" position="24"/>
+<module name="authorizeaim" position="25"/>
+<module name="bluesnap" position="26"/>
+<module name="atos" position="27"/>
+<module name="cmcicpaiement" position="28"/>
+<module name="paybox" position="29"/>
+<module name="lacaixa" position="30"/>
+<module name="qiwi" position="31"/>
+<module name="worldpay" position="32"/>
+<module name="cashondelivery" position="33"/>
+<module name="bankwire" position="34"/>
+<module name="cheque" position="35"/>
 </tab>
 <tab class_name="AdminCarriers" display_type="slider_list">
 <module name="seur" position="1"/>
@@ -246,7 +248,13 @@
 <tab class_name="AdminLocalization" display_type="slider_list">
 <module name="avalaratax" position="1"/>
 </tab>
+<tab class_name="AdminZones" display_type="slider_list">
+<module name="avalaratax" position="1"/>
+</tab>
 <tab class_name="AdminCountries" display_type="slider_list">
+<module name="avalaratax" position="1"/>
+</tab>
+<tab class_name="AdminCurrencies" display_type="slider_list">
 <module name="avalaratax" position="1"/>
 </tab>
 <tab class_name="AdminTaxes" display_type="slider_list">
@@ -256,6 +264,7 @@
 <tab class_name="AdminTaxRulesGroup" display_type="slider_list">
 <module name="vatnumber" position="1"/>
 <module name="banipmod" position="2"/>
+<module name="avalaratax" position="3"/>
 </tab>
 <tab class_name="AdminPreferences" display_type="slider_list">
 <module name="prediggo" position="1"/>
@@ -297,6 +306,9 @@
 <module name="prediggo" position="1"/>
 <module name="pm_advancedsearch4" position="2"/>
 </tab>
+<tab class_name="AdminPerformance" display_type="slider_list">
+<module name="ovhhosting" position="1"/>
+</tab>
 <tab class_name="AdminEmails" display_type="slider_list">
 <module name="sendinblue" position="1"/>
 <module name="mailjet" position="2"/>
@@ -306,6 +318,12 @@
 <module name="mynewsletter" position="6"/>
 <module name="mailchimp" position="7"/>
 <module name="remarkety" position="8"/>
+</tab>
+<tab class_name="AdminBackup" display_type="slider_list">
+<module name="ovhhosting" position="1"/>
+</tab>
+<tab class_name="AdminRequestSql" display_type="slider_list">
+<module name="ovhhosting" position="1"/>
 </tab>
 <tab class_name="AdminAdminPreferences" display_type="slider_list">
 <module name="cgvhaas" position="1"/>

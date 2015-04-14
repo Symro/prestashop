@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 02 Avril 2015 à 02:17
+-- Généré le :  Mar 14 Avril 2015 à 15:22
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -491,7 +491,7 @@ CREATE TABLE IF NOT EXISTS `ps_address` (
   KEY `id_manufacturer` (`id_manufacturer`),
   KEY `id_supplier` (`id_supplier`),
   KEY `id_warehouse` (`id_warehouse`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
 -- Contenu de la table `ps_address`
@@ -500,8 +500,9 @@ CREATE TABLE IF NOT EXISTS `ps_address` (
 INSERT INTO `ps_address` (`id_address`, `id_country`, `id_state`, `id_customer`, `id_manufacturer`, `id_supplier`, `id_warehouse`, `alias`, `company`, `lastname`, `firstname`, `address1`, `address2`, `postcode`, `city`, `other`, `phone`, `phone_mobile`, `vat_number`, `dni`, `date_add`, `date_upd`, `active`, `deleted`) VALUES
 (1, 8, 0, 1, 0, 0, 0, 'Mon adresse', 'My Company', 'DOE', 'John', '16, Main street', '2nd floor', '75002', 'Paris ', '', '0102030405', '', '', '', '2015-03-31 14:23:23', '2015-03-31 14:23:23', 1, 0),
 (2, 21, 32, 0, 0, 1, 0, 'supplier', 'Fashion', 'supplier', 'supplier', '767 Fifth Ave.', '', '10153', 'New York', '', '(212) 336-1440', '', '', '', '2015-03-31 14:23:23', '2015-03-31 14:23:23', 1, 0),
-(3, 21, 32, 0, 1, 0, 0, 'manufacturer', 'Fashion', 'manufacturer', 'manufacturer', '767 Fifth Ave.', '', '10154', 'New York', '', '(212) 336-1666', '', '', '', '2015-03-31 14:23:23', '2015-03-31 14:23:23', 1, 0),
-(4, 21, 9, 1, 0, 0, 0, 'My address', 'My Company', 'DOE', 'John', '16, Main street', '2nd floor', '33133', 'Miami', '', '0102030405', '', '', '', '2015-03-31 14:23:23', '2015-03-31 14:23:23', 1, 0);
+(3, 21, 32, 0, 1, 0, 0, 'manufacturer', 'Fashion', 'manufacturer', 'manufacturer', '767 Fifth Ave.', '', '10154', 'New York', '', '(212) 336-1666', '', '', '', '2015-03-31 14:23:23', '2015-04-14 15:08:26', 1, 1),
+(4, 21, 9, 1, 0, 0, 0, 'My address', 'My Company', 'DOE', 'John', '16, Main street', '2nd floor', '33133', 'Miami', '', '0102030405', '', '', '', '2015-03-31 14:23:23', '2015-03-31 14:23:23', 1, 0),
+(5, 8, 0, 0, 2, 0, 0, 'manufacturer', '', 'Cocktail', 'Shop', 'rue du progrès', '', '93100', 'Montreuil', '', '', '', '', '', '2015-04-14 15:07:53', '2015-04-14 15:07:53', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -1026,37 +1027,28 @@ CREATE TABLE IF NOT EXISTS `ps_attribute` (
   `position` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_attribute`),
   KEY `attribute_group` (`id_attribute_group`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=25 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=40 ;
 
 --
 -- Contenu de la table `ps_attribute`
 --
 
 INSERT INTO `ps_attribute` (`id_attribute`, `id_attribute_group`, `color`, `position`) VALUES
-(1, 1, '', 0),
-(2, 1, '', 1),
-(3, 1, '', 2),
-(4, 1, '', 3),
-(5, 3, '#AAB2BD', 0),
-(6, 3, '#CFC4A6', 1),
-(7, 3, '#f5f5dc', 2),
-(8, 3, '#ffffff', 3),
-(9, 3, '#faebd7', 4),
-(10, 3, '#E84C3D', 5),
-(11, 3, '#434A54', 6),
-(12, 3, '#C19A6B', 7),
-(13, 3, '#F39C11', 8),
-(14, 3, '#5D9CEC', 9),
-(15, 3, '#A0D468', 10),
-(16, 3, '#F1C40F', 11),
-(17, 3, '#964B00', 12),
-(18, 2, '', 0),
-(19, 2, '', 1),
-(20, 2, '', 2),
-(21, 2, '', 3),
-(22, 2, '', 4),
-(23, 2, '', 5),
-(24, 3, '#FCCACD', 13);
+(25, 4, '', 0),
+(26, 4, '', 1),
+(27, 4, '', 2),
+(28, 4, '', 3),
+(29, 4, '', 4),
+(30, 4, '', 5),
+(31, 4, '', 6),
+(32, 4, '', 7),
+(33, 4, '', 8),
+(34, 4, '', 9),
+(35, 4, '', 10),
+(36, 4, '', 11),
+(37, 4, '', 12),
+(38, 4, '', 13),
+(39, 4, '', 14);
 
 -- --------------------------------------------------------
 
@@ -1070,16 +1062,14 @@ CREATE TABLE IF NOT EXISTS `ps_attribute_group` (
   `group_type` enum('select','radio','color') NOT NULL DEFAULT 'select',
   `position` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_attribute_group`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Contenu de la table `ps_attribute_group`
 --
 
 INSERT INTO `ps_attribute_group` (`id_attribute_group`, `is_color_group`, `group_type`, `position`) VALUES
-(1, 0, 'select', 0),
-(2, 0, 'select', 1),
-(3, 1, 'color', 2);
+(4, 0, 'select', 1);
 
 -- --------------------------------------------------------
 
@@ -1100,9 +1090,7 @@ CREATE TABLE IF NOT EXISTS `ps_attribute_group_lang` (
 --
 
 INSERT INTO `ps_attribute_group_lang` (`id_attribute_group`, `id_lang`, `name`, `public_name`) VALUES
-(1, 1, 'Taille', 'Taille'),
-(2, 1, 'Pointure', 'Pointure'),
-(3, 1, 'Couleur', 'Couleur');
+(4, 1, 'Spiritueux', 'Spiritueux');
 
 -- --------------------------------------------------------
 
@@ -1122,9 +1110,7 @@ CREATE TABLE IF NOT EXISTS `ps_attribute_group_shop` (
 --
 
 INSERT INTO `ps_attribute_group_shop` (`id_attribute_group`, `id_shop`) VALUES
-(1, 1),
-(2, 1),
-(3, 1);
+(4, 1);
 
 -- --------------------------------------------------------
 
@@ -1161,30 +1147,21 @@ CREATE TABLE IF NOT EXISTS `ps_attribute_lang` (
 --
 
 INSERT INTO `ps_attribute_lang` (`id_attribute`, `id_lang`, `name`) VALUES
-(18, 1, '35'),
-(19, 1, '36'),
-(20, 1, '37'),
-(21, 1, '38'),
-(22, 1, '39'),
-(23, 1, '40'),
-(7, 1, 'Beige'),
-(8, 1, 'Blanc'),
-(9, 1, 'Blanc cassé'),
-(14, 1, 'Bleu'),
-(12, 1, 'Camel'),
-(5, 1, 'Gris'),
-(16, 1, 'Jaune'),
-(3, 1, 'L'),
-(2, 1, 'M'),
-(17, 1, 'Marron'),
-(11, 1, 'Noir'),
-(13, 1, 'Orange'),
-(24, 1, 'Rose'),
-(10, 1, 'Rouge'),
-(1, 1, 'S'),
-(4, 1, 'Taille unique'),
-(6, 1, 'Taupe'),
-(15, 1, 'Vert');
+(27, 1, 'American Whisky'),
+(39, 1, 'Armagnac'),
+(38, 1, 'Champagne'),
+(37, 1, 'Cognac'),
+(36, 1, 'Gin'),
+(28, 1, 'Irish Whiskey'),
+(35, 1, 'Liqueur banane'),
+(34, 1, 'Liqueur orange'),
+(33, 1, 'Liqueur passion'),
+(30, 1, 'Rhum agricole'),
+(31, 1, 'Rhum épicé'),
+(32, 1, 'Rhum traditionnel'),
+(29, 1, 'Scotch Whisky'),
+(26, 1, 'Tequila'),
+(25, 1, 'Vodka');
 
 -- --------------------------------------------------------
 
@@ -1204,30 +1181,21 @@ CREATE TABLE IF NOT EXISTS `ps_attribute_shop` (
 --
 
 INSERT INTO `ps_attribute_shop` (`id_attribute`, `id_shop`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1),
-(7, 1),
-(8, 1),
-(9, 1),
-(10, 1),
-(11, 1),
-(12, 1),
-(13, 1),
-(14, 1),
-(15, 1),
-(16, 1),
-(17, 1),
-(18, 1),
-(19, 1),
-(20, 1),
-(21, 1),
-(22, 1),
-(23, 1),
-(24, 1);
+(25, 1),
+(26, 1),
+(27, 1),
+(28, 1),
+(29, 1),
+(30, 1),
+(31, 1),
+(32, 1),
+(33, 1),
+(34, 1),
+(35, 1),
+(36, 1),
+(37, 1),
+(38, 1),
+(39, 1);
 
 -- --------------------------------------------------------
 
@@ -2289,21 +2257,31 @@ CREATE TABLE IF NOT EXISTS `ps_category` (
   KEY `level_depth` (`level_depth`),
   KEY `nright` (`nright`),
   KEY `nleft` (`nleft`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
 
 --
 -- Contenu de la table `ps_category`
 --
 
 INSERT INTO `ps_category` (`id_category`, `id_parent`, `id_shop_default`, `level_depth`, `nleft`, `nright`, `active`, `date_add`, `date_upd`, `position`, `is_root_category`) VALUES
-(1, 0, 1, 0, 1, 16, 1, '2015-03-31 14:23:15', '2015-03-31 14:23:15', 0, 0),
-(2, 1, 1, 1, 2, 15, 1, '2015-03-31 14:23:15', '2015-03-31 14:23:15', 0, 1),
+(1, 0, 1, 0, 1, 36, 1, '2015-03-31 14:23:15', '2015-03-31 14:23:15', 0, 0),
+(2, 1, 1, 1, 2, 35, 1, '2015-03-31 14:23:15', '2015-03-31 14:23:15', 0, 1),
 (12, 2, 1, 2, 3, 4, 1, '2015-04-02 00:54:21', '2015-04-02 00:54:21', 0, 0),
 (13, 2, 1, 2, 5, 6, 1, '2015-04-02 00:54:52', '2015-04-02 00:54:52', 0, 0),
 (14, 2, 1, 2, 7, 8, 1, '2015-04-02 00:55:26', '2015-04-02 00:55:26', 0, 0),
 (15, 2, 1, 2, 9, 10, 1, '2015-04-02 00:55:53', '2015-04-02 00:55:53', 0, 0),
 (16, 2, 1, 2, 11, 12, 1, '2015-04-02 00:56:21', '2015-04-02 00:56:47', 5, 0),
-(17, 2, 1, 2, 13, 14, 1, '2015-04-02 01:05:34', '2015-04-02 01:05:34', 0, 0);
+(17, 2, 1, 2, 13, 14, 1, '2015-04-02 01:05:34', '2015-04-02 01:05:34', 0, 0),
+(18, 2, 1, 2, 15, 16, 1, '2015-04-14 14:28:51', '2015-04-14 14:29:47', 7, 0),
+(19, 2, 1, 2, 17, 18, 1, '2015-04-14 14:30:12', '2015-04-14 14:30:12', 0, 0),
+(20, 2, 1, 2, 19, 20, 1, '2015-04-14 14:30:40', '2015-04-14 14:30:40', 0, 0),
+(21, 2, 1, 2, 21, 22, 1, '2015-04-14 14:32:18', '2015-04-14 14:32:18', 0, 0),
+(22, 2, 1, 2, 23, 24, 1, '2015-04-14 14:32:46', '2015-04-14 14:38:45', 11, 0),
+(23, 2, 1, 2, 25, 26, 1, '2015-04-14 14:33:22', '2015-04-14 14:33:22', 0, 0),
+(24, 2, 1, 2, 27, 28, 1, '2015-04-14 14:33:52', '2015-04-14 14:39:22', 13, 0),
+(25, 2, 1, 2, 29, 30, 1, '2015-04-14 14:35:53', '2015-04-14 14:35:53', 0, 0),
+(26, 2, 1, 2, 31, 32, 1, '2015-04-14 14:37:27', '2015-04-14 14:37:27', 0, 0),
+(27, 2, 1, 2, 33, 34, 1, '2015-04-14 14:38:01', '2015-04-14 14:38:01', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2345,7 +2323,37 @@ INSERT INTO `ps_category_group` (`id_category`, `id_group`) VALUES
 (16, 3),
 (17, 1),
 (17, 2),
-(17, 3);
+(17, 3),
+(18, 1),
+(18, 2),
+(18, 3),
+(19, 1),
+(19, 2),
+(19, 3),
+(20, 1),
+(20, 2),
+(20, 3),
+(21, 1),
+(21, 2),
+(21, 3),
+(22, 1),
+(22, 2),
+(22, 3),
+(23, 1),
+(23, 2),
+(23, 3),
+(24, 1),
+(24, 2),
+(24, 3),
+(25, 1),
+(25, 2),
+(25, 3),
+(26, 1),
+(26, 2),
+(26, 3),
+(27, 1),
+(27, 2),
+(27, 3);
 
 -- --------------------------------------------------------
 
@@ -2379,7 +2387,17 @@ INSERT INTO `ps_category_lang` (`id_category`, `id_shop`, `id_lang`, `name`, `de
 (14, 1, 1, 'Poire', '<p>Tous les cocktails à base de poire</p>', 'poire', '', '', ''),
 (15, 1, 1, 'Citron', '<p>Tous les cocktails à base de citron</p>', 'citron', '', '', ''),
 (16, 1, 1, 'Raisin', '<p>Tous les cocktails à base de raisins du terroir</p>', 'raisin', '', '', ''),
-(17, 1, 1, 'Inclassables', '', 'inclassables', '', '', '');
+(17, 1, 1, 'Inclassables', '', 'inclassables', '', '', ''),
+(18, 1, 1, 'Abricot', '<p>Tous les cocktails à base d''abricot</p>', 'abricot', '', '', ''),
+(19, 1, 1, 'Ananas', '<p>Tous les cocktails à base d''ananas</p>', 'ananas', '', '', ''),
+(20, 1, 1, 'Figue', '<p>Tous les cocktails à base de figue</p>', 'figue', '', '', ''),
+(21, 1, 1, 'Fraise', '<p>Tous les cocktails à base de fraise</p>', 'fraise', '', '', ''),
+(22, 1, 1, 'Kiwi', '<p>Tous les cocktails à base de kiwi</p>', 'kiwi', '', '', ''),
+(23, 1, 1, 'Nectarine', '<p>Tous les cocktails à base de nectarine</p>', 'nectarine', '', '', ''),
+(24, 1, 1, 'Orange sanguine', '<p>Tous les cocktails à base d''orange sanguine</p>', 'orange-sanguine', '', '', ''),
+(25, 1, 1, 'Pamplemousse', '<p>Tous les cocktails à base de pamplemousse</p>', 'pamplemousse', '', '', ''),
+(26, 1, 1, 'Fruit de la passion', '<p>Tous les cocktails à base de fruit de la passion</p>', 'fruit-de-la-passion', '', '', ''),
+(27, 1, 1, 'Prune', '<p>Tous les cocktails à base de prune</p>', 'prune', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -2406,6 +2424,7 @@ INSERT INTO `ps_category_product` (`id_category`, `id_product`, `position`) VALU
 (2, 11, 3),
 (2, 12, 4),
 (2, 13, 5),
+(2, 14, 6),
 (13, 11, 0),
 (15, 8, 0),
 (15, 9, 1),
@@ -2432,12 +2451,22 @@ CREATE TABLE IF NOT EXISTS `ps_category_shop` (
 INSERT INTO `ps_category_shop` (`id_category`, `id_shop`, `position`) VALUES
 (1, 1, 1),
 (2, 1, 1),
-(12, 1, 1),
-(13, 1, 2),
-(14, 1, 3),
-(15, 1, 4),
-(16, 1, 5),
-(17, 1, 6);
+(12, 1, 2),
+(13, 1, 3),
+(14, 1, 4),
+(15, 1, 5),
+(16, 1, 6),
+(17, 1, 1),
+(18, 1, 7),
+(19, 1, 8),
+(20, 1, 9),
+(21, 1, 10),
+(22, 1, 11),
+(23, 1, 12),
+(24, 1, 13),
+(25, 1, 14),
+(26, 1, 15),
+(27, 1, 16);
 
 -- --------------------------------------------------------
 
@@ -2686,7 +2715,14 @@ CREATE TABLE IF NOT EXISTS `ps_compare` (
   `id_compare` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `id_customer` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id_compare`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Contenu de la table `ps_compare`
+--
+
+INSERT INTO `ps_compare` (`id_compare`, `id_customer`) VALUES
+(1, 0);
 
 -- --------------------------------------------------------
 
@@ -3708,7 +3744,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (148, NULL, NULL, 'PS_VIRTUAL_PROD_FEATURE_ACTIVE', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (149, NULL, NULL, 'PS_CUSTOMIZATION_FEATURE_ACTIVE', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (150, NULL, NULL, 'PS_CART_RULE_FEATURE_ACTIVE', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(151, NULL, NULL, 'PS_PACK_FEATURE_ACTIVE', NULL, '0000-00-00 00:00:00', '2015-04-02 01:26:04'),
+(151, NULL, NULL, 'PS_PACK_FEATURE_ACTIVE', NULL, '0000-00-00 00:00:00', '2015-04-14 15:20:21'),
 (152, NULL, NULL, 'PS_ALIAS_FEATURE_ACTIVE', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (153, NULL, NULL, 'PS_TAX_ADDRESS_TYPE', 'id_address_delivery', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (154, NULL, NULL, 'PS_SHOP_DEFAULT', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -3938,7 +3974,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (378, NULL, NULL, 'PRODUCT_COMMENTS_MINIMAL_TIME', '30', '2015-03-31 14:23:40', '2015-03-31 14:23:40'),
 (379, NULL, NULL, 'PRODUCT_COMMENTS_ALLOW_GUESTS', '0', '2015-03-31 14:23:40', '2015-03-31 14:23:40'),
 (380, NULL, NULL, 'PRODUCT_COMMENTS_MODERATE', '1', '2015-03-31 14:23:40', '2015-03-31 14:23:40'),
-(381, NULL, NULL, 'CRONJOBS_ADMIN_DIR', 'beff8c85eba72f667704beed5f06074b', '2015-03-31 14:23:40', '2015-04-01 22:45:23'),
+(381, NULL, NULL, 'CRONJOBS_ADMIN_DIR', '94419fa074598df3dd36d07bf8f0fb8c', '2015-03-31 14:23:40', '2015-04-14 14:08:59'),
 (382, NULL, NULL, 'CRONJOBS_MODE', 'webservice', '2015-03-31 14:23:40', '2015-03-31 14:23:40'),
 (383, NULL, NULL, 'CRONJOBS_MODULE_VERSION', '1.2.5', '2015-03-31 14:23:40', '2015-03-31 14:23:40'),
 (384, NULL, NULL, 'CRONJOBS_WEBSERVICE_ID', '0', '2015-03-31 14:23:40', '2015-03-31 14:23:40'),
@@ -4133,7 +4169,7 @@ CREATE TABLE IF NOT EXISTS `ps_configuration_kpi` (
   KEY `name` (`name`),
   KEY `id_shop` (`id_shop`),
   KEY `id_shop_group` (`id_shop_group`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=35 ;
 
 --
 -- Contenu de la table `ps_configuration_kpi`
@@ -4147,28 +4183,33 @@ INSERT INTO `ps_configuration_kpi` (`id_configuration_kpi`, `id_shop_group`, `id
 (5, NULL, NULL, 'INSTALLED_MODULES_EXPIRE', '1427931964', '2015-03-31 14:26:28', '2015-04-02 01:44:04'),
 (6, NULL, NULL, 'UPDATE_MODULES_EXPIRE', '1427931966', '2015-03-31 14:26:29', '2015-04-02 01:44:06'),
 (7, NULL, NULL, '8020_SALES_CATALOG', '0% de votre catalogue', '2015-04-02 00:49:30', '2015-04-02 00:49:30'),
-(8, NULL, NULL, '8020_SALES_CATALOG_EXPIRE', '1427971770', '2015-04-02 00:49:31', '2015-04-02 00:49:31'),
-(9, NULL, NULL, 'DISABLED_PRODUCTS', '0%', '2015-04-02 00:49:31', '2015-04-02 00:49:31'),
-(10, NULL, NULL, 'DISABLED_PRODUCTS_EXPIRE', '1427935771', '2015-04-02 00:49:31', '2015-04-02 00:49:31'),
-(11, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK', '0%', '2015-04-02 00:49:31', '2015-04-02 01:08:59'),
+(8, NULL, NULL, '8020_SALES_CATALOG_EXPIRE', '1429060177', '2015-04-02 00:49:31', '2015-04-14 15:09:37'),
+(9, NULL, NULL, 'DISABLED_PRODUCTS', '16.67%', '2015-04-02 00:49:31', '2015-04-14 14:26:46'),
+(10, NULL, NULL, 'DISABLED_PRODUCTS_EXPIRE', '1429021606', '2015-04-02 00:49:31', '2015-04-14 14:26:46'),
+(11, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK', '16.67%', '2015-04-02 00:49:31', '2015-04-14 15:18:46'),
 (12, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427942971', '2015-04-02 00:49:31', '2015-04-02 00:49:31'),
-(13, NULL, NULL, 'PRODUCT_AVG_GROSS_MARGIN', '0%', '2015-04-02 00:50:41', '2015-04-02 00:50:41'),
+(13, NULL, NULL, 'PRODUCT_AVG_GROSS_MARGIN', '100%', '2015-04-02 00:50:41', '2015-04-14 14:26:46'),
 (14, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427943041', '2015-04-02 00:50:41', '2015-04-02 00:50:41'),
-(15, NULL, NULL, 'PRODUCT_AVG_GROSS_MARGIN_EXPIRE', '1427950241', '2015-04-02 00:50:41', '2015-04-02 00:50:41'),
-(16, NULL, NULL, 'DISABLED_CATEGORIES', '1', '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
-(17, NULL, NULL, 'PRODUCTS_PER_CATEGORY', '0', '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
-(18, NULL, NULL, 'DISABLED_CATEGORIES_EXPIRE', '1427935888', '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
-(19, NULL, NULL, 'EMPTY_CATEGORIES', '5', '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
+(15, NULL, NULL, 'PRODUCT_AVG_GROSS_MARGIN_EXPIRE', '1429036006', '2015-04-02 00:50:41', '2015-04-14 14:26:46'),
+(16, NULL, NULL, 'DISABLED_CATEGORIES', '0', '2015-04-02 00:51:28', '2015-04-14 14:26:59'),
+(17, NULL, NULL, 'PRODUCTS_PER_CATEGORY', '1', '2015-04-02 00:51:28', '2015-04-14 14:26:59'),
+(18, NULL, NULL, 'DISABLED_CATEGORIES_EXPIRE', '1429021619', '2015-04-02 00:51:28', '2015-04-14 14:26:59'),
+(19, NULL, NULL, 'EMPTY_CATEGORIES', '3', '2015-04-02 00:51:28', '2015-04-14 14:26:59'),
 (20, NULL, NULL, 'TOP_CATEGORY', NULL, '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
-(21, NULL, NULL, 'PRODUCTS_PER_CATEGORY_EXPIRE', '1427932288', '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
-(22, NULL, NULL, 'EMPTY_CATEGORIES_EXPIRE', '1427935888', '2015-04-02 00:51:28', '2015-04-02 00:51:28'),
+(21, NULL, NULL, 'PRODUCTS_PER_CATEGORY_EXPIRE', '1429018019', '2015-04-02 00:51:28', '2015-04-14 14:26:59'),
+(22, NULL, NULL, 'EMPTY_CATEGORIES_EXPIRE', '1429021619', '2015-04-02 00:51:28', '2015-04-14 14:26:59'),
 (23, NULL, NULL, 'TOP_CATEGORY_EXPIRE', NULL, '2015-04-02 00:51:29', '2015-04-02 00:51:29'),
 (24, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427943425', '2015-04-02 00:57:05', '2015-04-02 00:57:05'),
 (25, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427943767', '2015-04-02 01:02:47', '2015-04-02 01:02:47'),
 (26, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427943947', '2015-04-02 01:05:47', '2015-04-02 01:05:47'),
 (27, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427944139', '2015-04-02 01:08:59', '2015-04-02 01:08:59'),
 (28, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427944284', '2015-04-02 01:11:24', '2015-04-02 01:11:24'),
-(29, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427944534', '2015-04-02 01:15:34', '2015-04-02 01:15:34');
+(29, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1427944534', '2015-04-02 01:15:34', '2015-04-02 01:15:34'),
+(30, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1429028806', '2015-04-14 14:26:46', '2015-04-14 14:26:46'),
+(31, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1429031377', '2015-04-14 15:09:37', '2015-04-14 15:09:37'),
+(32, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1429031926', '2015-04-14 15:18:46', '2015-04-14 15:18:46'),
+(33, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1429031971', '2015-04-14 15:19:31', '2015-04-14 15:19:31'),
+(34, NULL, NULL, 'PERCENT_PRODUCT_OUT_OF_STOCK_EXP', '1429032134', '2015-04-14 15:22:14', '2015-04-14 15:22:14');
 
 -- --------------------------------------------------------
 
@@ -4189,8 +4230,8 @@ CREATE TABLE IF NOT EXISTS `ps_configuration_kpi_lang` (
 --
 
 INSERT INTO `ps_configuration_kpi_lang` (`id_configuration_kpi`, `id_lang`, `value`, `date_upd`) VALUES
-(20, 1, 'Robes de soirée', '2015-04-02 00:51:28'),
-(23, 1, '1428015089', '2015-04-02 00:51:29');
+(20, 1, 'Raisin', '2015-04-14 14:26:59'),
+(23, 1, '1429100819', '2015-04-14 14:26:59');
 
 -- --------------------------------------------------------
 
@@ -4239,7 +4280,7 @@ CREATE TABLE IF NOT EXISTS `ps_connections` (
   KEY `id_guest` (`id_guest`),
   KEY `date_add` (`date_add`),
   KEY `id_page` (`id_page`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
 
 --
 -- Contenu de la table `ps_connections`
@@ -4256,7 +4297,8 @@ INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_
 (8, 1, 1, 3, 1, 2130706433, '2015-04-02 00:22:16', ''),
 (9, 1, 1, 3, 1, 2130706433, '2015-04-02 00:53:39', ''),
 (10, 1, 1, 3, 1, 2130706433, '2015-04-02 01:26:08', ''),
-(11, 1, 1, 3, 1, 2130706433, '2015-04-02 01:57:07', '');
+(11, 1, 1, 3, 1, 2130706433, '2015-04-02 01:57:07', ''),
+(12, 1, 1, 2, 2, 0, '2015-04-14 14:07:32', '');
 
 -- --------------------------------------------------------
 
@@ -4290,7 +4332,14 @@ CREATE TABLE IF NOT EXISTS `ps_connections_source` (
   KEY `orderby` (`date_add`),
   KEY `http_referer` (`http_referer`),
   KEY `request_uri` (`request_uri`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Contenu de la table `ps_connections_source`
+--
+
+INSERT INTO `ps_connections_source` (`id_connections_source`, `id_connections`, `http_referer`, `request_uri`, `keywords`, `date_add`) VALUES
+(1, 12, 'http://localhost/', 'localhost/prestashop/', '', '2015-04-14 14:07:07');
 
 -- --------------------------------------------------------
 
@@ -5522,7 +5571,7 @@ CREATE TABLE IF NOT EXISTS `ps_employee` (
 --
 
 INSERT INTO `ps_employee` (`id_employee`, `id_profile`, `id_lang`, `lastname`, `firstname`, `email`, `passwd`, `last_passwd_gen`, `stats_date_from`, `stats_date_to`, `stats_compare_from`, `stats_compare_to`, `stats_compare_option`, `preselect_date_range`, `bo_color`, `bo_theme`, `bo_css`, `default_tab`, `bo_width`, `bo_menu`, `active`, `optin`, `id_last_order`, `id_last_customer_message`, `id_last_customer`, `last_connection_date`) VALUES
-(1, 1, 1, 'Hetic', 'Hetic', 'florent.prod@live.fr', '53098e460db170314700a366e1184c89', '2015-03-31 06:23:22', '2015-03-03', '2015-03-31', '0000-00-00', '0000-00-00', 1, NULL, NULL, 'default', 'admin-theme.css', 1, 0, 1, 1, 0, 5, 0, 1, '2015-04-02');
+(1, 1, 1, 'Hetic', 'Hetic', 'florent.prod@live.fr', '53098e460db170314700a366e1184c89', '2015-03-31 06:23:22', '2015-03-03', '2015-03-31', '0000-00-00', '0000-00-00', 1, NULL, NULL, 'default', 'admin-theme.css', 1, 0, 1, 1, 0, 5, 0, 1, '2015-04-14');
 
 -- --------------------------------------------------------
 
@@ -5554,20 +5603,15 @@ CREATE TABLE IF NOT EXISTS `ps_feature` (
   `id_feature` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `position` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_feature`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
 -- Contenu de la table `ps_feature`
 --
 
 INSERT INTO `ps_feature` (`id_feature`, `position`) VALUES
-(1, 0),
-(2, 1),
-(3, 2),
-(4, 3),
-(5, 4),
-(6, 5),
-(7, 6);
+(8, 0),
+(9, 8);
 
 -- --------------------------------------------------------
 
@@ -5588,13 +5632,8 @@ CREATE TABLE IF NOT EXISTS `ps_feature_lang` (
 --
 
 INSERT INTO `ps_feature_lang` (`id_feature`, `id_lang`, `name`) VALUES
-(5, 1, 'Compositions'),
-(1, 1, 'Hauteur'),
-(2, 1, 'Largeur'),
-(4, 1, 'Poids'),
-(3, 1, 'Profondeur'),
-(7, 1, 'Propriétés'),
-(6, 1, 'Styles');
+(8, 1, 'Contenance'),
+(9, 1, 'Spiritueux');
 
 -- --------------------------------------------------------
 
@@ -5610,6 +5649,14 @@ CREATE TABLE IF NOT EXISTS `ps_feature_product` (
   KEY `id_feature_value` (`id_feature_value`),
   KEY `id_product` (`id_product`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `ps_feature_product`
+--
+
+INSERT INTO `ps_feature_product` (`id_feature`, `id_product`, `id_feature_value`) VALUES
+(8, 14, 35),
+(9, 14, 52);
 
 -- --------------------------------------------------------
 
@@ -5629,13 +5676,8 @@ CREATE TABLE IF NOT EXISTS `ps_feature_shop` (
 --
 
 INSERT INTO `ps_feature_shop` (`id_feature`, `id_shop`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1),
-(7, 1);
+(8, 1),
+(9, 1);
 
 -- --------------------------------------------------------
 
@@ -5649,46 +5691,35 @@ CREATE TABLE IF NOT EXISTS `ps_feature_value` (
   `custom` tinyint(3) unsigned DEFAULT NULL,
   PRIMARY KEY (`id_feature_value`),
   KEY `feature` (`id_feature`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=34 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=56 ;
 
 --
 -- Contenu de la table `ps_feature_value`
 --
 
 INSERT INTO `ps_feature_value` (`id_feature_value`, `id_feature`, `custom`) VALUES
-(1, 5, 0),
-(2, 5, 0),
-(3, 5, 0),
-(4, 5, 0),
-(5, 5, 0),
-(6, 5, 0),
-(7, 5, 0),
-(8, 5, 0),
-(9, 5, 0),
-(10, 6, 0),
-(11, 6, 0),
-(12, 6, 0),
-(13, 6, 0),
-(14, 6, 0),
-(15, 6, 0),
-(16, 6, 0),
-(17, 7, 0),
-(18, 7, 0),
-(19, 7, 0),
-(20, 7, 0),
-(21, 7, 0),
-(22, 1, 1),
-(23, 2, 1),
-(24, 4, 1),
-(25, 3, 1),
-(26, 1, 1),
-(27, 2, 1),
-(28, 4, 1),
-(29, 3, 1),
-(30, 1, 1),
-(31, 2, 1),
-(32, 4, 1),
-(33, 3, 1);
+(34, 8, 0),
+(35, 8, 0),
+(36, 8, 0),
+(37, 8, 0),
+(38, 8, 0),
+(39, 8, 0),
+(40, 8, 0),
+(41, 9, 0),
+(42, 9, 0),
+(43, 9, 0),
+(44, 9, 0),
+(45, 9, 0),
+(46, 9, 0),
+(47, 9, 0),
+(48, 9, 0),
+(49, 9, 0),
+(50, 9, 0),
+(51, 9, 0),
+(52, 9, 0),
+(53, 9, 0),
+(54, 9, 0),
+(55, 9, 0);
 
 -- --------------------------------------------------------
 
@@ -5708,39 +5739,28 @@ CREATE TABLE IF NOT EXISTS `ps_feature_value_lang` (
 --
 
 INSERT INTO `ps_feature_value_lang` (`id_feature_value`, `id_lang`, `value`) VALUES
-(1, 1, 'Polyester'),
-(2, 1, 'Laine'),
-(3, 1, 'Viscose'),
-(4, 1, 'Elasthanne'),
-(5, 1, 'Coton'),
-(6, 1, 'Soie'),
-(7, 1, 'Daim'),
-(8, 1, 'Paille'),
-(9, 1, 'Cuir'),
-(10, 1, 'Classique'),
-(11, 1, 'Décontracté'),
-(12, 1, 'Militaire'),
-(13, 1, 'Féminin'),
-(14, 1, 'Rock'),
-(15, 1, 'Basique'),
-(16, 1, 'Habillé'),
-(17, 1, 'Manches courtes'),
-(18, 1, 'Robe colorée'),
-(19, 1, 'Robe courte'),
-(20, 1, 'Robe midi'),
-(21, 1, 'Maxi-robe'),
-(22, 1, '2.75 in'),
-(23, 1, '2.06 in'),
-(24, 1, '49.2 g'),
-(25, 1, '0.26 in'),
-(26, 1, '1.07 in'),
-(27, 1, '1.62 in'),
-(28, 1, '15.5 g'),
-(29, 1, '0.41 in (clip included)'),
-(30, 1, '4.33 in'),
-(31, 1, '2.76 in'),
-(32, 1, '120g'),
-(33, 1, '0.31 in');
+(34, 1, '7 cl'),
+(35, 1, '12 cl'),
+(36, 1, '16 cl'),
+(37, 1, '20 cl'),
+(38, 1, '25 cl'),
+(39, 1, '30 cl'),
+(40, 1, '33 cl'),
+(41, 1, 'Armagnac'),
+(42, 1, 'Champagne'),
+(43, 1, 'Cognac'),
+(44, 1, 'Gin'),
+(45, 1, 'Liqueur banane'),
+(46, 1, 'Liqueur orange'),
+(47, 1, 'Liqueur passion'),
+(48, 1, 'Rhum agricole'),
+(49, 1, 'Rhum épicé'),
+(50, 1, 'Rhum traditionnel'),
+(51, 1, 'Tequila'),
+(52, 1, 'Vodka'),
+(53, 1, 'American Whisky'),
+(54, 1, 'Irish Whisky'),
+(55, 1, 'Scotch Whisky');
 
 -- --------------------------------------------------------
 
@@ -6686,7 +6706,7 @@ CREATE TABLE IF NOT EXISTS `ps_image` (
   UNIQUE KEY `idx_product_image` (`id_image`,`id_product`,`cover`),
   KEY `image_product` (`id_product`),
   KEY `id_product_cover` (`id_product`,`cover`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=31 ;
 
 --
 -- Contenu de la table `ps_image`
@@ -6698,7 +6718,8 @@ INSERT INTO `ps_image` (`id_image`, `id_product`, `position`, `cover`) VALUES
 (26, 10, 1, 1),
 (27, 11, 1, 1),
 (28, 12, 1, 1),
-(29, 13, 1, 1);
+(29, 13, 1, 1),
+(30, 14, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -6724,7 +6745,8 @@ INSERT INTO `ps_image_lang` (`id_image`, `id_lang`, `legend`) VALUES
 (26, 1, 'Le red Strawberry'),
 (27, 1, 'Le orange bis'),
 (28, 1, 'Cocktail Fraissoulle'),
-(29, 1, 'Le kiwi party');
+(29, 1, 'Le kiwi party'),
+(30, 1, 'Abricot Frappé');
 
 -- --------------------------------------------------------
 
@@ -6750,7 +6772,8 @@ INSERT INTO `ps_image_shop` (`id_image`, `id_shop`, `cover`) VALUES
 (26, 1, 1),
 (27, 1, 1),
 (28, 1, 1),
-(29, 1, 1);
+(29, 1, 1),
+(30, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -7139,9 +7162,7 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_attribute_group` (
 --
 
 INSERT INTO `ps_layered_indexable_attribute_group` (`id_attribute_group`, `indexable`) VALUES
-(1, 1),
-(2, 1),
-(3, 1);
+(4, 1);
 
 -- --------------------------------------------------------
 
@@ -7157,6 +7178,13 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_attribute_group_lang_value` (
   PRIMARY KEY (`id_attribute_group`,`id_lang`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Contenu de la table `ps_layered_indexable_attribute_group_lang_value`
+--
+
+INSERT INTO `ps_layered_indexable_attribute_group_lang_value` (`id_attribute_group`, `id_lang`, `url_name`, `meta_title`) VALUES
+(4, 1, 'spiritueux', '');
+
 -- --------------------------------------------------------
 
 --
@@ -7170,6 +7198,27 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_attribute_lang_value` (
   `meta_title` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id_attribute`,`id_lang`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `ps_layered_indexable_attribute_lang_value`
+--
+
+INSERT INTO `ps_layered_indexable_attribute_lang_value` (`id_attribute`, `id_lang`, `url_name`, `meta_title`) VALUES
+(25, 1, 'vodka', ''),
+(26, 1, 'tequila', ''),
+(27, 1, 'american-whisky', ''),
+(28, 1, 'irish-whiskey', ''),
+(29, 1, 'scotch-whisky', ''),
+(30, 1, 'rhum-agricole', ''),
+(31, 1, 'rhum-epice', ''),
+(32, 1, 'rhum-traditionnel', ''),
+(33, 1, 'liqueur-passion', ''),
+(34, 1, 'liqueur-orange', ''),
+(35, 1, 'liqueur-banane', ''),
+(36, 1, 'gin', ''),
+(37, 1, 'cognac', ''),
+(38, 1, 'champagne', ''),
+(39, 1, 'armagnac', '');
 
 -- --------------------------------------------------------
 
@@ -7188,13 +7237,8 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_feature` (
 --
 
 INSERT INTO `ps_layered_indexable_feature` (`id_feature`, `indexable`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1),
-(7, 1);
+(8, 1),
+(9, 1);
 
 -- --------------------------------------------------------
 
@@ -7210,6 +7254,14 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_feature_lang_value` (
   PRIMARY KEY (`id_feature`,`id_lang`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Contenu de la table `ps_layered_indexable_feature_lang_value`
+--
+
+INSERT INTO `ps_layered_indexable_feature_lang_value` (`id_feature`, `id_lang`, `url_name`, `meta_title`) VALUES
+(8, 1, 'contenance', ''),
+(9, 1, 'spiritueux', '');
+
 -- --------------------------------------------------------
 
 --
@@ -7223,6 +7275,34 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_feature_value_lang_value` (
   `meta_title` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id_feature_value`,`id_lang`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `ps_layered_indexable_feature_value_lang_value`
+--
+
+INSERT INTO `ps_layered_indexable_feature_value_lang_value` (`id_feature_value`, `id_lang`, `url_name`, `meta_title`) VALUES
+(34, 1, '', ''),
+(35, 1, '', ''),
+(36, 1, '', ''),
+(37, 1, '', ''),
+(38, 1, '', ''),
+(39, 1, '', ''),
+(40, 1, '', ''),
+(41, 1, '', ''),
+(42, 1, '', ''),
+(43, 1, '', ''),
+(44, 1, '', ''),
+(45, 1, '', ''),
+(46, 1, '', ''),
+(47, 1, '', ''),
+(48, 1, '', ''),
+(49, 1, '', ''),
+(50, 1, '', ''),
+(51, 1, '', ''),
+(52, 1, '', ''),
+(53, 1, '', ''),
+(54, 1, '', ''),
+(55, 1, '', '');
 
 -- --------------------------------------------------------
 
@@ -7259,7 +7339,8 @@ INSERT INTO `ps_layered_price_index` (`id_product`, `id_currency`, `id_shop`, `p
 (10, 1, 1, 12, 14),
 (11, 1, 1, 12, 14),
 (12, 1, 1, 12, 14),
-(13, 1, 1, 12, 14);
+(13, 1, 1, 12, 14),
+(14, 1, 1, 6, 8);
 
 -- --------------------------------------------------------
 
@@ -7363,7 +7444,7 @@ CREATE TABLE IF NOT EXISTS `ps_log` (
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,
   PRIMARY KEY (`id_log`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=52 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=127 ;
 
 --
 -- Contenu de la table `ps_log`
@@ -7420,7 +7501,82 @@ INSERT INTO `ps_log` (`id_log`, `severity`, `error_code`, `message`, `object_typ
 (48, 1, 0, 'modification Product', 'Product', 13, 1, '2015-04-02 01:22:57', '2015-04-02 01:22:57'),
 (49, 1, 0, 'modification Product', 'Product', 13, 1, '2015-04-02 01:23:31', '2015-04-02 01:23:31'),
 (50, 1, 0, 'modification Product', 'Product', 13, 1, '2015-04-02 01:26:04', '2015-04-02 01:26:04'),
-(51, 1, 0, 'Connexion au Back-Office depuis 127.0.0.1', '', 0, 1, '2015-04-02 01:43:23', '2015-04-02 01:43:23');
+(51, 1, 0, 'Connexion au Back-Office depuis 127.0.0.1', '', 0, 1, '2015-04-02 01:43:23', '2015-04-02 01:43:23'),
+(52, 1, 0, 'Connexion au Back-Office depuis ::1', '', 0, 1, '2015-04-14 14:08:59', '2015-04-14 14:08:59'),
+(53, 1, 0, 'Connexion au Back-Office depuis ::1', '', 0, 1, '2015-04-14 14:26:42', '2015-04-14 14:26:42'),
+(54, 1, 0, 'Création : Category', 'Category', 18, 1, '2015-04-14 14:28:51', '2015-04-14 14:28:51'),
+(55, 1, 0, 'modification Category', 'Category', 18, 1, '2015-04-14 14:29:47', '2015-04-14 14:29:47'),
+(56, 1, 0, 'Création : Category', 'Category', 19, 1, '2015-04-14 14:30:12', '2015-04-14 14:30:12'),
+(57, 1, 0, 'Création : Category', 'Category', 20, 1, '2015-04-14 14:30:40', '2015-04-14 14:30:40'),
+(58, 1, 0, 'Création : Category', 'Category', 21, 1, '2015-04-14 14:32:18', '2015-04-14 14:32:18'),
+(59, 1, 0, 'Création : Category', 'Category', 22, 1, '2015-04-14 14:32:46', '2015-04-14 14:32:46'),
+(60, 1, 0, 'Création : Category', 'Category', 23, 1, '2015-04-14 14:33:22', '2015-04-14 14:33:22'),
+(61, 1, 0, 'Création : Category', 'Category', 24, 1, '2015-04-14 14:33:52', '2015-04-14 14:33:52'),
+(62, 1, 0, 'Création : Category', 'Category', 25, 1, '2015-04-14 14:35:53', '2015-04-14 14:35:53'),
+(63, 1, 0, 'Création : Category', 'Category', 26, 1, '2015-04-14 14:37:27', '2015-04-14 14:37:27'),
+(64, 1, 0, 'Création : Category', 'Category', 27, 1, '2015-04-14 14:38:01', '2015-04-14 14:38:01'),
+(65, 1, 0, 'modification Category', 'Category', 22, 1, '2015-04-14 14:38:45', '2015-04-14 14:38:45'),
+(66, 1, 0, 'modification Category', 'Category', 24, 1, '2015-04-14 14:39:22', '2015-04-14 14:39:22'),
+(67, 1, 0, 'Création : AttributeGroup', 'AttributeGroup', 4, 1, '2015-04-14 14:42:08', '2015-04-14 14:42:08'),
+(68, 1, 0, 'Création : Attribute', 'Attribute', 25, 1, '2015-04-14 14:42:30', '2015-04-14 14:42:30'),
+(69, 1, 0, 'modification AttributeGroup', 'AttributeGroup', 4, 1, '2015-04-14 14:43:43', '2015-04-14 14:43:43'),
+(70, 1, 0, 'Création : Attribute', 'Attribute', 26, 1, '2015-04-14 14:44:12', '2015-04-14 14:44:12'),
+(71, 1, 0, 'Création : Attribute', 'Attribute', 27, 1, '2015-04-14 14:44:31', '2015-04-14 14:44:31'),
+(72, 1, 0, 'Création : Attribute', 'Attribute', 28, 1, '2015-04-14 14:44:50', '2015-04-14 14:44:50'),
+(73, 1, 0, 'Création : Attribute', 'Attribute', 29, 1, '2015-04-14 14:45:12', '2015-04-14 14:45:12'),
+(74, 1, 0, 'Création : Attribute', 'Attribute', 30, 1, '2015-04-14 14:45:41', '2015-04-14 14:45:41'),
+(75, 1, 0, 'Création : Attribute', 'Attribute', 31, 1, '2015-04-14 14:46:01', '2015-04-14 14:46:01'),
+(76, 1, 0, 'Création : Attribute', 'Attribute', 32, 1, '2015-04-14 14:46:30', '2015-04-14 14:46:30'),
+(77, 1, 0, 'Création : Attribute', 'Attribute', 33, 1, '2015-04-14 14:47:06', '2015-04-14 14:47:06'),
+(78, 1, 0, 'Création : Attribute', 'Attribute', 34, 1, '2015-04-14 14:47:23', '2015-04-14 14:47:23'),
+(79, 1, 0, 'Création : Attribute', 'Attribute', 35, 1, '2015-04-14 14:47:37', '2015-04-14 14:47:37'),
+(80, 1, 0, 'Création : Attribute', 'Attribute', 36, 1, '2015-04-14 14:47:51', '2015-04-14 14:47:51'),
+(81, 1, 0, 'Création : Attribute', 'Attribute', 37, 1, '2015-04-14 14:48:04', '2015-04-14 14:48:04'),
+(82, 1, 0, 'Création : Attribute', 'Attribute', 38, 1, '2015-04-14 14:48:18', '2015-04-14 14:48:18'),
+(83, 1, 0, 'Création : Attribute', 'Attribute', 39, 1, '2015-04-14 14:48:33', '2015-04-14 14:48:33'),
+(84, 1, 0, 'Suppression : AttributeGroup', 'AttributeGroup', 1, 1, '2015-04-14 14:49:52', '2015-04-14 14:49:52'),
+(85, 1, 0, 'Suppression : AttributeGroup', 'AttributeGroup', 2, 1, '2015-04-14 14:49:52', '2015-04-14 14:49:52'),
+(86, 1, 0, 'Suppression : AttributeGroup', 'AttributeGroup', 3, 1, '2015-04-14 14:49:52', '2015-04-14 14:49:52'),
+(87, 1, 0, 'Création : Feature', 'Feature', 8, 1, '2015-04-14 14:52:53', '2015-04-14 14:52:53'),
+(88, 1, 0, 'Création : FeatureValue', 'FeatureValue', 34, 1, '2015-04-14 14:54:39', '2015-04-14 14:54:39'),
+(89, 1, 0, 'Création : FeatureValue', 'FeatureValue', 35, 1, '2015-04-14 14:55:27', '2015-04-14 14:55:27'),
+(90, 1, 0, 'Création : FeatureValue', 'FeatureValue', 36, 1, '2015-04-14 14:55:45', '2015-04-14 14:55:45'),
+(91, 1, 0, 'Création : FeatureValue', 'FeatureValue', 37, 1, '2015-04-14 14:56:00', '2015-04-14 14:56:00'),
+(92, 1, 0, 'Création : FeatureValue', 'FeatureValue', 38, 1, '2015-04-14 14:56:14', '2015-04-14 14:56:14'),
+(93, 1, 0, 'Création : FeatureValue', 'FeatureValue', 39, 1, '2015-04-14 14:56:26', '2015-04-14 14:56:26'),
+(94, 1, 0, 'Création : FeatureValue', 'FeatureValue', 40, 1, '2015-04-14 14:56:38', '2015-04-14 14:56:38'),
+(95, 1, 0, 'Création : Feature', 'Feature', 9, 1, '2015-04-14 14:58:16', '2015-04-14 14:58:16'),
+(96, 1, 0, 'Suppression : Feature', 'Feature', 1, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(97, 1, 0, 'Suppression : Feature', 'Feature', 2, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(98, 1, 0, 'Suppression : Feature', 'Feature', 3, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(99, 1, 0, 'Suppression : Feature', 'Feature', 4, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(100, 1, 0, 'Suppression : Feature', 'Feature', 5, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(101, 1, 0, 'Suppression : Feature', 'Feature', 6, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(102, 1, 0, 'Suppression : Feature', 'Feature', 7, 1, '2015-04-14 14:58:36', '2015-04-14 14:58:36'),
+(103, 1, 0, 'Création : FeatureValue', 'FeatureValue', 41, 1, '2015-04-14 14:59:13', '2015-04-14 14:59:13'),
+(104, 1, 0, 'Création : FeatureValue', 'FeatureValue', 42, 1, '2015-04-14 14:59:30', '2015-04-14 14:59:30'),
+(105, 1, 0, 'Création : FeatureValue', 'FeatureValue', 43, 1, '2015-04-14 14:59:59', '2015-04-14 14:59:59'),
+(106, 1, 0, 'modification FeatureValue', 'FeatureValue', 43, 1, '2015-04-14 15:00:39', '2015-04-14 15:00:39'),
+(107, 1, 0, 'Création : FeatureValue', 'FeatureValue', 44, 1, '2015-04-14 15:00:57', '2015-04-14 15:00:57'),
+(108, 1, 0, 'Création : FeatureValue', 'FeatureValue', 45, 1, '2015-04-14 15:01:15', '2015-04-14 15:01:15'),
+(109, 1, 0, 'Création : FeatureValue', 'FeatureValue', 46, 1, '2015-04-14 15:01:30', '2015-04-14 15:01:30'),
+(110, 1, 0, 'Création : FeatureValue', 'FeatureValue', 47, 1, '2015-04-14 15:01:52', '2015-04-14 15:01:52'),
+(111, 1, 0, 'Création : FeatureValue', 'FeatureValue', 48, 1, '2015-04-14 15:02:09', '2015-04-14 15:02:09'),
+(112, 1, 0, 'Création : FeatureValue', 'FeatureValue', 49, 1, '2015-04-14 15:02:27', '2015-04-14 15:02:27'),
+(113, 1, 0, 'Création : FeatureValue', 'FeatureValue', 50, 1, '2015-04-14 15:02:47', '2015-04-14 15:02:47'),
+(114, 1, 0, 'Création : FeatureValue', 'FeatureValue', 51, 1, '2015-04-14 15:03:05', '2015-04-14 15:03:05'),
+(115, 1, 0, 'Création : FeatureValue', 'FeatureValue', 52, 1, '2015-04-14 15:03:39', '2015-04-14 15:03:39'),
+(116, 1, 0, 'Création : FeatureValue', 'FeatureValue', 53, 1, '2015-04-14 15:04:02', '2015-04-14 15:04:02'),
+(117, 1, 0, 'Création : FeatureValue', 'FeatureValue', 54, 1, '2015-04-14 15:04:17', '2015-04-14 15:04:17'),
+(118, 1, 0, 'Création : FeatureValue', 'FeatureValue', 55, 1, '2015-04-14 15:04:34', '2015-04-14 15:04:34'),
+(119, 1, 0, 'Création : Manufacturer', 'Manufacturer', 2, 1, '2015-04-14 15:06:54', '2015-04-14 15:06:54'),
+(120, 1, 0, 'Création : Address', 'Address', 5, 1, '2015-04-14 15:07:53', '2015-04-14 15:07:53'),
+(121, 1, 0, 'Suppression : Manufacturer', 'Manufacturer', 1, 1, '2015-04-14 15:08:10', '2015-04-14 15:08:10'),
+(122, 1, 0, 'Suppression : Address', 'Address', 3, 1, '2015-04-14 15:08:26', '2015-04-14 15:08:26'),
+(123, 1, 0, 'Création : Product', 'Product', 14, 1, '2015-04-14 15:13:17', '2015-04-14 15:13:17'),
+(124, 1, 0, 'modification Product', 'Product', 14, 1, '2015-04-14 15:17:02', '2015-04-14 15:17:02'),
+(125, 1, 0, 'modification Product', 'Product', 14, 1, '2015-04-14 15:17:44', '2015-04-14 15:17:44'),
+(126, 1, 0, 'modification Product', 'Product', 14, 1, '2015-04-14 15:20:21', '2015-04-14 15:20:21');
 
 -- --------------------------------------------------------
 
@@ -7452,14 +7608,14 @@ CREATE TABLE IF NOT EXISTS `ps_manufacturer` (
   `date_upd` datetime NOT NULL,
   `active` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_manufacturer`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Contenu de la table `ps_manufacturer`
 --
 
 INSERT INTO `ps_manufacturer` (`id_manufacturer`, `name`, `date_add`, `date_upd`, `active`) VALUES
-(1, 'Fashion Manufacturer', '2015-03-31 14:23:23', '2015-03-31 14:23:23', 1);
+(2, 'Cocktail Shop', '2015-04-14 15:06:54', '2015-04-14 15:06:54', 1);
 
 -- --------------------------------------------------------
 
@@ -7483,7 +7639,7 @@ CREATE TABLE IF NOT EXISTS `ps_manufacturer_lang` (
 --
 
 INSERT INTO `ps_manufacturer_lang` (`id_manufacturer`, `id_lang`, `description`, `short_description`, `meta_title`, `meta_keywords`, `meta_description`) VALUES
-(1, 1, '', '', '', '', '');
+(2, 1, '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -7503,7 +7659,7 @@ CREATE TABLE IF NOT EXISTS `ps_manufacturer_shop` (
 --
 
 INSERT INTO `ps_manufacturer_shop` (`id_manufacturer`, `id_shop`) VALUES
-(1, 1);
+(2, 1);
 
 -- --------------------------------------------------------
 
@@ -9081,14 +9237,15 @@ CREATE TABLE IF NOT EXISTS `ps_page` (
   PRIMARY KEY (`id_page`),
   KEY `id_page_type` (`id_page_type`),
   KEY `id_object` (`id_object`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Contenu de la table `ps_page`
 --
 
 INSERT INTO `ps_page` (`id_page`, `id_page_type`, `id_object`) VALUES
-(1, 1, NULL);
+(1, 1, NULL),
+(2, 2, NULL);
 
 -- --------------------------------------------------------
 
@@ -9105,7 +9262,14 @@ CREATE TABLE IF NOT EXISTS `ps_pagenotfound` (
   `date_add` datetime NOT NULL,
   PRIMARY KEY (`id_pagenotfound`),
   KEY `date_add` (`date_add`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Contenu de la table `ps_pagenotfound`
+--
+
+INSERT INTO `ps_pagenotfound` (`id_pagenotfound`, `id_shop`, `id_shop_group`, `request_uri`, `http_referer`, `date_add`) VALUES
+(1, 1, 1, '/prestashop/admin_dev', '', '2015-04-14 14:07:31');
 
 -- --------------------------------------------------------
 
@@ -9118,14 +9282,15 @@ CREATE TABLE IF NOT EXISTS `ps_page_type` (
   `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id_page_type`),
   KEY `name` (`name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Contenu de la table `ps_page_type`
 --
 
 INSERT INTO `ps_page_type` (`id_page_type`, `name`) VALUES
-(1, 'index');
+(1, 'index'),
+(2, 'pagenotfound');
 
 -- --------------------------------------------------------
 
@@ -9202,7 +9367,7 @@ CREATE TABLE IF NOT EXISTS `ps_product` (
   KEY `id_category_default` (`id_category_default`),
   KEY `indexed` (`indexed`),
   KEY `date_add` (`date_add`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- Contenu de la table `ps_product`
@@ -9214,7 +9379,8 @@ INSERT INTO `ps_product` (`id_product`, `id_supplier`, `id_manufacturer`, `id_ca
 (10, 0, 0, 2, 1, 1, 0, 0, '', '', '0.000000', 0, 1, '12.083333', '0.000000', '', '0.000000', '0.00', '', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'used', 1, 1, 'both', 0, 0, 0, 0, '2015-04-02 01:03:43', '2015-04-02 01:08:12', 0, 3),
 (11, 0, 0, 13, 1, 1, 0, 0, '', '', '0.000000', 0, 1, '12.083333', '0.000000', '', '0.000000', '0.00', '', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, 0, 0, '2015-04-02 01:11:59', '2015-04-02 01:15:09', 0, 3),
 (12, 0, 0, 17, 1, 1, 0, 0, '', '', '0.000000', 0, 1, '12.083333', '0.000000', '', '0.000000', '0.00', '', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, 0, 0, '2015-04-02 01:16:10', '2015-04-02 01:18:58', 0, 3),
-(13, 0, 0, 17, 1, 1, 0, 0, '', '', '0.000000', 0, 1, '12.083333', '0.000000', '', '0.000000', '0.00', '', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, 0, 0, '2015-04-02 01:20:24', '2015-04-02 01:26:04', 0, 3);
+(13, 0, 0, 17, 1, 1, 0, 0, '', '', '0.000000', 0, 1, '12.083333', '0.000000', '', '0.000000', '0.00', '', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, 0, 0, '2015-04-02 01:20:24', '2015-04-02 01:26:04', 0, 3),
+(14, 0, 0, 2, 1, 1, 0, 0, '', '', '0.000000', 0, 1, '6.666667', '0.000000', '', '0.000000', '0.00', '', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, 0, 0, '2015-04-14 15:13:17', '2015-04-14 15:20:21', 0, 3);
 
 -- --------------------------------------------------------
 
@@ -9528,7 +9694,8 @@ INSERT INTO `ps_product_lang` (`id_product`, `id_shop`, `id_lang`, `description`
 (10, 1, 1, '<p>Déscription</p>', '<p>Résumé</p>', 'le-red-strawberry', '', '', '', 'Le red Strawberry', '', ''),
 (11, 1, 1, '<p>Description</p>', '<p>Résumé</p>', 'le-orange-bis', '', '', '', 'Le orange bis', '', ''),
 (12, 1, 1, '<p>Description</p>', '<p>Résumé</p>', 'cocktail-fraissoulle', '', '', '', 'Cocktail Fraissoulle', '', ''),
-(13, 1, 1, '', '', 'le-kiwi-party', '', '', '', 'Le kiwi party', '', '');
+(13, 1, 1, '', '', 'le-kiwi-party', '', '', '', 'Le kiwi party', '', ''),
+(14, 1, 1, '', '', 'abricot-frappe', '', '', '', 'Abricot Frappé', '', '');
 
 -- --------------------------------------------------------
 
@@ -9596,7 +9763,8 @@ INSERT INTO `ps_product_shop` (`id_product`, `id_shop`, `id_category_default`, `
 (10, 1, 2, 1, 0, 0, '0.000000', 1, '12.083333', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'used', 1, 1, 'both', 0, 0, '2015-04-02 01:03:43', '2015-04-02 01:08:12', 3),
 (11, 1, 13, 1, 0, 0, '0.000000', 1, '12.083333', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, '2015-04-02 01:11:59', '2015-04-02 01:15:09', 3),
 (12, 1, 17, 1, 0, 0, '0.000000', 1, '12.083333', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, '2015-04-02 01:16:10', '2015-04-02 01:18:58', 3),
-(13, 1, 17, 1, 0, 0, '0.000000', 1, '12.083333', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, '2015-04-02 01:20:24', '2015-04-02 01:26:04', 3);
+(13, 1, 17, 1, 0, 0, '0.000000', 1, '12.083333', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, '2015-04-02 01:20:24', '2015-04-02 01:26:04', 3),
+(14, 1, 2, 1, 0, 0, '0.000000', 1, '6.666667', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 'new', 1, 1, 'both', 0, 0, '2015-04-14 15:13:17', '2015-04-14 15:20:21', 3);
 
 -- --------------------------------------------------------
 
@@ -10059,6 +10227,7 @@ INSERT INTO `ps_search_index` (`id_product`, `id_word`, `weight`) VALUES
 (11, 125, 1),
 (12, 125, 1),
 (10, 126, 3),
+(14, 126, 3),
 (8, 127, 3),
 (10, 128, 10),
 (10, 129, 10),
@@ -10069,7 +10238,10 @@ INSERT INTO `ps_search_index` (`id_product`, `id_word`, `weight`) VALUES
 (12, 134, 3),
 (13, 134, 3),
 (13, 135, 6),
-(13, 136, 6);
+(13, 136, 6),
+(14, 137, 6),
+(14, 138, 6),
+(14, 139, 2);
 
 -- --------------------------------------------------------
 
@@ -10084,19 +10256,21 @@ CREATE TABLE IF NOT EXISTS `ps_search_word` (
   `word` varchar(15) NOT NULL,
   PRIMARY KEY (`id_word`),
   UNIQUE KEY `id_lang` (`id_lang`,`id_shop`,`word`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=137 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=140 ;
 
 --
 -- Contenu de la table `ps_search_word`
 --
 
 INSERT INTO `ps_search_word` (`id_word`, `id_shop`, `id_lang`, `word`) VALUES
+(137, 1, 1, 'abricot'),
 (126, 1, 1, 'accueil'),
 (131, 1, 1, 'bis'),
 (127, 1, 1, 'citron'),
 (132, 1, 1, 'cocktail'),
 (125, 1, 1, 'description'),
 (133, 1, 1, 'fraissoulle'),
+(138, 1, 1, 'frappe'),
 (122, 1, 1, 'green'),
 (134, 1, 1, 'inclassables'),
 (135, 1, 1, 'kiwi'),
@@ -10105,7 +10279,8 @@ INSERT INTO `ps_search_word` (`id_word`, `id_shop`, `id_lang`, `word`) VALUES
 (136, 1, 1, 'party'),
 (128, 1, 1, 'red'),
 (124, 1, 1, 'resume'),
-(129, 1, 1, 'strawberry');
+(129, 1, 1, 'strawberry'),
+(139, 1, 1, 'vodka');
 
 -- --------------------------------------------------------
 
@@ -10263,7 +10438,7 @@ CREATE TABLE IF NOT EXISTS `ps_specific_price_priority` (
   `priority` varchar(80) NOT NULL,
   PRIMARY KEY (`id_specific_price_priority`,`id_product`),
   UNIQUE KEY `id_product` (`id_product`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=27 ;
 
 --
 -- Contenu de la table `ps_specific_price_priority`
@@ -10274,7 +10449,8 @@ INSERT INTO `ps_specific_price_priority` (`id_specific_price_priority`, `id_prod
 (6, 10, 'id_shop;id_currency;id_country;id_group'),
 (10, 11, 'id_shop;id_currency;id_country;id_group'),
 (14, 12, 'id_shop;id_currency;id_country;id_group'),
-(18, 13, 'id_shop;id_currency;id_country;id_group');
+(18, 13, 'id_shop;id_currency;id_country;id_group'),
+(24, 14, 'id_shop;id_currency;id_country;id_group');
 
 -- --------------------------------------------------------
 
@@ -10725,7 +10901,7 @@ CREATE TABLE IF NOT EXISTS `ps_stock_available` (
   KEY `id_shop_group` (`id_shop_group`),
   KEY `id_product` (`id_product`),
   KEY `id_product_attribute` (`id_product_attribute`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=66 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=67 ;
 
 --
 -- Contenu de la table `ps_stock_available`
@@ -10744,7 +10920,8 @@ INSERT INTO `ps_stock_available` (`id_stock_available`, `id_product`, `id_produc
 (62, 10, 0, 1, 0, 50, 0, 2),
 (63, 11, 0, 1, 0, 50, 0, 2),
 (64, 12, 0, 1, 0, 50, 0, 2),
-(65, 13, 0, 1, 0, 50, 0, 2);
+(65, 13, 0, 1, 0, 50, 0, 2),
+(66, 14, 0, 1, 0, 0, 0, 2);
 
 -- --------------------------------------------------------
 
