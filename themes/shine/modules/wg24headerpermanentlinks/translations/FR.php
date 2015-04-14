@@ -2,7 +2,7 @@
 
 global $_MODULE;
 $_MODULE = array();
-$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_00d3eca087a1b1198755288bf0b7a6b1'] = 'Réservations';
+$_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_00d3eca087a1b1198755288bf0b7a6b1'] = 'Mon compte';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_4840f4437f55e68a587d358090b948d1'] = 'À propos';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_15dbe498dab92f11f6ef309e2f3d20e0'] = 'Carte';
 $_MODULE['<{wg24headerpermanentlinks}shine>wg24headerpermanentlinks_12641546686fe11aaeb3b3c43a18c1b3'] = 'Votre panier';

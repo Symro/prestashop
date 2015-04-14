@@ -589,8 +589,8 @@ ul.currencies_list li a:hover,ul.currencies_list li.selected a{
     color: #333333;
     padding: 0;
     position: absolute;
-    right: -15px;
-    top: -64px;
+    right: -85px;
+  	top: -114px;
     z-index: 10000;
 }
 
@@ -798,6 +798,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff5f5f5, endCo
 	right: 0px;
 	margin-top:15px;
 }
+#index .search-icon{
+	display: none;
+}
 .search-section {
 	width:100%;
 	padding-top:20px;
@@ -860,7 +863,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff5f5f5, endCo
 
 
 nav {
-	border-top: 1px solid #E5E5E5;
 	margin: auto;
 	width: 100%;
 }

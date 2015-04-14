@@ -23,7 +23,6 @@
       float: none;
       width: 100%; } }
   .shopping_cart > a:first-child {
-   border-left: 1px solid #D0D5DA;
     color: #333333;
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 13px;
@@ -123,7 +122,7 @@
 					Cart Block(Header) Styles
 ********************************************************************/
 #header .cart_block {
- 
+
   display: none;
   height: auto;
 }
@@ -235,13 +234,13 @@
           #layer_cart .layer_cart_product h2 i {
             font-size: 22px;
             line-height: 22px; } }
-        
+
           #layer_cart .layer_cart_product .product-image-container img{
-        
+
      width: 100%;
           }
     #layer_cart .layer_cart_product .product-image-container {
-        
+
       max-width: 100%;
       border: 1px solid #d6d4d4;
       padding: 5px;

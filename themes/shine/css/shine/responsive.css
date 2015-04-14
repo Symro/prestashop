@@ -1523,6 +1523,7 @@ margin:0 5px 0 0;
 padding-top:5px;
 padding-bottom:2px;
 margin-left:0;
+float: none;
 }
 .toplinks ul.links li a {
 padding:0 6px 6px 8px;
@@ -1580,8 +1581,13 @@ top: 3px;
 width: 300px;
 }
 .top-cart-contain {
-height:40px;
-    margin-top: -12px; right:40px;
+position: relative;
+padding-bottom: 40px;
+right: 0;
+top: 0;
+}
+nav{
+  display: none;
 }
 .top-cart-content {
 width:295px;
@@ -2848,7 +2854,7 @@ ul.lang li {
 margin:0 5px 0 0;
 }
 .toplinks {
-padding-top:5px;
+padding-top:20px;
 padding-bottom:2px;
 margin-left:0;
  float: none;
@@ -2911,7 +2917,8 @@ width: 450px;
 .top-cart-contain {
 margin-top:6px;
 height:40px;
-right:70px;
+top: -180px;
+right:10px;
 }
 .top-cart-content {
 right:-51px;
@@ -4216,7 +4223,7 @@ ul.lang li {
 margin:0 5px 0 0;
 }
 .toplinks {
-padding-top:5px;
+padding-top:20px;
 padding-bottom:2px;
 margin-left:0;
 float:right;
@@ -4270,11 +4277,11 @@ height:35px;
 header .header .right {
 position: absolute;
 top: 3px;
-width: 530px;
+width: 460px;
 }
 .top-cart-contain {
- right: 148px;
-    top: -57px;
+right: 30px;
+top: -174px;
 height:40px;
 
 }
@@ -5557,7 +5564,7 @@ ul.lang li {
 margin:0 5px 0 0;
 }
 .toplinks {
-padding-top:5px;
+padding-top:20px;
 
 float:none !important;
 
@@ -5613,8 +5620,8 @@ top: 3px;
 width: 740px;
 }
 .top-cart-contain {
- right: 127px;
-     top: -56px;
+right: 80px;
+top: -184px;
 height:40px;
 margin-right:14px;
 }
@@ -6871,7 +6878,7 @@ ul.lang li {
 margin:0 5px 0 0;
 }
 .toplinks {
-padding-top:5px;
+padding-top:20px;
 padding-bottom:2px;
 margin-left:0;
 float:right;
