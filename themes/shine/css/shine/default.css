@@ -7860,12 +7860,12 @@ products-list .product-shop button.button.btn-cart:before {
 }
 /*======== Footer =============== */
 footer {
-	padding: 30px 0 0;
-	margin: 0 auto;
-	width:80%;
-	overflow:hidden;
-	background:#052030;
-	color:#fff;
+  padding: 30px 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1240px;
+  background: #052030;
+  color: #fff;
 }
 .com-add {
 	border-bottom:1px solid #f0f0f0;
