@@ -5547,9 +5547,10 @@ padding-left:0px;
 border:none;
 }
 nav {
-padding-top:3px;
-width:740px;
 box-shadow:none;
+  padding-top: 3px;
+  width: 980px;
+  box-shadow: none;
 }
 .form-currency {
 margin-top:8px;
@@ -6666,7 +6667,7 @@ padding: 7px 60px 7px 0px;
 }
 }
 
-@media only screen and (min-width: 978px) and (max-width:1024px) {
+@media only screen and (min-width: 978px) and (max-width:1338px) {
 #compare_shipping .form-group.last input{ display:block;}
 ul#order_step li{ width:178px;}
 .loader_img {
@@ -6878,6 +6879,7 @@ ul.lang li {
 margin:0 5px 0 0;
 }
 .toplinks {
+padding: 48px 0 0 0;
 padding-top:20px;
 padding-bottom:2px;
 margin-left:0;
@@ -6934,9 +6936,11 @@ top: 3px;
 width: 980px;
 }
 .top-cart-contain {
- margin-top: 7px;
-height:40px;
-margin-right:14px; right:50px;
+  padding: 0;
+  position: absolute;
+  top: -90px;
+  right: 90px;
+  z-index: 10000;
 }
 .top-cart-content {
 right:-62px;
