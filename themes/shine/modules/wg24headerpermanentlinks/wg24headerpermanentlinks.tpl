@@ -20,7 +20,6 @@
                 <li   class="wishlist"><a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}" title="{l s='About' mod='wg24headerpermanentlinks'}" class="top-link-my-wishlist">{l s='My Wishlist' mod='wg24headerpermanentlinks'}</a></li>
                 <li><a href="{$link->getPageLink('products-comparison')}" title="{l s='Card' mod='wg24headerpermanentlinks'}" class="top-link-my-comparer">{l s='Carte' mod='wg24headerpermanentlinks'}</a></li>
                 <li class="check"><a href="{$link->getPageLink($order_rules, true)}" title="{l s='Your Shopping Cart' mod='wg24headerpermanentlinks'}" class="top-link-checkout">{l s='Checkout' mod='wg24headerpermanentlinks'}</a></li>
-                <li class="myaccount" ><a href="{$link->getPageLink('my-account', true)}" title="{l s='Account' mod='wg24headerpermanentlinks'}" class="top-link-my-acconut">{l s='Mon compte' mod='wg24headerpermanentlinks'}</a></li>
                 </ul>
       </div>
     </div>
