@@ -2199,7 +2199,7 @@ margin:
 	float: left;
 	background: #FFF;
 	margin-top: 20px;
-	width:300px;
+	width:230px;
 	min-height:390px;
 	margin-right:20px;
 	height:380px;
@@ -4343,11 +4343,10 @@ li .list {
 	width:40%;
 }
 .product-essential .product-image {
-                margin-right: auto;
-                margin-bottom: 15px;
-                width: 380px;
-                position: relative;
-                float: left; overflow:hidden;
+  margin-right: auto;
+  width: 380px;
+  position: relative;
+  float: left; overflow:hidden;
 }
 .product-essential .product-image.no-gallery {
 	margin-left: auto;
@@ -4693,7 +4692,7 @@ li .list {
 	width:930px;
 	overflow:hidden;
 	margin-top:20px;
-	display:inline-block;
+	display:none;
 }
 .addtional-info {
 	float:left;
@@ -7690,7 +7689,7 @@ products-list .product-shop button.button.btn-cart:before {
 	width: 1px;
 }
 .service-section1 {
-	background:url("../../img/shine/body-bg17.png") repeat scroll left top #f8f8f8;
+	display: none;
 }
 .service-section1 #store-messages .message span {
 	color:#666!important;
@@ -10310,12 +10309,11 @@ transform: perspective(200px) scale(1) rotateX(0deg);
 }
 .up-sell-slider .block-title {
 	background-color:#fff;
-	padding:8px 0px;
 	color:#333;
 	text-transform:uppercase;
 	font-family:'Source Sans Pro',sans-serif;;
 	font-size:15px;
-	margin-bottom:20px; font-weight:bold;
+	font-weight:bold;
 }
 .jcarousel-next-horizontal1 {
 	display:block;
