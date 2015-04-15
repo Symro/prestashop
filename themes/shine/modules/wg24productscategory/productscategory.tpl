@@ -73,11 +73,11 @@
                                             </div>
                                             <div class="product-detail-bnt">
 
-                                                {if isset($quick_view) && $quick_view}
+                                                <!-- {if isset($quick_view) && $quick_view}
                                                     <a class="quick-view button detail-bnt" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}">
                                                         <span>{l s='Quick view' mod='wg24productscategory'}</span>
                                                     </a>
-                                                {/if}
+                                                {/if} -->
                                             </div>
                                         </div>
                                     </div>

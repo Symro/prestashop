@@ -24,14 +24,14 @@
 *}
 {if isset($products) && $products}
     {*define numbers of product per line in other page for desktop*}
-    
+
     {if $webgroup24.wg24_c_not_sidebar_des_shine=="hide"}
     {$defalult_class = 4}
 {else}
     {$defalult_class = 3}
 {/if}
-    
-    
+
+
     {if $page_name !='index' && $page_name !='product'}
 
         {assign var='nbItemsPerLine' value=$defalult_class}
@@ -47,7 +47,7 @@
     {math equation="nbLi/nbItemsPerLine" nbLi=$nbLi nbItemsPerLine=$nbItemsPerLine assign=nbLines}
     {math equation="nbLi/nbItemsPerLineTablet" nbLi=$nbLi nbItemsPerLineTablet=$nbItemsPerLineTablet assign=nbLinesTablet}
     <!-- Products list -->
-    <div id="product_list-grid_box"> 
+    <div id="product_list-grid_box">
 
         <ul  {if isset($id) && $id} id="{$id}"{/if} class="  {if $page_name=='index'} product_list {else} products-grid{/if} {if isset($class) && $class} {$class}{/if}{if isset($active) && $active == 1} active{/if}" id="products-grid" >
             {foreach from=$products item=product name=products}
@@ -87,26 +87,26 @@
                                             <button class="button ajax_add_to_cart_button btn  btn-cart" onclick="href='{$link->getPageLink('cart',false, NULL, 'add=1&amp;id_product={$product.id_product|intval}', false)|escape:'html':'UTF-8'}'" rel="nofollow" title="{l s='Add to cart'}" data-id-product="{$product.id_product|intval}">
                                                 <span>{l s='Add to cart'}</span>
                                             </button>
-                                        {/if}						
+                                        {/if}
                                     {else}
                                         <button class="button ajax_add_to_cart_button btn  btn-cart disabled">
                                             <span>{l s='Add to cart'}</span>
                                         </button>
                                     {/if}
                                 {/if}
-                            </div>												  
+                            </div>
                             <div class="product-detail-bnt">
 
-                                {if isset($quick_view) && $quick_view}
+                                <!-- {if isset($quick_view) && $quick_view}
                                     <a class="quick-view button detail-bnt" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}">
                                         <span>{l s='Quick view'}</span>
                                     </a>
-                                {/if}
-                            </div>				   
+                                {/if} -->
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="item-info">
                 <div class="info-inner">
                     <div class="item-title">
@@ -149,7 +149,7 @@
             {/if}
         </div>
     </div>
-</div>                 
+</div>
 </div><!-- .product-container> -->
 </li>
 {/foreach}
@@ -160,9 +160,9 @@
 
 
 
-{if $page_name !='index'}    
+{if $page_name !='index'}
     <ol id="products-list" class="products-list" style="display:none;">
-        {foreach from=$products item=product name=products}  
+        {foreach from=$products item=product name=products}
             <li class="ajax_block_product {if $smarty.foreach.products.first}first {elseif $smarty.foreach.products.last}last {else}{/if}item">
 
 
@@ -196,8 +196,8 @@
                 <div class="desc std">
                     <p class="product-desc" itemprop="description">
                         {$product.description_short|strip_tags:'UTF-8'|truncate:360:'...'}
-                        <a href="{$product.link|escape:'html':'UTF-8'}" title="" class="link-learn">{l s="Learn More"}</a> 
-                    </p> 
+                        <a href="{$product.link|escape:'html':'UTF-8'}" title="" class="link-learn">{l s="Learn More"}</a>
+                    </p>
                 </div>
                 {if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
                     <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="content_price item-price  ">
@@ -237,7 +237,7 @@
                         <button class="button ajax_add_to_cart_button btn  btn-cart" onclick="href='{$link->getPageLink('cart',false, NULL, 'add=1&amp;id_product={$product.id_product|intval}', false)|escape:'html':'UTF-8'}'" rel="nofollow" title="{l s='Add to cart'}" data-id-product="{$product.id_product|intval}">
                             <span>{l s='Add to cart'}</span>
                         </button>
-                    {/if}						
+                    {/if}
                 {else}
                     <button class="button ajax_add_to_cart_button btn  btn-cart disabled">
                         <span>{l s='Add to cart'}</span>
@@ -251,21 +251,21 @@
                 {if isset($comparator_max_item) && $comparator_max_item}
                     <a class="button link-compare add_to_compare bt_compare" href="{$product.link|escape:'html':'UTF-8'}" data-id-product="{$product.id_product}"><span>{l s='Add to Compare'}</span></a>
 
-                {/if} 
-            </span> 
+                {/if}
+            </span>
         </div>
     </div>
 </li>
-{/foreach}    
+{/foreach}
 
 
-</ol> 
+</ol>
 
-{/if}   
-</div>  
+{/if}
+</div>
 {addJsDefL name=min_item}{l s='Please select at least one product' js=1}{/addJsDefL}
 {addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}
 {addJsDef comparator_max_item=$comparator_max_item}
-{addJsDef comparedProductsIds=$compared_products}   
+{addJsDef comparedProductsIds=$compared_products}
 
 {/if}
