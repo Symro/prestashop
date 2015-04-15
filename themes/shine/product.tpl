@@ -35,6 +35,9 @@
         {assign var='productPriceWithoutReduction' value=$product->getPriceWithoutReduct(true, $smarty.const.NULL)}
     {/if}
     <div class="product-view"  itemscope itemtype="http://schema.org/Product">
+        <div class="back-card">
+            <a href="#">< Retour à la carte</a>
+        </div>
         <div class="product-essential">
             <div class="primary_block row" itemscope itemtype="http://schema.org/Product">
                 {if !$content_only}
@@ -57,9 +60,9 @@
                         {$confirmation}
                     </p>
                 {/if}
-                <!-- left infos-->  
+                <!-- left infos-->
                 <div class="product-img-box pb-left-column">
-                    <!-- product img-->    
+                    <!-- product img-->
                     <div id="image-block" class="clearfix">
                         <div class="product-image">
                             {if isset($product->new) && $product->new == 1}
@@ -122,7 +125,7 @@
                                                     {assign var=imageTitle value=$product->name|escape:'html':'UTF-8'}
                                                 {/if}
                                                 <li id="thumbnail_{$image.id_image}"{if $smarty.foreach.thumbnails.last} class="last"{/if}>
-                                                    <a 
+                                                    <a
                                                         {if $jqZoomEnabled && $have_image && !$content_only}
                                                             href="javascript:void(0);"
                                                             rel="{literal}{{/literal}gallery: 'gal1', smallimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'large_default')|escape:'html':'UTF-8'}',largeimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}'{literal}}{/literal}"
@@ -146,7 +149,7 @@
                                 {/if}
                             </div> <!-- end views-block -->
                             <!-- end thumbnails -->
-                        {/if}  
+                        {/if}
                         {if isset($images) && count($images) > 1}
                             <p class="resetimg clear no-print">
                                 <span id="wrapResetImages" style="display: none;">
@@ -156,7 +159,7 @@
                                     </a>
                                 </span>
                             </p>
-                        {/if}  
+                        {/if}
 
                         <!-- end: more-images -->
                     </div>
@@ -177,7 +180,7 @@
                                     <div class="short_description_pack">
                                     <h3>{l s='Pack content'}</h3>
                             {foreach from=$packItems item=packItem}
-                            
+
                             <div class="pack_content">
                                 {$packItem.pack_quantity} x <a href="{$link->getProductLink($packItem.id_product, $packItem.link_rewrite, $packItem.category)|escape:'html':'UTF-8'}">{$packItem.name|escape:'html':'UTF-8'}</a>
                                 <p>{$packItem.description_short}</p>
@@ -210,24 +213,24 @@
                             {elseif $product->condition == 'refurbished'}{l s=': Refurbished'}
                             {/if}
                         {/capture}
-                        <p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
+                        <!-- <p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
                             <label>{l s='Condition'} </label>
                             <span class="editable" itemprop="condition">{$smarty.capture.condition}</span>
-                        </p>
+                        </p> -->
 
                         {if ($display_qties == 1 && !$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && $product->available_for_order)}
                             <!-- number of item in stock -->
-                            <p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if} >
+                            <!-- <p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if} >
                                 <span id="quantityAvailable">{$product->quantity|intval}</span>
                                 <span {if $product->quantity > 1} style="display: none;"{/if} id="quantityAvailableTxt">{l s='Item'}</span>
                                 <span {if $product->quantity == 1} style="display: none;"{/if} id="quantityAvailableTxtMultiple">{l s='Items'}</span>
-                            </p>
+                            </p> -->
                         {/if}
                         {if $PS_STOCK_MANAGEMENT}
                             <!-- availability -->
                             <p id="availability_statut"{if ($product->quantity <= 0 && !$product->available_later && $allow_oosp) || ($product->quantity > 0 && !$product->available_now) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
-                            <p id="availability_label " class="availability in-stock">{l s='Availability:'}
-                                <span id="availability_value"{if $product->quantity <= 0} class="warning_inline"{/if}>{if $product->quantity <= 0}{if $allow_oosp}{$product->available_later}{else}{l s='This product is no longer in stock'}{/if}{else}{$product->available_now}{/if}</span></p>				
+                            <p id="availability_label " class="availability in-stock">{l s='Disponibilité:'}
+                                <span id="availability_value"{if $product->quantity <= 0} class="warning_inline"{/if}>{if $product->quantity <= 0}{if $allow_oosp}{$product->available_later}{else}{l s='Rupture de stock'}{/if}{else}{$product->available_now}{l s='En stock'}{/if}</span></p>
                             </p>
                             <p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties || $product->quantity <= 0) || $allow_oosp || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none"{/if} >{l s='Warning: Last items in stock!'}</p>
                         {/if}
@@ -297,30 +300,12 @@
 						{/if} {*close if for show price*}
 						<div class="clear"></div>
 					</div> <!-- end content_prices -->
-   
-                            
+
+
             </div> <!-- end content_prices -->
             <div class="product_attributes clearfix">
                 <div class="attribut_w_c_link">
-                    <div class="left">
-                        <div class="email-addto-box">
-                        {if $HOOK_EXTRA_LEFT}{$HOOK_EXTRA_LEFT}{/if}  
-                    {if isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS}{$HOOK_PRODUCT_ACTIONS}{/if}
-                    {if !$content_only}
-                        <!-- usefull links-->
-                        <ul id="usefull_link_block" class="clearfix no-print">
-                            <li class="print">
-                                <a href="javascript:print();">
-                                    {l s='Print'}
-                                </a>
-                            </li>
-                        {if $have_image && !$jqZoomEnabled}{/if}
-                    </ul>
-                {/if} 
 
-            </div>
-
-        </div>
         <div class="right">
             {if isset($groups)}
                 <!-- attributes -->
@@ -370,7 +355,7 @@
                         {/if}
                     {/foreach}
                 </div> <!-- end attributes -->
-            {/if} 
+            {/if}
         </div>
     </div>
     <div class="clear"></div>
@@ -418,22 +403,12 @@
             </p>
         </div>
     </div>
-</div>    
+</div>
 <div class="clear"></div>
 </div> <!-- end box-info-product -->
 </form>
-{/if}                
-</div>  
-    
-{if $webgroup24.wg24_p_without_sidebar_shine=="show"}  
-{if $webgroup24.wg24_product_custom_block_shine !=""}
-    <div class="product-additional">
-        {$webgroup24.wg24_product_custom_block_shine|html_entity_decode}
-    </div> 
 {/if}
-{/if}
-
-
+</div>
 
 </div> <!-- end primary_block -->
 </div>
@@ -495,12 +470,12 @@
 
 
             <div class="tab-box">
-                <ul class="product-tabs">
+                <!-- <ul class="product-tabs">
                     {if isset($features) && $features}
                         <li><a href="" class="tabLink activeLink" id="cont-1">{l s='Data sheet'}</a> </li>
                     {/if}
 
-                    {if $product->description}  
+                    {if $product->description}
                         <li> <a href="" class="tabLink" id="cont-2">{l s='More info'}</a> </li>
                     {/if}
                     {if isset($accessories) && $accessories}
@@ -511,18 +486,18 @@
             {$HOOK_PRODUCT_TAB}
             {if $webgroup24.wg24_p_tab_contorl_shine=="show"}
                 <li><a href="" class="tabLink" id="cont-6">{$webgroup24.wg24_p_tab_title_shine|html_entity_decode}</a></li>
-            {/if} 
-        </ul>
-    </div>  
+            {/if}
+        </ul> -->
+    </div>
     {if isset($features) && $features}
         <!-- Data sheet -->
         <div class="tabcontent paddingAll" id="cont-1-1">
             <!--h3></h3-->
             <div class="std">
-                <table class="table-data-sheet">			
+                <table class="table-data-sheet">
                     {foreach from=$features item=feature}
                         <tr class="{cycle values="odd,even"}">
-                            {if isset($feature.value)}			    
+                            {if isset($feature.value)}
                                 <td>{$feature.name|escape:'html':'UTF-8'}</td>
                                 <td>{$feature.value|escape:'html':'UTF-8'}</td>
                             {/if}
@@ -545,7 +520,7 @@
                 {/if}
             </div>
         </div>
-    {/if}   
+    {/if}
 
     <!--end HOOK_PRODUCT_TAB -->
     {if isset($accessories) && $accessories}
@@ -597,7 +572,7 @@
                     </ul>
                 </div>
             </div>
-        </div>  
+        </div>
         <!--end Accessories -->
     {/if}
     <!-- description & features -->
@@ -709,7 +684,7 @@
                                         </span>
                                     </p>
                                 </form>
-                                <p class="clear required"><sup>*</sup> {l s='required fields'}</p>	
+                                <p class="clear required"><sup>*</sup> {l s='required fields'}</p>
                             </div>
                         </div>
                         <!--end Customization -->
@@ -725,7 +700,7 @@
                                 <div class="std">
                                 {if isset($HOOK_PRODUCT_TAB_CONTENT) && $HOOK_PRODUCT_TAB_CONTENT}{$HOOK_PRODUCT_TAB_CONTENT}{/if}
                             </div>
-                        </div>   
+                        </div>
                         <script type="text/javascript">
                    jQuery(document).ready(function() {
                    jQuery(".tabLink").each(function(){
@@ -734,16 +709,16 @@
                    jQuery(".tabLink").removeClass("activeLink");
                    jQuery(this).addClass("activeLink");
                    jQuery(".tabcontent").addClass("hide");
-                   jQuery("#"+tabeId+"-1").removeClass("hide")   
-                   return false;	  
+                   jQuery("#"+tabeId+"-1").removeClass("hide")
+                   return false;
                    });
-                   });  
                    });
-                        </script> 
+                   });
+                        </script>
                     </div>
                 </div>
-                            
-          {if $webgroup24.wg24_p_without_sidebar_shine=="show"}                    
+
+          {if $webgroup24.wg24_p_without_sidebar_shine=="show"}
                 {hook h='ProductPageNewHook'}
           {/if}
 

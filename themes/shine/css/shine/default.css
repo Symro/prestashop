@@ -794,6 +794,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff5f5f5, endCo
 /*======= search =======*/
 
 .search-icon {
+	display: none;
 	position: absolute;
 	right: 0px;
 	margin-top:15px;
@@ -1673,6 +1674,7 @@ form h2, form h3, .section h3 {
 }
 /*============ BreadCrumbs ==========*/
 .breadcrumbs {
+	display: none;
 	padding:0;
 	font-size:12px;
 	width:100%;
@@ -2231,7 +2233,6 @@ margin:
 
 .products-grid .item .item-inner .item-img .item-img-info {
 	text-align: center;
-	border: 1px solid #EAEAEA;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -4339,8 +4340,7 @@ li .list {
 	position: relative;
 	padding: 20px 20px 0;
 	float:left;
-	border:1px #ddd solid;
-	width:380px;
+	width:40%;
 }
 .product-essential .product-image {
                 margin-right: auto;
@@ -4447,7 +4447,7 @@ li .list {
 	float: left;
 	margin-left: 25px;
 	position: relative;
-	width: 490px;
+	width: 50%;
 }
 .product-additional {
 	float:right;
@@ -4487,7 +4487,6 @@ li .list {
 	margin:0 0 10px;
 	text-align:left;
 	line-height:normal;
-	border-bottom:1px solid #E5E5E5;
 	padding-bottom:10px;
 	letter-spacing:normal;
 	word-spacing:3px;
@@ -4511,6 +4510,8 @@ li .list {
 .product-view .product-shop .add-to-box .btn-cart:before {content: "\f07a";
 	font-family:'FontAwesome';}
 .product-view .product-shop .add-to-box .btn-cart {
+	position: absolute;
+	right: 0;
 	background:#222;
 	color:#fff;
 	font-size:18px;
@@ -5422,13 +5423,13 @@ fieldset {
 }
 .add-to-cart .button-up {
 	position:absolute;
-	left:160px;
+	left:196px;
 	border-radius:0;
 	top:0px;
 }
 .add-to-cart .button-down {
 	position:absolute;
-	left:40px;
+	left:74px;
 	border-radius:0;
 	top:0px;
 }
@@ -10314,7 +10315,6 @@ transform: perspective(200px) scale(1) rotateX(0deg);
 	text-transform:uppercase;
 	font-family:'Source Sans Pro',sans-serif;;
 	font-size:15px;
-	border-bottom:1px solid #E5E5E5;
 	margin-bottom:20px; font-weight:bold;
 }
 .jcarousel-next-horizontal1 {

@@ -26,12 +26,12 @@
 {if isset($categoryProducts) && count($categoryProducts) > 0 && $categoryProducts !== false}
 
     <div class="up-sell-slider">
-        <div class="block-title"> <span>{$categoryProducts|@count} {l s='other products in the same category:' mod='wg24productscategory'}</span></div>
-        <a href="#" class="jcarousel-prev-horizontal1" id="products_slider_prev1"></a> <a href="#" class="jcarousel-next-horizontal1" id="products_slider_next1"></a>
-        <div class="jcarousel-skin-tango5">
+        <div class="block-title"> <span>{l s='other products in the same category:' mod='wg24productscategory'}</span></div>
+<!--         <a href="#" class="jcarousel-prev-horizontal1" id="products_slider_prev1"></a> <a href="#" class="jcarousel-next-horizontal1" id="products_slider_next1"></a>
+ -->        <div class="jcarousel-skin-tango5">
             <ul id="products_slider" class="products-grid">
 
-                {foreach from=$categoryProducts item='product' name=categoryProduct}   
+                {foreach from=$categoryProducts item='product' name=categoryProduct}
 
                     <li class="ajax_block_product {if $smarty.foreach.categoryProduct.first}first {elseif $smarty.foreach.categoryProduct.last}last {else}{/if}item">
                         <div class="item-inner" itemscope itemtype="http://schema.org/Product">
@@ -63,14 +63,14 @@
                                                             <button class="button ajax_add_to_cart_button btn  btn-cart" onclick="href='{$link->getPageLink('cart',false, NULL, 'add=1&amp;id_product={$product.id_product|intval}', false)|escape:'html':'UTF-8'}'" rel="nofollow" title="{l s='Add to cart' mod='wg24productscategory'}" data-id-product="{$product.id_product|intval}">
                                                                 <span>{l s='Add to cart' mod='wg24productscategory'}</span>
                                                             </button>
-                                                        {/if}						
+                                                        {/if}
                                                     {else}
                                                         <button class="button ajax_add_to_cart_button btn  btn-cart disabled">
                                                             <span>{l s='Add to cart' mod='wg24productscategory'}</span>
                                                         </button>
                                                     {/if}
                                                 {/if}
-                                            </div>												  
+                                            </div>
                                             <div class="product-detail-bnt">
 
                                                 {if isset($quick_view) && $quick_view}
@@ -78,11 +78,11 @@
                                                         <span>{l s='Quick view' mod='wg24productscategory'}</span>
                                                     </a>
                                                 {/if}
-                                            </div>				   
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="item-info">
                                 <div class="info-inner">
                                     <div class="item-title">
@@ -125,10 +125,10 @@
                             {/if}
                         </div>
                     </div>
-                </div>                 
+                </div>
             </div><!-- .product-container> -->
         </li>
-            {/foreach}  
+            {/foreach}
 
 
 </ul>

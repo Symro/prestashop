@@ -1,7 +1,12 @@
 /* product desc */
 /* primary_block ***************************************************************************** */
 
-
+.product-view .back-card a {
+  background-color: #f2f4f9;
+  padding: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
 
 .box-security .product-heading-h5 {
   margin: 3px 0 -8px; }
@@ -23,7 +28,7 @@
 
 
 
- 
+
   .pb-left-column #image-block #view_full_size {
     display: block;
     cursor: pointer; }
@@ -32,7 +37,7 @@
       bottom: 20px;
       left: 50%;
       margin-left: -68px;
-      display: block;
+      display: none;
       padding: 10px 0;
       text-align: center;
       line-height: 22px;
@@ -91,7 +96,7 @@
     bottom: 44px;
     vertical-align: top;
 
-  
+
   }
 
 
@@ -106,11 +111,11 @@
     position: absolute;
     bottom: 44px;
     vertical-align: top;
-  
+
   }
 
 p.resetimg {
-  margin: 0px !important; 
+  margin: 0px !important;
 }
 #wrapResetImages{padding: 10px 0 0;}
   .resetimg #resetImages i {
@@ -142,13 +147,13 @@ p.resetimg {
 
       #usefull_link_block li a:hover {
         color: #000; }
- 
+
       #usefull_link_block li.print {
         margin: 8px 0 0;
         padding: 0;
-        border: none; } 
+        border: none; }
     #usefull_link_block li.print a:before {
-      content: "\f02f"; 
+      content: "\f02f";
     background: none repeat scroll 0 0 #D6D6D6;
     border-radius: 50px;
     color: #FFFFFF;
@@ -268,7 +273,7 @@ p.resetimg {
   width: 100%; }
 
  .attribute_list select{  width: 203px;}
- 
+
  .attribute_list .selector span{  display: none;}
 
   #attributes .attribute_list .form-control {
@@ -789,7 +794,7 @@ Quick View Styles
      margin-left: 15px;
     padding: 20px 20px 25px 35px;
     width: 35%; }
-	
+
     @media (max-width: 479px) {
       #product.content_only div.primary_block div.pb-left-column {
         width: 100%;
