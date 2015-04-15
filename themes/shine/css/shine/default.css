@@ -2190,7 +2190,7 @@ font-family:'FontAwesome'; color:#666; font-size:14px;
 }
 ul.products-grid {
 	padding:0;
-margin:
+	margin:0;
 }
 .products-grid .first {
 	padding-left: 0!important;
